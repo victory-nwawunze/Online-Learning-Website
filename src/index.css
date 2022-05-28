@@ -6,6 +6,7 @@
 *{
   padding: 0;
   margin: 0;
+  
 }
 .Logo-img{
   width: 90px;
@@ -13,4 +14,15 @@
 }
 .Feature_img{
   width: 80px;
+}
+.bg-color{
+  background-color: #E3EEE7;
+}
+.btn-watch{
+  background-color: #30656F;
+  border-radius: 5px;
+  border: none;
+}
+.containerImages{
+  background-color: #f3f4f5;
 }

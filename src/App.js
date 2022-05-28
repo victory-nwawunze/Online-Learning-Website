@@ -15,8 +15,8 @@ const App = () => {
       <Showcase />
       <Features />
       <SectionVideo />
-      {/*
       <ContainerImages />
+      {/*
       <Footer /> */}
     </React.Fragment>
   );
