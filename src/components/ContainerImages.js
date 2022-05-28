@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-
+import DescLogo from "../images/Group 8097.jpg";
 const ContainerImages = () => {
   return (
     <React.Fragment>
@@ -17,26 +17,6 @@ const ContainerImages = () => {
         </div>
 
         {/* Cards */}
-        <div className="cards-images p-5 text-left">
-          <div className="container">
-            <div className="grid">
-              <div className="row">
-                <div className="col-md-6">
-                  <div className="card">
-                    <div className="card-body">
-                      <h3 className="h3">Premium</h3>
-                      <p className="text-font">
-                        Talk to financial advisers, access powerful <br />{" "}
-                        resources to support your financial goals.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-6">1</div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </React.Fragment>
   );
