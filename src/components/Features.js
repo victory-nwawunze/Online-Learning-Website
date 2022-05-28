@@ -8,11 +8,16 @@ import Linkdin from "../images/Group 8106.png";
 const Features = () => {
   return (
     <React.Fragment>
-      <div className="container">
+      <div className="container text-center">
         <hr />
-        <div className="row py-5">
+        <p className="text-center">As Feature On</p>
+        <div className="row py-3">
           <div className="col-md-3">
-            <img src={BbcLogo} alt="Bbc News" className="img-fluid" />
+            <img
+              src={BbcLogo}
+              alt="Bbc News"
+              className="img-fluid Feature_img"
+            />
           </div>
           <div className="col-md-3">
             <img src={TechPoint} alt="TechPoint" className="img-fluid" />
