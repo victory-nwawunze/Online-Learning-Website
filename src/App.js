@@ -14,8 +14,8 @@ const App = () => {
       <Navbar />
       <Showcase />
       <Features />
-      {/*
       <SectionVideo />
+      {/*
       <ContainerImages />
       <Footer /> */}
     </React.Fragment>
