@@ -31,6 +31,27 @@
   width: 50%;
 }
 .btn-text{
-   background-color: #30656F;
-   font-family: 'Tiro Devanagari Hindi', serif;
+  background-color: #30656F;
+  font-family: 'Tiro Devanagari Hindi', serif;
+}
+.font-size{
+  font-size: 5;
+  color: #f3f4f5;
+  font-weight: bold;
+}
+.inputWithIcon input[type=placeholder]{
+  padding-left: 10px;
+}
+.inputWithIcon{
+  position: relative;
+}
+.inputWithIcon i{
+  position: absolute;
+  left: 0;
+  padding: 9px 8px;
+  top: 8px;
+}
+.marginTop{
+  margin-top: 30%;
+  
 }

@@ -63,7 +63,10 @@ const Footer = () => {
                 <div className="container">
                   <div className="row">
                     <div className="col">
-                      <h4 className="h4  mt-3">Sign Up For News Letter</h4>
+                      <h4 className="h6  mt-3">Sign Up For News Letter</h4>
+                      <small className="font-size mt-3 ">
+                        Sign-up for our newsletter.Your email is never shared.
+                      </small>
                     </div>
                   </div>
                 </div>
@@ -77,3 +80,4 @@ const Footer = () => {
 };
 
 export default Footer;
+//
