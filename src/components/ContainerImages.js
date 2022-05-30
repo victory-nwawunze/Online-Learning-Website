@@ -5,6 +5,7 @@ import DescLogo from "../images/Group 8097.jpg";
 import DescLogoTwo from "../images/Group 8098.jpg";
 import StudentImageOne from "../images/Group 8099.jpg";
 import StudentImageTwo from "../images/Group 8100.jpg";
+import WalletImage from "../images/Group 8101.jpg";
 const ContainerImages = () => {
   return (
     <React.Fragment>
@@ -120,6 +121,25 @@ const ContainerImages = () => {
                         Register your kids
                       </button>
                     </div>
+                  </div>
+                </div>
+              </div>
+              <div className="last-card p-5 bg-white mt-3 rounded ">
+                <div className="d-flex py-3 align-items-center">
+                  <div>
+                    <h3 className="text-font h3 fw-bold">
+                      Automated Digital Advisory
+                    </h3>
+                    <p className="text-font">
+                      Improve your financial health and investment strategy
+                      <br /> by answering a few questions we’ll ask you.
+                    </p>
+                    <button className="btn btn-white marginTop">
+                      Learn more
+                    </button>
+                  </div>
+                  <div>
+                    <img src={WalletImage} className="img-fluid" />
                   </div>
                 </div>
               </div>
