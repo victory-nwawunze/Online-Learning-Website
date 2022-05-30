@@ -6,45 +6,70 @@ import "../index.css";
 const Navbar = () => {
   return (
     <React.Fragment>
-      <div className="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-white  d-flex justify-content-between ">
-          <div class="navbar-nav  col-4 align-items-start ">
-            <div class="text-dark bg_color_primary_light  rounded-circle p-2">
+      <div className="nav-bar p-3 bg-white">
+        <div className="container">
+          <div className="d-flex justify-content-between align-items-center">
+            <div>
               <img src={Logo} className="img-fluid Logo-img" />
             </div>
-          </div>
-
-          <div class="col-6  d-flex justify-content-center mx-3 my-3">
-            <a class="navbar-brand text-dark brand_name   " href="">
-              Service
-            </a>
-            <a class="navbar-brand text-dark brand_name   " href="">
-              Tools
-            </a>
-            <a class="navbar-brand text-dark brand_name   " href="">
-              Company
-            </a>
-            <a class="navbar-brand text-dark brand_name   " href="">
-              Explore
-            </a>
-            <a class="navbar-brand text-dark brand_name   " href="">
-              Login
-            </a>
-            <a class="nav-item nav-link text-dark" href="">
-              <button className="btn btn-danger text-white">Get started</button>
-            </a>
-          </div>
-
-          <div class="collapse navbar-collapse  col-3 " id="navbarNavDropdown">
-            <div class="navbar-nav ml-auto ">
-              <a class="nav-item nav-link  text-dark" href="">
-                <button className="btn btn-success">
-                  Financial health checks
+            <div>
+              <div className="d-flex ">
+                <p className="text-font">Services</p>
+                <span>
+                  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </span>
+              </div>
+            </div>
+            <div>
+              <div className="d-flex">
+                <p className="text-font">Tools</p>
+                <span>
+                  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </span>
+              </div>
+            </div>
+            <div>
+              {" "}
+              <div className="d-flex">
+                <p className="text-font">Company</p>
+                <span>
+                  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </span>
+              </div>
+            </div>
+            <div>
+              <div className="d-flex">
+                <p className="text-font">Explore</p>
+                <span>
+                  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </span>
+              </div>
+            </div>
+            <div>
+              <div className="d-flex">
+                <p className="text-font">Login</p>
+              </div>
+            </div>
+            <div>
+              <div className="d-flex">
+                <button className="btn btn-danger">
+                  Get started
+                  <span>
+                    <i class="fa fa-arrow-right pl-2" aria-hidden="true"></i>
+                  </span>
                 </button>
-              </a>
+              </div>
+            </div>
+            <div>
+              <button className="btn-health">
+                Financial health checks
+                <span>
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </span>
+              </button>
             </div>
           </div>
-        </nav>
+        </div>
       </div>
     </React.Fragment>
   );

@@ -79,3 +79,9 @@
 .input-field:focus {
   border-bottom: 2px solid dodgerblue;
 }
+.btn-health{
+  padding: 5px 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: #30656F;
+}
