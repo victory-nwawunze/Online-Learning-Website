@@ -10,6 +10,7 @@
 }
 .Logo-img{
   width: 190px;
+  cursor: pointer;
   /* height: 70px; */
 }
 .Feature_img{
