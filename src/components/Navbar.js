@@ -10,7 +10,7 @@ const Navbar = () => {
         <nav class="navbar navbar-expand-lg navbar-dark bg-white  d-flex justify-content-between ">
           <div class="navbar-nav  col-4 align-items-start ">
             <div class="text-dark bg_color_primary_light  rounded-circle p-2">
-              <img src={Logo} className="img-fluid Logo-im" />
+              <img src={Logo} className="img-fluid Logo-img" />
             </div>
           </div>
 

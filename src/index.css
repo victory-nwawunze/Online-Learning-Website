@@ -9,8 +9,8 @@
   
 }
 .Logo-img{
-  width: 90px;
-  height: 70px;
+  width: 190px;
+  /* height: 70px; */
 }
 .Feature_img{
   width: 80px;
@@ -25,4 +25,11 @@
 }
 .containerImages{
   background-color: #f3f4f5;
+}
+.img-size{
+  width: 50%;
+}
+.btn-text{
+   background-color: #30656F;
+   font-family: 'Tiro Devanagari Hindi', serif;
 }
