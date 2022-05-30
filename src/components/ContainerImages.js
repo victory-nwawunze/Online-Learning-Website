@@ -124,7 +124,7 @@ const ContainerImages = () => {
                   </div>
                 </div>
               </div>
-              <div className="last-card p-5 bg-white mt-3 rounded ">
+              <div className="last-card p-5 bg-white mt-3 rounded justify-content-around ">
                 <div className="d-flex py-3 align-items-center">
                   <div>
                     <h3 className="text-font h3 fw-bold">
