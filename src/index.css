@@ -39,8 +39,8 @@
   color: #f3f4f5;
   font-weight: bold;
 }
-.inputWithIcon input[type=placeholder]{
-  padding-left: 10px;
+/* .inputWithIcon input[type=text]{
+  padding-left: 40px;
 }
 .inputWithIcon{
   position: relative;
@@ -49,9 +49,33 @@
   position: absolute;
   left: 0;
   padding: 9px 8px;
-  top: 8px;
-}
+  top: 9px;
+} */
 .marginTop{
   margin-top: 30%;
   
+}
+/* Input field */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.icon {
+  padding: 10px;
+  /* background: dodgerblue; */
+  color: black;
+  min-width: 50px;
+  text-align: center;
+}
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+.input-field:focus {
+  border-bottom: 2px solid dodgerblue;
 }
