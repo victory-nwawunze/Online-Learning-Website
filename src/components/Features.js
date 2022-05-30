@@ -10,7 +10,7 @@ const Features = () => {
     <React.Fragment>
       <div className="container text-center">
         <hr />
-        <p className="text-center">As Feature On</p>
+        <p className="text-center text-font">As Feature On</p>
         <div className="row py-3">
           <div className="col-md-3">
             <img
