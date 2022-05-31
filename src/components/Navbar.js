@@ -2,6 +2,7 @@
 
 import React from "react";
 import Logo from "../images/image 6.png";
+import IconImage from "../images/Group 8113.svg";
 import "../index.css";
 const Navbar = () => {
   return (
@@ -55,7 +56,7 @@ const Navbar = () => {
                 <button className="btn btn-danger text-font">
                   Get started
                   <span>
-                    <i class="fa fa-arrow-right p-1" aria-hidden="true"></i>
+                    <img src={IconImage} className="p-1" />
                   </span>
                 </button>
               </div>
@@ -64,7 +65,7 @@ const Navbar = () => {
               <button className="btn-health text-font">
                 Financial health checks
                 <span>
-                  <i class="fa fa-arrow-right p-2" aria-hidden="true"></i>
+                  <img src={IconImage} className="p-1" />
                 </span>
               </button>
             </div>

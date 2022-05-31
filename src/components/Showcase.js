@@ -2,7 +2,8 @@
 
 import React from "react";
 import ShowcaseImage from "../images/Group 6936.png";
-
+import ArrowDown from "../images/Group 8115.svg";
+import IconImage from "../images/Group 8113.svg";
 const Showcase = () => {
   return (
     <React.Fragment>
@@ -22,13 +23,13 @@ const Showcase = () => {
               <button className="btn-health text-font">
                 Our Services
                 <span>
-                  <i class="fa fa-arrow-down p-2" aria-hidden="true"></i>
+                  <img src={ArrowDown} className="p-1" />
                 </span>
               </button>
               <button className="btn-healthOne text-font ">
                 Start Investing
                 <span>
-                  <i class="fa fa-arrow-right p-2" aria-hidden="true"></i>
+                  <img src={IconImage} className="p-1" />
                 </span>
               </button>
             </div>
