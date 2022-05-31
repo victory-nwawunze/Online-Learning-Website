@@ -3,6 +3,7 @@
 import React from "react";
 import Logo from "../images/image 6.png";
 import Icons from "../images/Group 8110.jpg";
+import IconSvg from "../images/Group 8111.svg";
 const Footer = () => {
   return (
     <React.Fragment>
@@ -44,7 +45,7 @@ const Footer = () => {
               Address
             </small>
             <div class="input-container">
-              <i class="fa fa-envelope icon fa-2x"></i>
+              <img src={IconSvg} />
               <input
                 class="input-field"
                 type="text"

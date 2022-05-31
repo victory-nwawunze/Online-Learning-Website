@@ -4,7 +4,7 @@
 
 import React from "react";
 import SectionVid from "../images/Group 8096.png";
-
+import IconImage from "../images/Group 8113.svg";
 const SectionVideo = () => {
   return (
     <React.Fragment>
@@ -23,13 +23,13 @@ const SectionVideo = () => {
               <button className="btn-health text-font">
                 Watch video
                 <span>
-                  <i class="fa fa-arrow-right p-2" aria-hidden="true"></i>
+                  <img src={IconImage} className="p-1" />
                 </span>
               </button>
               <button className="btn-healthOne m-3 text-font">
                 Read article
                 <span>
-                  <i class="fa fa-arrow-right p-2" aria-hidden="true"></i>
+                  <img src={IconImage} className="p-1" />
                 </span>
               </button>
             </div>
