@@ -248,3 +248,133 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
         </div>
       </div>
    -->
+
+   <!-- Container Images
+   <div className="container">
+          <div className="row">
+            <div className="col-md-6">
+              <div className="card">
+                <div className="card-body bg-white">
+                  <div className="row">
+                    <div className="col">
+                      <h3 className="text-font h3 fw-bold">Premium</h3>
+                      <p className="text-font">
+                        Talk to financial advisers, access powerful
+                        <br /> resources to support your financial goals.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col text-center">
+                    <img src={DescLogo} alt="DescLogo" className="img-size" />
+                  </div>
+                  <button className="btn btn-white btn-text">
+                    Start learning
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="card">
+                <div className="card-body bg-white">
+                  <div className="row">
+                    <div className="col">
+                      <h3 className="text-font h3 fw-bold">Learn</h3>
+                      <p className="text-font">
+                        Talk to financial advisers, access powerful
+                        <br /> resources to support your financial goals.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col text-center">
+                    <img
+                      src={DescLogoTwo}
+                      alt="DescLogoTwo"
+                      className="img-size"
+                    />
+                  </div>
+                  <button className="btn btn-white btn-text">
+                    Start learning
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+         <div className="card-2 p-4">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-6">
+                <div className="card">
+                  <div className="card-header bg-white">
+                    <div className="card-body">
+                      <div className="col">
+                        <h3 className="text-font h3 fw-bold">Communities</h3>
+                        <p className="text-font">
+                          Talk to financial advisers, access powerful
+                          <br /> resources to support your financial goals.
+                        </p>
+                      </div>
+                      <div className="col text-center">
+                        <img
+                          src={StudentImageOne}
+                          alt="StudentImage"
+                          className="StudentImage img-size"
+                        />
+                      </div>
+                      <button className="btn btn-white btn-text">
+                        Join our community
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="card">
+                  <div className="card-header bg-white">
+                    <div className="card-body">
+                      <div className="col">
+                        <h3 className="text-font h3 fw-bold">Kids</h3>
+                        <p className="text-font">
+                          Financial Education Made Easy for Kids. We run
+                          <br /> boot camps that help kids acquire financial
+                          literacy <br /> skills in a fun way.
+                        </p>
+                      </div>
+                      <div className="col text-center">
+                        <img
+                          src={StudentImageTwo}
+                          alt="StudentImage"
+                          className="StudentImage img-size"
+                        />
+                      </div>
+                      <button className="btn btn-white btn-text">
+                        Register your kids
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="last-card p-5 bg-white mt-3 rounded justify-content-around ">
+                <div className="d-flex py-3 align-items-center">
+                  <div>
+                    <h3 className="text-font h3 fw-bold">
+                      Automated Digital Advisory
+                    </h3>
+                    <p className="text-font">
+                      Improve your financial health and investment strategy
+                      <br /> by answering a few questions we’ll ask you.
+                    </p>
+                    <button className="btn btn-white marginTop">
+                      Learn more
+                    </button>
+                  </div>
+                  <div>
+                    <img src={WalletImage} className="img-fluid" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    -->
