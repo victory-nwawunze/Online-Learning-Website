@@ -37,8 +37,11 @@ const ContainerImages = () => {
                   <div className="col text-center">
                     <img src={DescLogo} alt="DescLogo" className="img-size" />
                   </div>
-                  <button className="btn btn-white btn-text">
-                    Start learning
+                  <button className="btn-healthOne text-font ">
+                    Become a partner
+                    <span>
+                      <i class="fa fa-arrow-right p-2" aria-hidden="true"></i>
+                    </span>
                   </button>
                 </div>
               </div>
@@ -62,8 +65,11 @@ const ContainerImages = () => {
                       className="img-size"
                     />
                   </div>
-                  <button className="btn btn-white btn-text">
-                    Start learning
+                  <button className="btn-healthOne text-font ">
+                    Start Learning
+                    <span>
+                      <i class="fa fa-arrow-right p-2" aria-hidden="true"></i>
+                    </span>
                   </button>
                 </div>
               </div>
@@ -91,8 +97,14 @@ const ContainerImages = () => {
                           className="StudentImage img-size"
                         />
                       </div>
-                      <button className="btn btn-white btn-text">
+                      <button className="btn-healthOne text-font ">
                         Join our community
+                        <span>
+                          <i
+                            class="fa fa-arrow-right p-2"
+                            aria-hidden="true"
+                          ></i>
+                        </span>
                       </button>
                     </div>
                   </div>
@@ -117,8 +129,14 @@ const ContainerImages = () => {
                           className="StudentImage img-size"
                         />
                       </div>
-                      <button className="btn btn-white btn-text">
-                        Register your kids
+                      <button className="btn-healthOne text-font ">
+                        Register you kids
+                        <span>
+                          <i
+                            class="fa fa-arrow-right p-2"
+                            aria-hidden="true"
+                          ></i>
+                        </span>
                       </button>
                     </div>
                   </div>
@@ -134,8 +152,11 @@ const ContainerImages = () => {
                       Improve your financial health and investment strategy
                       <br /> by answering a few questions we’ll ask you.
                     </p>
-                    <button className="btn btn-white marginTop">
-                      Learn more
+                    <button className="btn-healthOne text-font ">
+                      Learn More
+                      <span>
+                        <i class="fa fa-arrow-right p-2" aria-hidden="true"></i>
+                      </span>
                     </button>
                   </div>
                   <div>
