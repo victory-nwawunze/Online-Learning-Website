@@ -8,7 +8,7 @@ import Linkdin from "../images/Group 8106.png";
 const Features = () => {
   return (
     <React.Fragment>
-      <div className="container text-center">
+      <div className="container text-center p-5">
         <hr />
         <p className="text-center text-font">As Feature On</p>
         <div className="row py-3">
