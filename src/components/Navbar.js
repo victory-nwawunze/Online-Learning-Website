@@ -4,6 +4,7 @@ import React from "react";
 import Logo from "../images/image 6.png";
 import IconImage from "../images/Group 8113.svg";
 import "../index.css";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <React.Fragment>
@@ -11,7 +12,9 @@ const Navbar = () => {
         <div className="container">
           <div className="d-flex justify-content-between align-items-center">
             <div>
-              <img src={Logo} className="img-fluid Logo-img" />
+              <Link to="/">
+                <img src={Logo} className="img-fluid Logo-img" />
+              </Link>
             </div>
             <div>
               <div className="d-flex ">
