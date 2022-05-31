@@ -7,6 +7,7 @@ import Guest from "./components/GuestPage/Guest";
 import Navbar from "./components/Navbar";
 import { Route, Routes, Navigate } from "react-router-dom";
 import NotFoundSorry from "./components/NotFound/NotFoundSorry";
+import SubscriptionPage from "./components/SubscriptionPage/SubscriptionPage";
 const App = () => {
   return (
     <React.Fragment>
@@ -15,6 +16,10 @@ const App = () => {
         <Route path="/" element={<Navigate to={"moneyAfrica/Guest"} />} />
         <Route path={"moneyAfrica/Guest"} element={<Guest />} />
         <Route path={"moneyAfrica/Contact"} element={<Contact />} />
+        <Route
+          path={"moneyAfrica/SubscribePage"}
+          element={<SubscriptionPage />}
+        />
         <Route path="*" element={<NotFoundSorry />} />
       </Routes>
       <Footer />
