@@ -1,21 +1,22 @@
 /** @format */
 import React from "react";
 import "./App.css";
-import ContainerImages from "./components/ContainerImages";
-import Features from "./components/Features";
+import Contact from "./components/ContactUsPage/Contact";
 import Footer from "./components/Footer";
+import Guest from "./components/GuestPage/Guest";
 import Navbar from "./components/Navbar";
-import SectionVideo from "./components/SectionVideo";
-import Showcase from "./components/Showcase";
-
+import { Route, Routes, Navigate } from "react-router-dom";
+import NotFoundSorry from "./components/NotFound/NotFoundSorry";
 const App = () => {
   return (
     <React.Fragment>
       <Navbar />
-      <Showcase />
-      <Features />
-      <SectionVideo />
-      <ContainerImages />
+      <Routes>
+        <Route path="/" element={<Navigate to={"moneyAfrica/Guest"} />} />
+        <Route path={"moneyAfrica/Guest"} element={<Guest />} />
+        <Route path={"moneyAfrica/Contact"} element={<Contact />} />
+        <Route path="*" element={<NotFoundSorry />} />
+      </Routes>
       <Footer />
     </React.Fragment>
   );
