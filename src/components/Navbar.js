@@ -52,19 +52,19 @@ const Navbar = () => {
             </div>
             <div>
               <div className="d-flex">
-                <button className="btn btn-danger">
+                <button className="btn btn-danger text-font">
                   Get started
                   <span>
-                    <i class="fa fa-arrow-right pl-2" aria-hidden="true"></i>
+                    <i class="fa fa-arrow-right p-1" aria-hidden="true"></i>
                   </span>
                 </button>
               </div>
             </div>
             <div>
-              <button className="btn-health">
+              <button className="btn-health text-font">
                 Financial health checks
                 <span>
-                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                  <i class="fa fa-arrow-right p-2" aria-hidden="true"></i>
                 </span>
               </button>
             </div>

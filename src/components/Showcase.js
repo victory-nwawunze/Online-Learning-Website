@@ -19,16 +19,16 @@ const Showcase = () => {
                 <br />
                 access to free and paid financial knowledge for learners.
               </p>
-              <button className="btn-health">
+              <button className="btn-health text-font">
                 Our Services
                 <span>
-                  <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                  <i class="fa fa-arrow-down p-2" aria-hidden="true"></i>
                 </span>
               </button>
-              <button className="btn-healthOne ">
-                Our Services
+              <button className="btn-healthOne text-font ">
+                Start Investing
                 <span>
-                  <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                  <i class="fa fa-arrow-right p-2" aria-hidden="true"></i>
                 </span>
               </button>
             </div>
