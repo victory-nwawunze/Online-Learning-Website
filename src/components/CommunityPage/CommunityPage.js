@@ -4,6 +4,7 @@ import React from "react";
 import IconImage from "../../images/Group 8113.svg";
 import CommunityImage from "../../images/Group 8099.jpg";
 import MarkUpIcon from "../../images/Group 8126.png";
+import FrequentlyAskQuestion from "../FrequentlyAskQuestion/FrequentlyAskQuestion";
 const CommunityPage = () => {
   return (
     <React.Fragment>
@@ -114,6 +115,7 @@ const CommunityPage = () => {
                 </button>
               </div>
             </div>
+            <FrequentlyAskQuestion />
           </div>
         </div>
       </div>
