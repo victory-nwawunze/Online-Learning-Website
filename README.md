@@ -378,3 +378,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
           </div>
         </div>
     -->
+
+<!--
+Community page
+
+  <div className="container">
+          <div className="grid">
+            <div className="row py-5">
+              <div className="col-md-6">
+                <img src={CommunityImage} className="CommunityImage" />
+              </div>
+              <div className="col-md-6">
+                <h3 className="h3 fw-bold">
+                  Benefit of becoming a<br /> Community member
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+ -->
