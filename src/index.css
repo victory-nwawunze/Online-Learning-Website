@@ -110,8 +110,11 @@
 }
 
 .banner-color{
-   background-color: #E3EEE7;
+  background-color: #E3EEE7;
 }
 .hover{
   cursor: pointer;
+}
+.paddingBottom{
+  padding-bottom: 25% !important;
 }
