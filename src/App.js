@@ -9,6 +9,7 @@ import { Route, Routes, Navigate } from "react-router-dom";
 import NotFoundSorry from "./components/NotFound/NotFoundSorry";
 import SubscriptionPage from "./components/SubscriptionPage/SubscriptionPage";
 import CommunityPage from "./components/CommunityPage/CommunityPage";
+import AboutUs from "./components/AboutUs/AboutUs";
 const App = () => {
   return (
     <React.Fragment>
@@ -18,6 +19,7 @@ const App = () => {
         <Route path={"moneyAfrica/Guest"} element={<Guest />} />
         <Route path={"moneyAfrica/Contact"} element={<Contact />} />
         <Route path={"moneyAfrica/Community"} element={<CommunityPage />} />
+        <Route path={"moneyAfrica/AboutUs"} element={<AboutUs />} />
         <Route
           path={"moneyAfrica/SubscribePage"}
           element={<SubscriptionPage />}
