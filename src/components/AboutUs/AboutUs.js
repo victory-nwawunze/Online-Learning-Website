@@ -8,6 +8,7 @@ import CardImageTwo from "../../images/Group 8132.png";
 import CardImageThree from "../../images/Chidinma.png";
 import BusolaImage from "../../images/Busola.png";
 import AndrewImage from "../../images/Andrew.png";
+import CEOImage from "../../images/Group 8136.png";
 const AboutUs = () => {
   return (
     <React.Fragment>
@@ -133,6 +134,34 @@ const AboutUs = () => {
                 </div>
                 <h4 className="text-font fw-bold mt-2">Joy Ogoke Williams </h4>
                 <p className="text-font">Senior Management Accountant</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="AboutCEO p-3">
+        <div className="container">
+          <div className="grid">
+            <div className="row">
+              <div className="col-md-6">
+                <img src={CEOImage} />
+              </div>
+              <div className="col-md-6">
+                <p className="text-font fw-bold mt-5 LargeTextFont">
+                  “ Growing up, my family <br /> struggled to make ends meet
+                  <br /> despite my mom being one of the <br /> hardest-working
+                  people I know.
+                </p>
+                <p className="text-font fw-bold mt-5 LargeTextFont ">
+                  The financial system is designed <br /> to be intentionally
+                  complex, and <br /> we created Tally to level the <br />
+                  playing field and put people’s <br />
+                  hard-earned money back in their <br /> pockets.”
+                </p>
+                <small className="text-font SmallTextFont">
+                  Oluwatosin, Founder & CEO
+                </small>
               </div>
             </div>
           </div>
