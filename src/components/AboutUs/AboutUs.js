@@ -9,6 +9,9 @@ import CardImageThree from "../../images/Chidinma.png";
 import BusolaImage from "../../images/Busola.png";
 import AndrewImage from "../../images/Andrew.png";
 import CEOImage from "../../images/Group 8136.png";
+import StoresIcon from "../../images/Group 8137.png";
+import IconImage from "../../images/Group 8113.svg";
+import MobileImage from "../../images/PhoneImage.png";
 const AboutUs = () => {
   return (
     <React.Fragment>
@@ -165,6 +168,59 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="InvestmentSection pt-5">
+        <div className="container">
+          <div className="grid">
+            <div className="row py-5">
+              <div className="col-md-6">
+                <small className="h6 fw-bold InvestmentText text-font">
+                  Ladda.ng
+                </small>
+                <p className="text-font h2 fw-bold">
+                  Our One stop Investment
+                  <br /> Platform
+                </p>
+                <p className="text-font">
+                  <span className="InvestmentFont">
+                    You can now invest in savings, mutual fund and stocks
+                  </span>
+                  <br /> all on one platform. Mplace of the modern computer.
+                </p>
+                <img src={StoresIcon} className="hover" />
+                <div className="d-flex InvestmentText ">
+                  <small className="text-font mt-3 fw-bold hover mt-4">
+                    Go to Website
+                    <span>
+                      <img src={IconImage} />
+                    </span>
+                  </small>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="MobilePhoneBackground">
+                  <img src={MobileImage} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="CareerAtMoneyAfrica p-4 text-center fw-bold  banner-color">
+        <p className="text-font h4 fw-bold py-5">
+          Interested in joining our <br />
+          talented team?
+        </p>
+        <div>
+          <button className="btn-health text-font">
+            Career at MoneyAfrica
+            <span>
+              <img src={IconImage} className="p-1 " />
+            </span>
+          </button>
         </div>
       </div>
     </React.Fragment>

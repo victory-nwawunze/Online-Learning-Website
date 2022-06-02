@@ -188,3 +188,23 @@
 .SmallTextFont{
   color: #7b837e;
 }
+.InvestmentText{
+  color: #1DAD96;
+}
+.InvestmentFont{
+  font-size: 17px;
+}
+/* .ImageWithBackgroundColor{
+  background-color: #F5C3C8;
+  position: relative;
+  z-index: -1;
+  
+}
+.MobilePhoneBackground{
+  position: absolute;
+  right: 10px;
+} */
+.MobilePhoneBackground{
+  position: relative;
+  bottom: 100px;
+}
