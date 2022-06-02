@@ -121,3 +121,34 @@
 .CommunityImage{
   width: 90%;
 }
+
+.ImageCard{
+  position: relative;
+  background-color: #F1B862;
+  border-radius: 5px;
+}
+.Icon{
+  position: absolute;
+  right: 10px;
+  top:10px;
+}
+.ImageCardTwo{
+  position: relative;
+  background-color: #62B5F3;
+  border-radius: 5px;
+}
+.IconTwo{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.ImageCardThree{
+  position: relative;
+  background-color: #CB763B;
+  border-radius: 5px;
+}
+.IconPlus{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
