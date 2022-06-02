@@ -6,6 +6,8 @@ import CardImage from "../../images/Group 8129.png";
 import PlusIcon from "../../images/Group 8130.png";
 import CardImageTwo from "../../images/Group 8132.png";
 import CardImageThree from "../../images/Chidinma.png";
+import BusolaImage from "../../images/Busola.png";
+import AndrewImage from "../../images/Andrew.png";
 const AboutUs = () => {
   return (
     <React.Fragment>
@@ -93,6 +95,44 @@ const AboutUs = () => {
                 </div>
                 <h4 className="text-font fw-bold mt-2">Chika Okoro </h4>
                 <p className="text-font">People Specialist</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="CaedsWithImagesTwo p-3">
+        <div className="container">
+          <div className="grid">
+            <div className="row">
+              <div className="col-md-4">
+                <div className="CardContainerImageOne">
+                  <img src={BusolaImage} className="img-fluid" />
+                  <div className="ContainerPlusIconOne">
+                    <img src={PlusIcon} />
+                  </div>
+                </div>
+                <h4 className="text-font fw-bold mt-2">Busola Adebisi </h4>
+                <p className="text-font">Business Performance Manager</p>
+              </div>
+              <div className="col-md-4">
+                <div className="CardContainerImageTwo">
+                  <img src={AndrewImage} className="img-fluid" />
+                  <div className="ContainerPlusIconTwo">
+                    <img src={PlusIcon} className="img-fluid" />
+                  </div>
+                </div>
+                <h4 className="text-font fw-bold mt-2">Andrew Bassey </h4>
+                <p className="text-font">Software Engineering Lead</p>
+              </div>
+              <div className="col-md-4">
+                <div className="CardContainerThree">
+                  <img src={CardImage} className="img-fluid" />
+                  <div className="ContainerPlusIconThree">
+                    <img src={PlusIcon} className="img-fluid" />
+                  </div>
+                </div>
+                <h4 className="text-font fw-bold mt-2">Joy Ogoke Williams </h4>
+                <p className="text-font">Senior Management Accountant</p>
               </div>
             </div>
           </div>
