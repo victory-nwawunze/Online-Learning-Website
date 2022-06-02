@@ -2,6 +2,9 @@
 
 import React from "react";
 import IconImage from "../../images/Group 8113.svg";
+import MoneyAfricaKidsImage from "../../images/Group 8100.jpg";
+import MarkUpIcon from "../../images/Group 8126.png";
+import FrequentlyAskQuestion from "../FrequentlyAskQuestion/FrequentlyAskQuestion";
 const MoneyAfricaKids = () => {
   return (
     <React.Fragment>
@@ -61,6 +64,84 @@ const MoneyAfricaKids = () => {
           </div>
         </div>
       </div>
+      <div className="ConatinerMoneyAfricaKids p-4">
+        <div className="container">
+          <div className="grid">
+            <div className="row py-4">
+              <div className="col-md-6">
+                <img src={MoneyAfricaKidsImage} className="KidsImages" />
+              </div>
+              <div className="col-md-6 ">
+                <h3 className="text-font MarginTop paddingLeftAndRight fw-bold">
+                  Here’s why you should enrol
+                  <br /> your child
+                </h3>
+                <div className="d-flex align-items-center paddingLeftAndRight">
+                  <div>
+                    <img src={MarkUpIcon} className="p-1" />
+                  </div>
+                  <div>
+                    <p className="text-font mt-3 p-2">
+                      Real-time engagements with our educators
+                    </p>
+                  </div>
+                </div>
+                <div className="d-flex align-items-center paddingLeftAndRight">
+                  <div>
+                    <img src={MarkUpIcon} className="p-1" />
+                  </div>
+                  <div>
+                    <p className="text-font mt-3 p-2">
+                      Learn how to manage your expenses
+                    </p>
+                  </div>
+                </div>
+                <div className="d-flex align-items-center paddingLeftAndRight">
+                  <div>
+                    <img src={MarkUpIcon} className="p-1" />
+                  </div>
+                  <div>
+                    <p className="text-font mt-3 p-2">
+                      Learn about savings, investment and insurance
+                    </p>
+                  </div>
+                </div>
+                <div className="d-flex align-items-center paddingLeftAndRight">
+                  <div>
+                    <img src={MarkUpIcon} className="p-1" />
+                  </div>
+                  <div>
+                    <p className="text-font mt-3 p-2">
+                      Learn how to cultivate good financial habits
+                    </p>
+                  </div>
+                </div>
+                <div className="d-flex align-items-center paddingLeftAndRight">
+                  <div>
+                    <img src={MarkUpIcon} className="p-1" />
+                  </div>
+                  <div>
+                    <p className="text-font mt-3 p-2">
+                      Ask questions and get support
+                    </p>
+                  </div>
+                </div>
+                <div className="d-flex align-items-center paddingLeftAndRight">
+                  <div>
+                    <img src={MarkUpIcon} className="p-1" />
+                  </div>
+                  <div>
+                    <p className="text-font mt-3 p-2">
+                      Group discussion and games to support learning
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <FrequentlyAskQuestion />
     </React.Fragment>
   );
 };
