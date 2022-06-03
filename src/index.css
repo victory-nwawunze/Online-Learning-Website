@@ -257,3 +257,9 @@
   width: 100%;
   background-size: cover;
 }
+.PaddingTopForDescription{
+  padding-top: 30%;
+}
+.PaddingTopForDescriptionTwo{
+  padding-top: 20%;
+}
