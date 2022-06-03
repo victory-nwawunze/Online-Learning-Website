@@ -11,6 +11,7 @@ import SubscriptionPage from "./components/SubscriptionPage/SubscriptionPage";
 import CommunityPage from "./components/CommunityPage/CommunityPage";
 import AboutUs from "./components/AboutUs/AboutUs";
 import MoneyAfricaKids from "./components/MoneyAfricaKids/MoneyAfricaKids";
+import MoneyAfricaAutomatedDigitalAdvisory from "./components/MoneyAfricaAutomatedDigitalAdvisory/MoneyAfricaAutomatedDigitalAdvisory";
 const App = () => {
   return (
     <React.Fragment>
@@ -21,6 +22,10 @@ const App = () => {
         <Route path={"moneyAfrica/Contact"} element={<Contact />} />
         <Route path={"moneyAfrica/Community"} element={<CommunityPage />} />
         <Route path={"moneyAfrica/AboutUs"} element={<AboutUs />} />
+        <Route
+          path={"moneyAfrica/MoneyAfricaAutomatedDigitalAdvisory"}
+          element={<MoneyAfricaAutomatedDigitalAdvisory />}
+        />
         <Route
           path="/moneyAfrica/MoneyAfricaKids"
           element={<MoneyAfricaKids />}
