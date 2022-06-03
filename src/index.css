@@ -235,3 +235,13 @@
 .MarginTop{
   margin-top: 30%;
 }
+.SmallTextFontPrice{
+  font-size: 15px;
+  color: #7b837e;
+}
+.SingleCardBorderRadius{
+  border-radius: 5px;
+}
+.BorderLine{
+  border-bottom: 2px solid #E5E5E5;
+}
