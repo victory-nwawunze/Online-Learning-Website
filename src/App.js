@@ -13,6 +13,7 @@ import AboutUs from "./components/AboutUs/AboutUs";
 import MoneyAfricaKids from "./components/MoneyAfricaKids/MoneyAfricaKids";
 import MoneyAfricaAutomatedDigitalAdvisory from "./components/MoneyAfricaAutomatedDigitalAdvisory/MoneyAfricaAutomatedDigitalAdvisory";
 import MoneyAfricaCareerPage from "./components/MoneyAfricaCareerPage/MoneyAfricaCareerPage";
+import MoneyAfricaCareerForJobs from "./components/MoneyAfricaCareerForJobs/MoneyAfricaCareerForJobs";
 const App = () => {
   return (
     <React.Fragment>
@@ -34,6 +35,10 @@ const App = () => {
         <Route
           path="/moneyAfrica/MoneyAfricaKids"
           element={<MoneyAfricaKids />}
+        />
+        <Route
+          path="/moneyAfrica/MoneyAfricaCareerForJobs"
+          element={<MoneyAfricaCareerForJobs />}
         />
         <Route
           path={"moneyAfrica/SubscribePage"}
