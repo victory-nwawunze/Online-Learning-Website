@@ -4,6 +4,7 @@ import React from "react";
 import CareerBannerImage from "../CareerBannerImage/CareerBannerImage";
 import CareerTextBanner from "../CareerTextBanner/CareerTextBanner";
 import BagImage from "../../images/Group 8152.png";
+import CareerBackgroundImageAndText from "../CareerBackgroundImageAndText/CareerBackgroundImageAndText";
 
 const MoneyAfricaCareerForJobs = () => {
   return (
@@ -28,18 +29,19 @@ const MoneyAfricaCareerForJobs = () => {
           Available positions
         </p>
       </div>
-      <div className="JobSpacecontainer p-3">
+      <div className="JobSpacecontainer py-5 ">
         <div className="container">
           <div className="grid">
             <div className="row">
               <div className="col-md-12 cardBorderRadius text-center py-5">
                 <img src={BagImage} />
-                <p className="text-font fw-bold pt-2">No available jobs now</p>
+                <p className="text-font fw-bold pt-2 ">No available jobs now</p>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <CareerBackgroundImageAndText />
     </React.Fragment>
   );
 };
