@@ -245,3 +245,11 @@
 .BorderLine{
   border-bottom: 2px solid #E5E5E5;
 }
+.CardPaddingTopAndBottom{
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.CardPaddingTopAndBottomTwo{
+  padding-top: 25%;
+  /* padding-bottom: 5%; */
+}

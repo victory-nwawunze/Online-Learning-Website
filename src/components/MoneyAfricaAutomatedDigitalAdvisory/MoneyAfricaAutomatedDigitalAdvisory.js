@@ -46,50 +46,23 @@ const MoneyAfricaAutomatedDigitalAdvisory = () => {
                       className="img-fluid pt-3 hover"
                     />
                     <hr />
-                    <div className="d-flex align-items-center pt-2 ">
-                      <div>
-                        <img src={MarkIcon} className="img-fluid m-2" />
-                      </div>
-                      <small className="text-font fw-bold  ">
-                        Choose your financial goals
-                      </small>
-                    </div>
-                    <div className="d-flex align-items-center ">
-                      <div>
-                        <img src={MarkIcon} className="img-fluid m-2 pt-2" />
-                      </div>
-                      <small className="text-font  fw-bold ">
-                        Indicate progress
-                      </small>
-                    </div>
-                    <div className="d-flex align-items-center pt-3">
-                      <div>
-                        <img src={MarkIcon} className="img-fluid m-2" />
-                      </div>
-                      <small className="text-font  fw-bold ">
-                        Specify asset allocation mix
-                      </small>
-                    </div>
-                    <div className="d-flex align-items-center pt-3">
-                      <div>
-                        <img src={MarkIcon} className="img-fluid m-2" />
-                      </div>
-                      <small className="text-font p-2  fw-bold">
-                        Get portfolio allocation recommendation and investment
-                        options
-                      </small>
-                    </div>
-                    <div className="d-flex align-items-center pt-3">
-                      <div>
-                        <img src={MarkIcon} className="img-fluid m-2" />
-                      </div>
-                      <small className="text-font  fw-bold">
-                        Portfolio rebalancing
-                      </small>
+                    <div className="p-3">
+                      <p className="text-font">
+                        <span className="fw-bold">Short-term stability</span> –
+                        emergency funds, health insurance, short-term savings
+                        strategy.
+                      </p>
+                      <p className="text-font">
+                        <span className="fw-bold">Long-term security</span> –
+                        retirement plan, investment strategy.
+                      </p>
                     </div>
                   </div>
-                  <div className="container px-3 py-3 hover">
-                    <img src={SubscribeButton} />
+                  <div className="container px-3 CardPaddingTopAndBottom hover">
+                    <img
+                      src={SubscribeButton}
+                      className="CardPaddingTopAndBottomTwo"
+                    />
                   </div>
                 </div>
               </div>
