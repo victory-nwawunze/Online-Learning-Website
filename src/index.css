@@ -253,3 +253,7 @@
   padding-top: 25%;
   /* padding-bottom: 5%; */
 }
+.BackgroundImageWidth{
+  width: 100%;
+  background-size: cover;
+}
