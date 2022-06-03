@@ -5,11 +5,13 @@ import SubscribeButton from "../../images/Group 8123.png";
 import TwentyThousandNairaImage from "../../images/Group 8141.png";
 import PerFreeTextImage from "../../images/Group 8142.png";
 import FreeTextImage from "../../images/Text.png";
-import MarkUpIcon from "../../images/Group 8143.png";
+import RoundedMarkUpIcon from "../../images/Group 8126.png";
 import MarkIcon from "../../images/Group 8122.png";
 import Premium from "../../images/Group 8144.png";
 import TaskImage from "../../images/Group 8120.png";
 import PriceNumber from "../../images/Group 8121.png";
+import WalletImage from "../../images/WalletImage.png";
+import FrequentlyAskQuestion from "../FrequentlyAskQuestion/FrequentlyAskQuestion";
 const MoneyAfricaAutomatedDigitalAdvisory = () => {
   return (
     <React.Fragment>
@@ -128,6 +130,55 @@ const MoneyAfricaAutomatedDigitalAdvisory = () => {
           </div>
         </div>
       </div>
+
+      <div className="containerBackgroundImage p-5">
+        <div className="container">
+          <div className="d-flex justify-content-around align-items-center">
+            <div>
+              <img src={WalletImage} />
+            </div>
+            <div>
+              <p className="h3 fw-bold text-font">
+                Benefits of subscribing for our
+                <br /> investment Advisory
+              </p>
+              <div className="d-flex align-items-center ">
+                <div>
+                  <img src={RoundedMarkUpIcon} className="p-1" />
+                </div>
+                <div>
+                  <p className="text-font mt-3  p-2">
+                    Gives you information needed to achieve financial
+                    <br /> resilience
+                  </p>
+                </div>
+              </div>
+              <div className="d-flex align-items-center">
+                <div>
+                  <img src={RoundedMarkUpIcon} className="p-1" />
+                </div>
+                <div>
+                  <p className="text-font mt-3  p-2">
+                    Ensures you are on track with your financial goals
+                  </p>
+                </div>
+              </div>
+              <div className="d-flex align-items-center">
+                <div>
+                  <img src={RoundedMarkUpIcon} className="p-1" />
+                </div>
+                <div>
+                  <p className="text-font mt-3  p-2">
+                    Saves you the time needed to track and rebalance
+                    <br /> your portfolio
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <FrequentlyAskQuestion />
     </React.Fragment>
   );
 };
