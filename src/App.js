@@ -15,6 +15,7 @@ import MoneyAfricaAutomatedDigitalAdvisory from "./components/MoneyAfricaAutomat
 import MoneyAfricaCareerPage from "./components/MoneyAfricaCareerPage/MoneyAfricaCareerPage";
 import MoneyAfricaCareerForJobs from "./components/MoneyAfricaCareerForJobs/MoneyAfricaCareerForJobs";
 import MoneyAfricaToolsPage from "./components/MoneyAfricaToolsPage/MoneyAfricaToolsPage";
+import MoneyAfricaSavingAndInvestmentPage from "./components/MoneyAfricaSavingAndInvestmentPage/MoneyAfricaSavingAndInvestmentPage";
 const App = () => {
   return (
     <React.Fragment>
@@ -48,6 +49,10 @@ const App = () => {
         <Route
           path={"moneyAfrica/SubscribePage"}
           element={<SubscriptionPage />}
+        />
+        <Route
+          path={"moneyAfrica/MoneyAfricaSavingAndInvestmentPage"}
+          element={<MoneyAfricaSavingAndInvestmentPage />}
         />
         <Route path="*" element={<NotFoundSorry />} />
       </Routes>

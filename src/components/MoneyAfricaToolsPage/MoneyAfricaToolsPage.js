@@ -21,10 +21,10 @@ const MoneyAfricaToolsPage = () => {
       <div className="MoneyAfricaToolsCard p-5">
         <div className="container">
           <div className="grid">
-            <div className="row py-4">
+            <div className="row py-4 ">
               <div className="col-md-6">
-                <div className="card">
-                  <div className="card-body">
+                <div className="card ToolsCardBorderRadius ">
+                  <div className="card-body ">
                     <p className="text-font fw-bold h2 px-3 py-3">
                       Education Fund
                       <br /> estimate
@@ -43,7 +43,7 @@ const MoneyAfricaToolsPage = () => {
                 </div>
               </div>
               <div className="col-md-6">
-                <div className="card">
+                <div className="card ToolsCardBorderRadius">
                   <div className="card-body">
                     <p className="text-font fw-bold h2 px-3 py-4">
                       Savings Investment
@@ -71,7 +71,7 @@ const MoneyAfricaToolsPage = () => {
           <div className="grid">
             <div className="row">
               <div className="col-md-6">
-                <div className="card">
+                <div className="card ToolsCardBorderRadius">
                   <div className="card-body">
                     <p className="text-font fw-bold h2 px-3 py-3">
                       Investment Calculator
@@ -91,8 +91,8 @@ const MoneyAfricaToolsPage = () => {
                 </div>
               </div>
               <div className="col-md-6">
-                <div className="card">
-                  <div className="card-body">
+                <div className="card ToolsCardBorderRadius">
+                  <div className="card-body ">
                     <p className="text-font fw-bold h2 px-3 py-2">
                       Retirement Portfolio
                       <br /> Calculator
