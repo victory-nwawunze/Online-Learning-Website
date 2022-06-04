@@ -274,3 +274,6 @@
 .ToolsCardText{
   color: #1DAD96;
 }
+.ToolsCardBorderRadius{
+  border-radius: 15px !important;
+}
