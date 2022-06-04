@@ -277,3 +277,10 @@
 .ToolsCardBorderRadius{
   border-radius: 15px !important;
 }
+.HrLine{
+  width: 80%;
+  /* height: 50px; */
+  position: relative;
+  left: 10%;
+  border: 1px solid #51807E;
+}
