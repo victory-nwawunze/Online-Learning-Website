@@ -2,6 +2,7 @@
 
 import React from "react";
 import CheveronArrowDown from "../../images/ChevronArrowDown.png";
+import InputDropDownIcon from "../../images/Group 8155.png";
 const MoneyAfricaSavingAndInvestmentPage = () => {
   return (
     <React.Fragment>
@@ -18,6 +19,30 @@ const MoneyAfricaSavingAndInvestmentPage = () => {
           This calculator helps you determine how much you need to save
           <br /> monthly to meet a targeted amount by the time you need it.
         </p>
+      </div>
+      <div className="MoneyAfricaInvestmentPageCard p-5">
+        <div className="container-fluid">
+          <div className="grid">
+            <div className="row">
+              <div className="col-md-6">
+                <p className="text-font  py-4">Investment period (years)</p>
+                <input type="text" placeholder="5" className="inputText" />
+                <p className="text-font py-4">Currency</p>
+                <div className="InputWithContainer">
+                  <input
+                    type="text"
+                    placeholder="£(pounds)"
+                    className="inputText"
+                  />
+                  <div className="InputTypeDropdownIcon">
+                    <img src={InputDropDownIcon} />
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6">2</div>
+            </div>
+          </div>
+        </div>
       </div>
     </React.Fragment>
   );

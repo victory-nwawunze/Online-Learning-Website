@@ -284,3 +284,33 @@
   left: 10%;
   border: 1px solid #51807E;
 }
+.inputText{
+  width: 80%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #51807E;
+}
+.inputText:focus{
+ border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  
+}
+.inputText::placeholder{
+  font-weight: bold;
+  color: black;
+  font-size: 24px;
+  font-style: italic;
+  font-family: 'Tiro Devanagari Hindi', serif;
+}
+.InputWithContainer{
+  position: relative;
+}
+.InputTypeDropdownIcon{
+  position: absolute;
+  top: 1px;
+  left: 77%;
+}
+.InputWithContainer > .inputText{}
