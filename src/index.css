@@ -267,3 +267,10 @@
   padding-top: 16%;
 
 }
+.PaddingTopAndLeftForToolsCardButton{
+  padding-top: 10%;
+  padding-left: 2%;
+}
+.ToolsCardText{
+  color: #1DAD96;
+}
