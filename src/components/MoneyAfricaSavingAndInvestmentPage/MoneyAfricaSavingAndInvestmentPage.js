@@ -38,6 +38,28 @@ const MoneyAfricaSavingAndInvestmentPage = () => {
                     <img src={InputDropDownIcon} />
                   </div>
                 </div>
+                <p className="text-font py-4">Interest rate per annum</p>
+                <div className="InputWithContainer">
+                  <input
+                    type="text"
+                    placeholder="5.00%"
+                    className="inputText"
+                  />
+                  <div className="InputTypeDropdownIcon">
+                    <img src={InputDropDownIcon} />
+                  </div>
+                </div>
+                <p className="text-font py-4">Target Amount</p>
+                <div className="InputWithContainer">
+                  <input
+                    type="text"
+                    placeholder="£122,248.10"
+                    className="inputText"
+                  />
+                  <div className="InputTypeDropdownIcon">
+                    <img src={InputDropDownIcon} />
+                  </div>
+                </div>
               </div>
               <div className="col-md-6">2</div>
             </div>
