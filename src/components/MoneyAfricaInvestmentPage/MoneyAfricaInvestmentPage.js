@@ -26,13 +26,23 @@ const MoneyAfricaInvestmentPage = () => {
           <div className="grid">
             <div className="row">
               <div className="col-md-6">
-                <p className="text-font  py-4">Investment period (years)</p>
-                <input type="text" placeholder="5" className="inputText" />
+                <p className="text-font  py-4">Monthly Investment amount</p>
+                <div className="InputWithContainer">
+                  <input
+                    type="text"
+                    placeholder="$100.00"
+                    className="inputText"
+                  />
+                  <div className="InputTypeChevronDropdownIcon">
+                    <span className="text-font">Monthly</span>{" "}
+                    <img src={InputDropDownIcon} />
+                  </div>
+                </div>
                 <p className="text-font py-4">Currency</p>
                 <div className="InputWithContainer">
                   <input
                     type="text"
-                    placeholder="£(pounds)"
+                    placeholder="$(US dollars)"
                     className="inputText"
                   />
                   <div className="InputTypeDropdownIcon">
@@ -43,20 +53,16 @@ const MoneyAfricaInvestmentPage = () => {
                 <div className="InputWithContainer">
                   <input
                     type="text"
-                    placeholder="5.00%"
+                    placeholder="7.00%"
                     className="inputText"
                   />
                   <div className="InputTypeDropdownIcon">
                     <img src={InputDropDownIcon} />
                   </div>
                 </div>
-                <p className="text-font py-4">Target Amount</p>
+                <p className="text-font py-4">Years of investment</p>
                 <div className="InputWithContainer">
-                  <input
-                    type="text"
-                    placeholder="£122,248.10"
-                    className="inputText"
-                  />
+                  <input type="text" placeholder="5" className="inputText" />
 
                   <div className="InputTypeDropdownIcon">
                     <img src={InputDropDownIcon} />
@@ -66,13 +72,13 @@ const MoneyAfricaInvestmentPage = () => {
               <div className="col-md-6  shadow-lg py-1 px-5 ColumnSixBorderRadius">
                 <div className="d-flex justify-content-between py-4">
                   <div>
-                    <p className="text-font">You need to invest</p>
-                    <p className="text-font fw-bold fst-italic">£1,793.38</p>
+                    <p className="text-font">If you invest</p>
+                    <p className="text-font fw-bold fst-italic">$100.00</p>
                     <p className="text-font">monthly</p>
                   </div>
                   <div>
                     <p className="text-font">At an interest of</p>
-                    <p className="text-font fw-bold fst-italic">5.0%</p>
+                    <p className="text-font fw-bold fst-italic">7.0%</p>
                     <p className="text-font">per annum</p>
                   </div>
                   <div>
@@ -81,16 +87,16 @@ const MoneyAfricaInvestmentPage = () => {
                     <p className="text-font">years</p>
                   </div>
                 </div>
-                <p className="text-font pt-5">To get a total of</p>
-                <p className="text-font h1 fw-bold">£122,248.10</p>
+                <p className="text-font pt-5">You’ll get a total of</p>
+                <p className="text-font h1 fw-bold">$7,141.55</p>
                 <div className="d-flex pt-5  justify-content-between py-4  align-items-end">
                   <div>
                     <p className="text-font">Total contribution</p>
-                    <p className="text-font h6 fw-bold">£107,602.73</p>
+                    <p className="text-font h6 fw-bold">$6,000.00</p>
                   </div>
                   <div>
                     <p className="text-font">Total interest</p>
-                    <p className="text-font h6 fw-bold">£14,645.37</p>
+                    <p className="text-font h6 fw-bold">$1,141.55</p>
                   </div>
                   <div className="ThirdSectionCardBackground ToolsCardBorderRadius">
                     <p className="p-4">

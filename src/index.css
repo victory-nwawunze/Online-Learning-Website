@@ -328,3 +328,8 @@
 .ColumnSixBorderRadius{
   border-radius: 5px;
 }
+.InputTypeChevronDropdownIcon{
+  position: absolute;
+  right: 20%;
+  top: 5%;
+}
