@@ -84,7 +84,7 @@ const MoneyAfricaRetirementPortfolioPage = () => {
                   </span>
                 </div>
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6 ">
                 <div className="shadow-lg ColumnSixBorderRadius py-4 px-3">
                   <div className="d-flex justify-content-between py-4">
                     <div>
