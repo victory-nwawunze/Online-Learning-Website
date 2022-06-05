@@ -333,3 +333,17 @@
   right: 20%;
   top: 5%;
 }
+.DataInput{
+  width: 80%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  border-bottom: 1px solid #51807E;
+}
+.DataInput::placeholder{
+  font-weight: bold;
+  font-family: 'Tiro Devanagari Hindi', serif;
+  color: black;
+  font-size: 24px;
+}
