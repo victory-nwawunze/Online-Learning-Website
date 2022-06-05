@@ -63,7 +63,7 @@ const MoneyAfricaSavingAndInvestmentPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6  shadow-lg py-1 px-5 ColumnSixBorderRadius">
                 <div className="d-flex justify-content-between py-4">
                   <div>
                     <p className="text-font">You need to invest</p>
