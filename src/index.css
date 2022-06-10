@@ -477,3 +477,15 @@
   text-align: center;
   outline: none;
 }
+.RecieveCodeText{
+  color: #7C7C7C;
+  font-size: 15px;
+}
+.ResendTextColor{
+  color: #30656F;
+  font-weight: bold;
+}
+.CompleteSignUpButton{
+  width: 60%;
+  cursor: pointer;
+}
