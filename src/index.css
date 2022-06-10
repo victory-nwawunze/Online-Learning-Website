@@ -350,6 +350,8 @@
 .MoneyAfricaTalkToAnExpertForm{
   margin: auto !important;
   width: 50% !important;
+  border: 2px solid #E5E5E5;
+  border-radius: 10px;
 }
 .UserText{
   width: 100%;
@@ -377,4 +379,15 @@
 }
 .FormFontColor{
   color: #7C7C7C;
+}
+.UserIconArrow{
+  position: absolute;
+  right: -98%;
+  top: -15px;
+}
+.FormInputPaddingTop{
+  padding-top: 40%;
+}
+.SubmitButton{
+  padding-left: 60%;
 }
