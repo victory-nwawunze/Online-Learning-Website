@@ -405,3 +405,56 @@
 .AllSignUpInputContainers{
   position: relative;
 }
+.UserImageIcon{
+  position: absolute;
+  top: -39%;
+}
+.SignUpFormInputForEmail{
+  width: 200%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  border-bottom:2px solid #E5E5E5;
+}
+.PhoneBorder{
+  border: 2px solid #E5E5E5;
+  width: 46%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+.PhoneInput{
+   border: 2px solid #E5E5E5;
+  /* width: 46%; */
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+}
+.PassWordForInput{
+  width: 200%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  border-bottom:2px solid #E5E5E5;
+}
+.PasswordTextInput{
+  position: relative;
+}
+.InputLockImage{
+  position: absolute;
+  top: -39%;
+}
+.InputEyeLockImage{
+  position: absolute;
+  right: -102%;
+  top: -39%;
+}
+.warningText{
+  font-size: 7px;
+}
+.SignUpFormInputFontColor{
+  color: #637170;
+}
