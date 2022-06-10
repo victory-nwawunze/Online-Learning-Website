@@ -394,3 +394,14 @@
 .MoneyAfricaSignUpPage{
   background-color: #5FC8DE;
 }
+.SignUpFormInput{
+  width: 100%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  border-bottom:2px solid #E5E5E5;
+}
+.AllSignUpInputContainers{
+  position: relative;
+}
