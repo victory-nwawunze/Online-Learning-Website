@@ -458,3 +458,9 @@
 .SignUpFormInputFontColor{
   color: #637170;
 }
+.SignUpButton{
+  width: 80px;
+}
+.SignUpForm{
+  border-radius: 10px !important;
+}
