@@ -2,6 +2,9 @@
 
 import React from "react";
 import UserImage from "../../images/FrameUserIcon.png";
+import MailIcon from "../../images/mail.png";
+import PhoneIcon from "../../images/PhoneIcon.png";
+import QuestionMark from "../../images/questionMark.png";
 const MoneyAfricaTalkToAnExpert = () => {
   return (
     <React.Fragment>
@@ -21,20 +24,40 @@ const MoneyAfricaTalkToAnExpert = () => {
             <div className="row">
               <div className="col-md-6">
                 <div>
-                  <p className="text-font pb-3">Last Name</p>
+                  <p className="text-font FormFontColor">Last Name</p>
                   <div className="InputWithUserIcon">
-                    <input className="UserText" />
+                    <input className="UserText" name="name" />
                     <div className="UserIcon">
-                      <img src={UserImage} />
+                      <img src={UserImage} className="p-2" />
                     </div>
                   </div>
                 </div>
                 <div>
-                  <p className="text-font pb-3 pt-3">Last Name</p>
+                  <p className="text-font  pt-3 FormFontColor">Email Address</p>
                   <div className="InputWithUserIcon">
                     <input className="UserMail" />
                     <div className="UserIcon">
-                      <img src={UserImage} />
+                      <img src={MailIcon} className="p-2" />
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <p className="text-font  pt-3 FormFontColor">Phone number</p>
+                  <div className="InputWithUserIcon">
+                    <input className="UserMail" />
+                    <div className="UserIcon">
+                      <img src={PhoneIcon} className="p-2" />
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <p className="text-font  pt-3 FormFontColor">
+                    Reason for reaching out?
+                  </p>
+                  <div className="InputWithUserIcon">
+                    <input className="UserMail" />
+                    <div className="UserIcon">
+                      <img src={QuestionMark} className="p-2" />
                     </div>
                   </div>
                 </div>
