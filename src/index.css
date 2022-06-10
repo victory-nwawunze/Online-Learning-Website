@@ -347,3 +347,31 @@
   color: black;
   font-size: 24px;
 }
+.MoneyAfricaTalkToAnExpertForm{
+  margin: auto !important;
+  width: 50% !important;
+}
+.UserText{
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom:2px solid #E5E5E5;
+  outline: none;
+}
+.InputWithUserIcon{
+  position: relative;
+}
+.UserIcon{
+  position: absolute;
+  left: -18px;
+  top: -15px;
+}
+.UserMail{
+  width: 200%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom:2px solid #E5E5E5;
+  outline: none;
+}
