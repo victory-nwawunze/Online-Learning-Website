@@ -2,6 +2,7 @@
 
 import React from "react";
 import MoneyAfricaLogo from "../../images/Group 8162.png";
+import CompleteSignUpButton from "../../images/Group 8163.png";
 const MoneyAfricaSignUpVerification = () => {
   return (
     <React.Fragment>
@@ -36,6 +37,21 @@ const MoneyAfricaSignUpVerification = () => {
           </div>
           <div>
             <input className="box-1" placeholder="8" />
+          </div>
+        </div>
+        <div className="d-flex justify-content-between py-5">
+          <div>
+            <p className="text-font RecieveCodeText">
+              Didn’t receive code?
+              <span className=" hover">
+                <a href="#" className="ResendTextColor">
+                  Resend
+                </a>
+              </span>
+            </p>
+          </div>
+          <div>
+            <img src={CompleteSignUpButton} className="CompleteSignUpButton" />
           </div>
         </div>
       </div>
