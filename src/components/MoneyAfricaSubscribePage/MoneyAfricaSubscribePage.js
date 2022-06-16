@@ -2,6 +2,7 @@
 
 import React from "react";
 import MoneyAfricaLogo from "../../images/Group 8162.png";
+import MoneyAfricaSubscribePagePrice from "../../images/Group 8164.png";
 const MoneyAfricaSubscribePage = () => {
   return (
     <React.Fragment>
