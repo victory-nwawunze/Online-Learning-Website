@@ -21,7 +21,8 @@ import MoneyAfricaRetirementPortfolioPage from "./components/MoneyAfricaRetireme
 import MoneyAfricaTalkToAnExpert from "./components/MoneyAfricaTalkToAnExpert/MoneyAfricaTalkToAnExpert";
 import MoneyAfricaSignUpPage from "./components/MoneyAfricaSignUpPage/MoneyAfricaSignUpPage";
 import MoneyAfricaSignUpVerification from "./components/MoneyAfricaSignUpVerification/MoneyAfricaSignUpVerification";
-import MoneyAfricaSubscribePage from "./components/MoneyAfricaSubscribePage/MoneyAfricaSubscribePage";
+import ResetsPasswordEmails from "./components/ResetsPasswordEmails/ResetsPasswordEmails";
+// import MoneyAfricaSubscribePage from "./components/MoneyAfricaSubscribePage/MoneyAfricaSubscribePage";
 const App = () => {
   return (
     <React.Fragment>
@@ -81,9 +82,13 @@ const App = () => {
           element={<MoneyAfricaSignUpVerification />}
         />
         <Route
+          path={"moneyAfrica/ResetsPasswordEmails"}
+          element={<ResetsPasswordEmails />}
+        />
+        {/* <Route
           path={"moneyAfrica/MoneyAfricaSubscribePage"}
           element={<MoneyAfricaSubscribePage />}
-        />
+        /> */}
         <Route path="*" element={<NotFoundSorry />} />
       </Routes>
       <Footer />

@@ -498,3 +498,18 @@
   height: 200%;
   border: 1px solid black;
 } */
+.TextColorsResetsPasswordEmails{
+  color: #637170;
+}
+.TextColorsResetsPasswordEmailsPaddingRight{
+  padding-left: 20%;
+}
+.TextColorsResetsPasswordEmailsMarginRight{
+  margin-left: 20%;
+  width: 50%;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: #E5E5E5 solid 2px;
+}
