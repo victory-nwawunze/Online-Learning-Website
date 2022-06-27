@@ -506,10 +506,23 @@
 }
 .TextColorsResetsPasswordEmailsMarginRight{
   margin-left: 20%;
-  width: 50%;
+  width: 60%;
   outline: none;
   border-top: none;
   border-left: none;
   border-right: none;
   border-bottom: #E5E5E5 solid 2px;
+}
+.TextColorsResetsButtons{
+  width: 189px;
+  height: 21px;
+}
+.RememberPasswordText{
+  padding-left: 20%;
+}
+.RememberPasswordTextButton{
+  padding-right: 20%;
+}
+.LoginTextColor{
+  color: #30656F;
 }
