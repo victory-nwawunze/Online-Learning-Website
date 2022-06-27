@@ -28,6 +28,27 @@ const MoneyAfricaResetPassword = () => {
         </div>
         <input className="TextColorsResetsPasswordEmailsMarginRight" />
       </div>
+      <div className="MoneyAfricaRestEmailForm p-3">
+        <h5 className="text-font pt-3 h6 NewPasswordTextPadding">
+          Confirm Password
+        </h5>
+        <div className="d-flex justify-content-between aligns-item-center pt-3">
+          <div className="RememberPasswordText">
+            <img src={Lock} />
+          </div>
+          <div className="RememberPasswordTextButton">
+            <img src={LockEye} />
+          </div>
+        </div>
+        <input className="TextColorsResetsPasswordEmailsMarginRight" />
+      </div>
+      <div className="ResetPasswordButton ResetPasswordButtonMargin pt-3">
+        <input
+          type="text"
+          value="Reset Password"
+          className="text-white bg-danger p-2 ResetPasswordButtonRadius"
+        />
+      </div>
     </React.Fragment>
   );
 };
