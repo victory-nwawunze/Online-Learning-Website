@@ -534,3 +534,11 @@ border: 1px solid red;
 .NewPasswordTextPadding{
   padding-left: 20%;
 }
+.ResetPasswordButtonMargin{
+  margin-left: 65%;
+}
+.ResetPasswordButtonRadius{
+  border-radius: 10px;
+  border: 1px solid red;
+  cursor: pointer;
+}
