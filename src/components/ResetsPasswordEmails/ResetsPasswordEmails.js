@@ -31,10 +31,16 @@ const ResetsPasswordEmails = () => {
       <div className="MoneyAfricaButton p-4">
         <div className="d-flex justify-content-between  align-items-center">
           <div className="RememberPasswordText text-font ">
-            Remember Password
+            Remember Password?
             <span className="fw-bold LoginTextColor">Log-in</span>
           </div>
-          <div className="RememberPasswordTextButton">2</div>
+          <div className="RememberPasswordTextButton">
+            <input
+              type="button"
+              value="Send reset link"
+              className="p-2 bg-danger text-white ResetButtonWidth text-font"
+            />
+          </div>
         </div>
       </div>
     </React.Fragment>

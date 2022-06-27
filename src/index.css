@@ -526,3 +526,8 @@
 .LoginTextColor{
   color: #30656F;
 }
+.ResetButtonWidth{
+width: 100%;
+border-radius: 5px;
+border: 1px solid red;
+}
