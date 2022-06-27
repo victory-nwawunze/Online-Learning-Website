@@ -22,6 +22,7 @@ import MoneyAfricaTalkToAnExpert from "./components/MoneyAfricaTalkToAnExpert/Mo
 import MoneyAfricaSignUpPage from "./components/MoneyAfricaSignUpPage/MoneyAfricaSignUpPage";
 import MoneyAfricaSignUpVerification from "./components/MoneyAfricaSignUpVerification/MoneyAfricaSignUpVerification";
 import ResetsPasswordEmails from "./components/ResetsPasswordEmails/ResetsPasswordEmails";
+import MoneyAfricaResetPassword from "./components/MoneyAfricaResetPassword/MoneyAfricaResetPassword";
 // import MoneyAfricaSubscribePage from "./components/MoneyAfricaSubscribePage/MoneyAfricaSubscribePage";
 const App = () => {
   return (
@@ -84,6 +85,10 @@ const App = () => {
         <Route
           path={"moneyAfrica/ResetsPasswordEmails"}
           element={<ResetsPasswordEmails />}
+        />
+        <Route
+          path={"moneyAfrica/MoneyAfricaResetPassword"}
+          element={<MoneyAfricaResetPassword />}
         />
         {/* <Route
           path={"moneyAfrica/MoneyAfricaSubscribePage"}
