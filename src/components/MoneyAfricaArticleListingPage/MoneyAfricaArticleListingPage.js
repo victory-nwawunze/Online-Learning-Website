@@ -5,6 +5,7 @@ import MoneyAfricaGreenLogo from "../../images/MoneyAfricaLogoGreen 1.png";
 import PyramidIcon from "../../images/ThreeTierPyramid 1.png";
 import ClockIcon from "../../images/ClockIcon.png";
 import PaperFile from "../../images/TablerIconFileInvoice 1.png";
+import EyeIcon from "../../images/EyeIcon.png";
 const MoneyAfricaArticleListingPage = () => {
   return (
     <React.Fragment>
@@ -59,6 +60,14 @@ const MoneyAfricaArticleListingPage = () => {
                 <div className="TextPositioning">
                   <p className="p-2">Intermediate</p>
                 </div>
+              </div>
+            </div>
+            <div className="pt-2 d-flex">
+              <div>
+                <img src={EyeIcon} />
+              </div>
+              <div>
+                <p className="text-white text-font p-1">2,456</p>
               </div>
             </div>
           </div>
