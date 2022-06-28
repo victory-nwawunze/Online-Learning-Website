@@ -24,6 +24,7 @@ import MoneyAfricaSignUpVerification from "./components/MoneyAfricaSignUpVerific
 import ResetsPasswordEmails from "./components/ResetsPasswordEmails/ResetsPasswordEmails";
 import MoneyAfricaResetPassword from "./components/MoneyAfricaResetPassword/MoneyAfricaResetPassword";
 import MoneyAfricaSubscribePage from "./components/MoneyAfricaSubscribePage/MoneyAfricaSubscribePage";
+import MoneyAfricaArticleListingPage from "./components/MoneyAfricaArticleListingPage/MoneyAfricaArticleListingPage";
 const App = () => {
   return (
     <React.Fragment>
@@ -89,6 +90,10 @@ const App = () => {
         <Route
           path={"moneyAfrica/MoneyAfricaResetPassword"}
           element={<MoneyAfricaResetPassword />}
+        />
+        <Route
+          path={"moneyAfrica/MoneyAfricaArticleListingPage"}
+          element={<MoneyAfricaArticleListingPage />}
         />
         <Route
           path={"moneyAfrica/MoneyAfricaSubscribePage"}
