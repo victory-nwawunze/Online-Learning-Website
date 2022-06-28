@@ -542,3 +542,15 @@ border: 1px solid red;
   border: 1px solid red;
   cursor: pointer;
 }
+.des-1{
+  background-color: #f3f4f5;
+}
+.DescriptionillusterationBorderRadius{
+  border-radius: 5px;
+}
+.ReconmendedBackgroundColorText{
+  background-color: #E3EEE7;
+}
+.ReconmendedBackgroundColorContent{
+  background-color: #1DAD96;
+}
