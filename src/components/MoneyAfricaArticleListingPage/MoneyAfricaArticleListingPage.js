@@ -4,6 +4,7 @@ import React from "react";
 import MoneyAfricaGreenLogo from "../../images/MoneyAfricaLogoGreen 1.png";
 import PyramidIcon from "../../images/ThreeTierPyramid 1.png";
 import ClockIcon from "../../images/ClockIcon.png";
+import PaperFile from "../../images/TablerIconFileInvoice 1.png";
 const MoneyAfricaArticleListingPage = () => {
   return (
     <React.Fragment>
@@ -48,11 +49,17 @@ const MoneyAfricaArticleListingPage = () => {
               </div>
               <div className="IconAndTextPositioning">
                 <img src={ClockIcon} />
-                <div className="TextPositioning">
-                  <p>9 Min</p>
+                <div className="TextPositioning d-flex">
+                  <div>9 </div>
+                  <div>Min</div>
                 </div>
               </div>
-              <div>3</div>
+              <div className="IconAndTextPositioning pr-4">
+                <img src={PaperFile} />
+                <div className="TextPositioning">
+                  <p className="p-2">Intermediate</p>
+                </div>
+              </div>
             </div>
           </div>
           <div>2</div>
