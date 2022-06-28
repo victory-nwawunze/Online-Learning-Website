@@ -2,6 +2,8 @@
 
 import React from "react";
 import MoneyAfricaGreenLogo from "../../images/MoneyAfricaLogoGreen 1.png";
+import PyramidIcon from "../../images/ThreeTierPyramid 1.png";
+import ClockIcon from "../../images/ClockIcon.png";
 const MoneyAfricaArticleListingPage = () => {
   return (
     <React.Fragment>
@@ -37,6 +39,21 @@ const MoneyAfricaArticleListingPage = () => {
               Get started on learning how to make your
               <br /> money work for you.
             </p>
+            <div className="d-flex justify-content-between">
+              <div className="IconAndTextPositioning">
+                <img src={PyramidIcon} />
+                <div className="TextPositioning">
+                  <p>Intermediate</p>
+                </div>
+              </div>
+              <div className="IconAndTextPositioning">
+                <img src={ClockIcon} />
+                <div className="TextPositioning">
+                  <p>9 Min</p>
+                </div>
+              </div>
+              <div>3</div>
+            </div>
           </div>
           <div>2</div>
           <div>3</div>
