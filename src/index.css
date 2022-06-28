@@ -555,5 +555,22 @@ border: 1px solid red;
   background-color: #1DAD96;
 }
 .VideoBackgroundColor{
-  background-color: #30656F;
+  background-color: #928DDA;
+}
+.IconAndTextPositioning{
+  position: relative;
+}
+.TextPositioning{
+  position: absolute;
+  top: 20%;
+  left: 150%;
+  color: white;
+  font-size: 15px;
+}
+.TextPositionings{
+  position: absolute;
+  top: 20%;
+  left: 150%;
+  color: white;
+  font-size: 15px;
 }
