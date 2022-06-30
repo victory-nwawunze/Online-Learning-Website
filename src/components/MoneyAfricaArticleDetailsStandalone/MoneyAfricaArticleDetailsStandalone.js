@@ -5,6 +5,7 @@ import IntermidiateIcon from "../../images/Group 8171.png";
 import StarIcon from "../../images/Group 8172.png";
 import BannerImage from "../../images/Group 8173.png";
 import StandAloneBannerImage from "../../images/Group 8174.png";
+import StandAloneImageEye from "../../images/Group 8175.png";
 const MoneyAfricaArticleDetailsStandalone = () => {
   return (
     <React.Fragment>
@@ -134,6 +135,19 @@ const MoneyAfricaArticleDetailsStandalone = () => {
                   flexible option. Let’s take a look at some of the most popular
                   options.
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="NewletterEye p-3">
+        <div className="container-fluid">
+          <div className="grid">
+            <div className="row">
+              <div className="col-md-12">
+                <div className="NewLetterEyeImage mt-5">
+                  <img src={StandAloneImageEye} className="img-fluid" />
+                </div>
               </div>
             </div>
           </div>
