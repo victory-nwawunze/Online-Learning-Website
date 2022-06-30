@@ -4,6 +4,7 @@ import React from "react";
 import IntermidiateIcon from "../../images/Group 8171.png";
 import StarIcon from "../../images/Group 8172.png";
 import BannerImage from "../../images/Group 8173.png";
+import StandAloneBannerImage from "../../images/Group 8174.png";
 const MoneyAfricaArticleDetailsStandalone = () => {
   return (
     <React.Fragment>
@@ -100,6 +101,38 @@ const MoneyAfricaArticleDetailsStandalone = () => {
                   a reasonable choice. But be careful. While this is safe to do
                   on Binance, you should not trust your funds to any custodial
                   wallet or exchange.
+                </p>
+                <div className="MoneyAfricaStandAloneImageTwo p-3 text-center">
+                  <img src={StandAloneBannerImage} className="img-fluid " />
+                </div>
+                <p className="text-font mb-5">
+                  2. Non-custodial - You own your private keys. It’s the safest
+                  option for most traders and investors, as long as they take
+                  good care of their keys and seed phrases. The wallets we’ll
+                  cover later are all non-custodial options that allow you to
+                  interact with DApps.
+                </p>
+                <p className="text-font mb-5">
+                  3. Hot wallets - These crypto wallets are connected to the
+                  internet and are typically non-custodial (unless you’re using
+                  a centralized exchange). Hot wallets are convenient for making
+                  transactions but come with some security risks. Your private
+                  key is held online with your public key and is usually
+                  accessible with a user-set password. Like any
+                  password-protected service, you could be hacked or phished. To
+                  mitigate the risks, you should also use two-factor
+                  authentication (2FA) methods.
+                </p>
+                <p className="text-font">
+                  4. Cold wallet - You store your private key offline on
+                  specialized hardware. This option is the most secure way to
+                  hold your BSC tokens, but it’s often the most impractical
+                  method for making transactions and interacting with DApps. You
+                  can easily use a combination of the above to combine their
+                  strengths. However, for day-to-day transactions and DeFi
+                  applications, a non-custodial hot wallet is a robust and
+                  flexible option. Let’s take a look at some of the most popular
+                  options.
                 </p>
               </div>
             </div>
