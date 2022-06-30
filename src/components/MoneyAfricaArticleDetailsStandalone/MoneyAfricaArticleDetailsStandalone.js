@@ -1,7 +1,9 @@
 /** @format */
 
 import React from "react";
-
+import IntermidiateIcon from "../../images/Group 8171.png";
+import StarIcon from "../../images/Group 8172.png";
+import BannerImage from "../../images/Group 8173.png";
 const MoneyAfricaArticleDetailsStandalone = () => {
   return (
     <React.Fragment>
@@ -28,10 +30,22 @@ const MoneyAfricaArticleDetailsStandalone = () => {
         <p className="text-font SmallTextFont text-center">
           Updated Aug 9, 2021
         </p>
-        <div className="d-flex">
-          <div className="text-center">1</div>
-          <div>2</div>
-          <div>3</div>
+        <div className="PlaceImageCenter text-center">
+          <img src={IntermidiateIcon} />
+        </div>
+        <div className="PlaceImagesCenter text-center mt-2">
+          <img src={StarIcon} />
+        </div>
+      </div>
+      <div className="DescriptionImageBanner p-3">
+        <div className="container">
+          <div className="grid">
+            <div className="row">
+              <div className="col-md-12">
+                <img src={BannerImage} className="img-fluid" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </React.Fragment>
