@@ -26,6 +26,7 @@ import MoneyAfricaResetPassword from "./components/MoneyAfricaResetPassword/Mone
 import MoneyAfricaSubscribePage from "./components/MoneyAfricaSubscribePage/MoneyAfricaSubscribePage";
 import MoneyAfricaArticleListingPage from "./components/MoneyAfricaArticleListingPage/MoneyAfricaArticleListingPage";
 import MoneyAfricaArticleDetailsStandalone from "./components/MoneyAfricaArticleDetailsStandalone/MoneyAfricaArticleDetailsStandalone";
+import MoneyAfricaArticleCourse from "./components/MoneyAfricaArticleCourse/MoneyAfricaArticleCourse";
 const App = () => {
   return (
     <React.Fragment>
@@ -103,6 +104,10 @@ const App = () => {
         <Route
           path={"moneyAfrica/MoneyAfricaArticleDetailsStandalone"}
           element={<MoneyAfricaArticleDetailsStandalone />}
+        />
+        <Route
+          path={"moneyAfrica/MoneyAfricaArticleCourse"}
+          element={<MoneyAfricaArticleCourse />}
         />
         <Route path="*" element={<NotFoundSorry />} />
       </Routes>
