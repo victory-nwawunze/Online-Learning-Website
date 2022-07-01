@@ -6,6 +6,11 @@ import StarIcon from "../../images/Group 8172.png";
 import BannerImage from "../../images/Group 8173.png";
 import StandAloneBannerImage from "../../images/Group 8174.png";
 import StandAloneImageEye from "../../images/Group 8175.png";
+import StockMoneyImage from "../../images/StockMoneyImage.png";
+import ReadingTime from "../../images/ReadingTime.png";
+import TextAndIcon from "../../images/TextAndIcons.png";
+import EyeWithNumber from "../../images/Group 7124.png";
+import ThreeDotMenu from "../../images/ThreeDotsMenu.png";
 const MoneyAfricaArticleDetailsStandalone = () => {
   return (
     <React.Fragment>
@@ -150,6 +155,46 @@ const MoneyAfricaArticleDetailsStandalone = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="NewLetterText p-3">
+        <p className="text-font h3 fw-bold text-center">What to read next</p>
+      </div>
+      <div className="NewsLetterCards p-3">
+        <div className="container">
+          <div className="d-flex justify-content-between">
+            <div>
+              <div className="card">
+                <div className="card-body">
+                  <img src={StockMoneyImage} className="imgWidth" />
+                </div>
+                <div className="card-body">
+                  <img src={ReadingTime} />
+                  <p className="text-font fw-bold h4 pt-3">
+                    Stock market crashes
+                  </p>
+                  <p className="text-font">
+                    We have a sneaking suspicion you already
+                    <br /> know what investing is, but just in case, let’s
+                    <br /> define investing terms.{" "}
+                  </p>
+                  <div className="d-flex justify-content-between">
+                    <div>
+                      <img src={TextAndIcon} />
+                    </div>
+                    <div>
+                      <img src={EyeWithNumber} />
+                    </div>
+                    <div>
+                      <img src={ThreeDotMenu} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>2</div>
+            <div>3</div>
           </div>
         </div>
       </div>
