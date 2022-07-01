@@ -262,7 +262,7 @@ const MoneyAfricaArticleDetailsStandalone = () => {
           <div className="grid">
             <div className="row">
               <div className="col-md-12">
-                <div className="containerForm shadow-sm  mt-3 p-4">
+                <div className="containerForm BoxShadow  mt-3 p-4">
                   <p className="text-font h3 fw-bold text-center pt-3">
                     Sign up for the newsletter
                   </p>
