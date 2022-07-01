@@ -13,6 +13,7 @@ import ReadingTime from "../../images/ReadingTime.png";
 import TextAndIcon from "../../images/TextAndIcons.png";
 import EyeWithNumber from "../../images/Group 7124.png";
 import ThreeDotMenu from "../../images/ThreeDotsMenu.png";
+import MailIcon from "../../images/Group 8176.png";
 const MoneyAfricaArticleDetailsStandalone = () => {
   return (
     <React.Fragment>
@@ -249,6 +250,34 @@ const MoneyAfricaArticleDetailsStandalone = () => {
                     <div>
                       <img src={ThreeDotMenu} />
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="NewsLetterForm p-3">
+        <div className="container">
+          <div className="grid">
+            <div className="row">
+              <div className="col-md-12">
+                <div className="containerForm shadow-sm  mt-3">
+                  <p className="text-font h3 fw-bold text-center pt-3">
+                    Sign up for the newsletter
+                  </p>
+                  <p className="text-font text-center SmallTextFont">
+                    If you want relevant updates occasionally, sign up for the
+                    private
+                    <br /> newsletter. Your email is never shared.{" "}
+                  </p>
+                  <div className="PaddingForFormText">
+                    <p className="text-font ">
+                      Email
+                      <br /> Address
+                      <br />
+                      <img src={MailIcon} />
+                    </p>
                   </div>
                 </div>
               </div>
