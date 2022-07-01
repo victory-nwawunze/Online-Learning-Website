@@ -584,3 +584,11 @@ border: 1px solid red;
 .PaddingForFormText{
   padding-left: 30%;
 }
+.InputFieldForNewLetter{
+  width: 50%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  border-bottom: 2px solid #E5E5E5;
+}
