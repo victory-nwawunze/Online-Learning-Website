@@ -7,6 +7,7 @@ import BannerImage from "../../images/Group 8173.png";
 import StandAloneBannerImage from "../../images/Group 8174.png";
 import StandAloneImageEye from "../../images/Group 8175.png";
 import StockMoneyImage from "../../images/StockMoneyImage.png";
+import FreeIcon from "../../images/Group 7103.png";
 import StockMoneyImageOne from "../../images/Group 7454.png";
 import ReadingTime from "../../images/ReadingTime.png";
 import TextAndIcon from "../../images/TextAndIcons.png";
@@ -200,7 +201,7 @@ const MoneyAfricaArticleDetailsStandalone = () => {
                   <img src={StockMoneyImageOne} className="imgWidth" />
                 </div>
                 <div className="card-body">
-                  <img src={ReadingTime} />
+                  <img src={FreeIcon} />
                   <p className="text-font fw-bold h4 pt-3">
                     Stock market crashes
                   </p>
@@ -229,7 +230,7 @@ const MoneyAfricaArticleDetailsStandalone = () => {
                   <img src={StockMoneyImage} className="imgWidth" />
                 </div>
                 <div className="card-body">
-                  <img src={ReadingTime} />
+                  <img src={FreeIcon} />
                   <p className="text-font fw-bold h4 pt-3">
                     Stock market crashes
                   </p>
