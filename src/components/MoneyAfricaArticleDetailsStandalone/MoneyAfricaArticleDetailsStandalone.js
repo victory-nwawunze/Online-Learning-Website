@@ -14,23 +14,19 @@ import TextAndIcon from "../../images/TextAndIcons.png";
 import EyeWithNumber from "../../images/Group 7124.png";
 import ThreeDotMenu from "../../images/ThreeDotsMenu.png";
 import MailIcon from "../../images/Group 8176.png";
+import ButtonsWithTextImage from "../../images/Group 8178.png";
+import SocialMediaIcons from "../../images/Group 8177.png";
+import StandAloneNavigation from "../../images/Group 8179.png";
 const MoneyAfricaArticleDetailsStandalone = () => {
   return (
     <React.Fragment>
-      <div className="MoneyAfricaArticleStandAlone p-5 ">
+      <div className="MoneyAfricaStandAloneSelection p-3">
         <div className="container">
-          <div className="grid">
-            <div className="row">
-              <div className="col-md-12">
-                <div className="d-flex">
-                  <div>1</div>
-                  <div>2</div>
-                  <div>3</div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <img src={StandAloneNavigation} className="img-fluid" />
         </div>
+      </div>
+      <div className="MoneyAfricaArticleStandAlone  text-center">
+        <img src={ButtonsWithTextImage} />
       </div>
       <div className="moneyAfricaDescriptionText p-5">
         <p className="text-font h2 text-center">
@@ -63,13 +59,16 @@ const MoneyAfricaArticleDetailsStandalone = () => {
           <div className="grid">
             <div className="row">
               <div className="col-md-3">
-                <p className="text-font MoneyAfricaDescriptionTextStandAloneColor">
+                <p className="text-font MoneyAfricaDescriptionTextStandAloneColor mt-5">
                   The Best Crypto Wallets for Binance
                   <br /> Smart Chain (BSC)
                   <br />
                   <span className="LoginTextColor">Introduction</span>
                   <br /> What type of crypto wallet should I<br /> use?
                 </p>
+                <div className="SocialMediaIcons mt-5">
+                  <img src={SocialMediaIcons} />
+                </div>
               </div>
               <div className="col-md-6">
                 <p className="text-font fw-bold">Introduction</p>
@@ -279,6 +278,11 @@ const MoneyAfricaArticleDetailsStandalone = () => {
                       <img src={MailIcon} />
                       <br />
                       <input className="InputFieldForNewLetter" />
+                      <span>
+                        <button className="btn btn-danger round text-font text-white">
+                          Sign Up
+                        </button>
+                      </span>
                     </p>
                   </div>
                 </div>
