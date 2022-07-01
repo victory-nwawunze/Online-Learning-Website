@@ -4,12 +4,7 @@ import React from "react";
 import StandAloneBannerImage from "../../images/Group 8174.png";
 import StandAloneImageEye from "../../images/Group 8175.png";
 import StockMoneyImage from "../../images/StockMoneyImage.png";
-// import FreeIcon from "../../images/Group 7103.png";
-// import StockMoneyImageOne from "../../images/Group 7454.png";
-// import ReadingTime from "../../images/ReadingTime.png";
-// import TextAndIcon from "../../images/TextAndIcons.png";
-// import EyeWithNumber from "../../images/Group 7124.png";
-// import ThreeDotMenu from "../../images/ThreeDotsMenu.png";
+
 import MailIcon from "../../images/Group 8176.png";
 
 import SocialMediaIcons from "../../images/Group 8177.png";
@@ -35,6 +30,7 @@ const MoneyAfricaArticleDetailsStandalone = () => {
                   <img src={SocialMediaIcons} />
                 </div>
               </div>
+
               <div className="col-md-6">
                 <p className="text-font fw-bold">Introduction</p>
                 <p className="text-font">
