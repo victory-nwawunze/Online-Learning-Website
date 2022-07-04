@@ -51,23 +51,75 @@ const MoneyAfricaMoreVideoListingPage = () => {
                 </div>
               </div>
               <div className="d-flex">
-                <div className="m-1">Consencus</div>
-                <div className="m-1">Cryptography</div>
-                <div className="m-1">Essentials</div>
-                <div className="m-1">Tutorial</div>
-                <div className="m-1">Use Cases</div>
-                <div className="m-1">Technical analysis</div>
+                <div className="SectionsButton m-1">
+                  <p className="m-1 SectionButtonTextSize text-font pt-1 px-2">
+                    Consencus
+                  </p>
+                </div>
+                <div className="SectionsButton m-1">
+                  <p className="m-1 SectionButtonTextSize text-font pt-1 px-2">
+                    Cryptography
+                  </p>
+                </div>
+                <div className="SectionsButton m-1">
+                  <p className="m-1 SectionButtonTextSize text-font pt-1 px-2">
+                    Essentials
+                  </p>
+                </div>
+                <div className="SectionsButton m-1">
+                  <p className="m-1 SectionButtonTextSize text-font pt-1 px-2">
+                    Tutorial
+                  </p>
+                </div>
+                <div className="SectionsButton m-1">
+                  <p className="m-1 SectionButtonTextSize text-font pt-1 px-2">
+                    Use Cases
+                  </p>
+                </div>
+                <div className="SectionsButton m-1">
+                  <p className="m-1 SectionButtonTextSize text-font pt-1 px-2">
+                    Technical analysis
+                  </p>
+                </div>
               </div>
               <div className="d-flex">
-                <div className="m-1">Trading</div>
-                <div className="m-1">Mining</div>
-                <div className="m-1">Privacy</div>
-                <div className="m-1">Economics</div>
-                <div className="m-1">Security</div>
-                <div className="m-1">Cryptocurrency</div>
+                <div className="SectionsButton m-1">
+                  <p className="m-1 SectionButtonTextSize text-font pt-1 px-2">
+                    Trading
+                  </p>
+                </div>
+                <div className="SectionsButton m-1">
+                  <p className="m-1 SectionButtonTextSize text-font pt-1 px-2">
+                    Mining
+                  </p>
+                </div>
+                <div className="SectionsButton m-1">
+                  <p className="m-1 SectionButtonTextSize text-font pt-1 px-2">
+                    Privacy
+                  </p>
+                </div>
+                <div className="SectionsButton m-1">
+                  <p className="m-1 SectionButtonTextSize text-font pt-1 px-2">
+                    Economics
+                  </p>
+                </div>
+                <div className="SectionsButton m-1">
+                  <p className="m-1 SectionButtonTextSize text-font pt-1 px-2">
+                    Security
+                  </p>
+                </div>
+                <div className="SectionsButton m-1">
+                  <p className="m-1 SectionButtonTextSize text-font pt-1 px-2">
+                    Cryptocurrency
+                  </p>
+                </div>
               </div>
               <div className="d-flex">
-                <div className="m-1">See all</div>
+                <div className="SectionsButton m-1">
+                  <p className="m-1 SectionButtonTextSize text-font pt-1 px-2">
+                    See all
+                  </p>
+                </div>
               </div>
             </div>
           </div>
