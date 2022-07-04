@@ -718,3 +718,14 @@ border: 1px solid red;
 .MargrinShadowWidth{
   width: 170%;
 }
+.SectionsButton{
+  background-color: #E5E5E5;
+  border-radius: 10px;
+}
+.SectionButtonTextSize{
+  font-size: 12px;
+}
+.SectionsButtonColorOne{
+  background-color: #ABEAD3;
+  border-radius: 10px;
+}
