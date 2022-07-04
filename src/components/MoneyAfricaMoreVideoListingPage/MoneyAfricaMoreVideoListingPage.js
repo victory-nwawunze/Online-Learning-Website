@@ -4,6 +4,7 @@ import React from "react";
 import UncheckIcon from "../../images/UnCheckedIcon.png";
 import ThirdTierPyramid from "../../images/ThreeTierPyramid 1.png";
 import CheckedIcon from "../../images/Checked.png";
+import ArrowDownIcon from "../../images/arrowDown.png";
 const MoneyAfricaMoreVideoListingPage = () => {
   return (
     <React.Fragment>
@@ -196,7 +197,19 @@ const MoneyAfricaMoreVideoListingPage = () => {
               </div>
             </div>
           </div>
-          <div>2</div>
+          <div>
+            <div className="d-flex">
+              <div>
+                <p className="text-font my-4 SortByTextFontSize fw-bold">
+                  <span className="SortByTextFontWithColor">Sort by</span>{" "}
+                  Latest videos
+                </p>
+              </div>
+              <div className="my-4 m-2">
+                <img src={ArrowDownIcon} />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </React.Fragment>

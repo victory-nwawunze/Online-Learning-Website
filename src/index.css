@@ -745,3 +745,9 @@ color: #111111;
 line-height: 36px;
 font-size: 24px;
 }
+.SortByTextFontSize{
+  font-size: 18px;
+}
+.SortByTextFontWithColor{
+  color: #7C7C7C;
+}
