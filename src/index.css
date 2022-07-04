@@ -614,3 +614,7 @@ border: 1px solid red;
 .videoListingTextPaddingLeft{
   padding-left: 10px;
 }
+.SortVideoListFontSizeTextAndColor{
+  font-size: 14px;
+  font-weight: bold;
+}

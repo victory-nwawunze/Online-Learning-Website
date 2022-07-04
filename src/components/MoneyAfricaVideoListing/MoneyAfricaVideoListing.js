@@ -19,16 +19,21 @@ const MoneyAfricaVideoListing = () => {
       </div>
       <div className="MoneyAfricaVideoListingArticleListing p-3">
         <div className="container">
-          <div className="d-flex justify-content-between">
+          <div className="d-flex justify-content-between  align-items-center">
             <div className="d-flex ">
               <p className="text-font fw-bold  h4 videoListingTextColor">
                 Articles (14)
               </p>
-              <span className="m-1 text-font  h4 fw-bold videoListingTextPaddingLeft">
+              <span className="m-1 text-font   fw-bold videoListingTextPaddingLeft">
                 Videos (14)
               </span>
             </div>
-            <div>2</div>
+            <div>
+              <p className="text-font SortVideoListFontSizeTextAndColor">
+                <span className="videoListingTextColor"> Sort by</span> Latest
+                videos
+              </p>
+            </div>
           </div>
         </div>
       </div>
