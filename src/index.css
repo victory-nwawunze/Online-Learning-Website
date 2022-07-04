@@ -629,6 +629,18 @@ border: 1px solid red;
   background-size: cover;
   background-position: center;
 }
+.cardImagesWithBitcoinImageAndText{
+  background-image: url("./images/BitcoinImage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.cardImagesWithMobileMarketChart{
+  background-image: url("./images/MobileMarketChart.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .VideoDescriptionCardOne{
   font-size: 12px;
 }

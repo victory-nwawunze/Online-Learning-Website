@@ -7,6 +7,7 @@ import TextWithButton from "../../images/Group 8178.png";
 import ThreeDotsImage from "../../images/ThreeDotsMenu.png";
 import PlayIcon from "../../images/PlayIcon.png";
 import WhiteLock from "../../images/WhiteLock.png";
+import Tags from "../../images/Tags.png";
 const MoneyAfricaVideoListing = () => {
   return (
     <React.Fragment>
@@ -84,8 +85,86 @@ const MoneyAfricaVideoListing = () => {
                 </div>
               </div>
             </div>
-            <div>2</div>
-            <div>3</div>
+            <div>
+              <div className="cards">
+                <div className="cardImagesWithBitcoinImageAndText p-3">
+                  <div className="text-center p-4 ">
+                    <img src={PlayIcon} />
+                  </div>
+                  <div className="d-flex align-items-center">
+                    <div>
+                      <img src={WhiteLock} />
+                    </div>
+                    <div>
+                      <p className="text-white text-font VideoDescriptionCardOne mt-4">
+                        Free
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="ContainerCard">
+                  <p className="text-font h4 fw-bold mt-4">
+                    An Overview of Bitcoin's Price
+                    <br /> History
+                  </p>
+                  <p>
+                    <img src={StarsIcon} />
+                    <span className="text-font UpdatedTextDate">
+                      Updated Aug 9, 2021
+                    </span>
+                  </p>
+                  <img src={IconsAndText} />
+                  <div className="d-flex justify-content-between mt-5">
+                    <div>
+                      <img src={Tags} />
+                    </div>
+                    <div>
+                      <img src={ThreeDotsImage} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="cards">
+                <div className="cardImagesWithMobileMarketChart p-3">
+                  <div className="text-center p-4 ">
+                    <img src={PlayIcon} />
+                  </div>
+                  <div className="d-flex align-items-center">
+                    <div>
+                      <img src={WhiteLock} />
+                    </div>
+                    <div>
+                      <p className="text-white text-font VideoDescriptionCardOne mt-4">
+                        Free
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="ContainerCard">
+                  <p className="text-font h4 fw-bold mt-4">
+                    An Overview of Bitcoin's Price
+                    <br /> History
+                  </p>
+                  <p>
+                    <img src={StarsIcon} />
+                    <span className="text-font UpdatedTextDate">
+                      Updated Aug 9, 2021
+                    </span>
+                  </p>
+                  <img src={IconsAndText} />
+                  <div className="d-flex justify-content-between mt-5">
+                    <div>
+                      <img src={Tags} />
+                    </div>
+                    <div>
+                      <img src={ThreeDotsImage} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
