@@ -5,6 +5,7 @@ import UncheckIcon from "../../images/UnCheckedIcon.png";
 import ThirdTierPyramid from "../../images/ThreeTierPyramid 1.png";
 import CheckedIcon from "../../images/Checked.png";
 import ArrowDownIcon from "../../images/arrowDown.png";
+import MoneyAfricaVideoCards from "../MoneyAfricaVideoCards/MoneyAfricaVideoCards";
 const MoneyAfricaMoreVideoListingPage = () => {
   return (
     <React.Fragment>
@@ -212,6 +213,7 @@ const MoneyAfricaMoreVideoListingPage = () => {
           </div>
         </div>
       </div>
+      <MoneyAfricaVideoCards />
     </React.Fragment>
   );
 };
