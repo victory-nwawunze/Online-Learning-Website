@@ -641,6 +641,30 @@ border: 1px solid red;
   background-size: cover;
   background-position: center;
 }
+.cardImagesWithHouseImage{
+  background-image: url("./images/CardBackgroundImageBuilding.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.cardImagesWithTowerImage{
+  background-image: url("./images/CardImageWithTower.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.cardImagesWithMaterials{
+  background-image: url("./images/CardImageWithMaterials.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.cardImagesWithOcean{
+  background-image: url("./images/CardImageWithOcean.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .VideoDescriptionCardOne{
   font-size: 12px;
 }

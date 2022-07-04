@@ -168,6 +168,381 @@ const MoneyAfricaVideoListing = () => {
           </div>
         </div>
       </div>
+      <div className="MoneyAfricaVideoListingCards p-3">
+        <div className="container">
+          <div className="d-flex justify-content-between">
+            <div>
+              <div className="cards">
+                <div className="cardImagesWithHouseImage cardImagesBorderRadius p-3">
+                  <div className="text-center p-4 ">
+                    <img src={PlayIcon} />
+                  </div>
+                  <div className="d-flex align-items-center">
+                    <div>
+                      <img src={WhiteLock} />
+                    </div>
+                    <div>
+                      <p className="text-white text-font VideoDescriptionCardOne mt-3">
+                        Available for premium users only
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="ContainerCard">
+                  <p className="text-font h4 fw-bold mt-4">
+                    How to trade in crypto
+                  </p>
+                  <p>
+                    <img src={StarsIcon} />
+                    <span className="text-font UpdatedTextDate">
+                      Updated Aug 9, 2021
+                    </span>
+                  </p>
+                  <img src={IconsAndText} />
+                  <div className="d-flex justify-content-between mt-5">
+                    <div>
+                      <img src={TextWithButton} />
+                    </div>
+                    <div>
+                      <img src={ThreeDotsImage} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="cards">
+                <div className="cardImagesWithTowerImage cardImagesBorderRadius p-3">
+                  <div className="text-center p-4 ">
+                    <img src={PlayIcon} />
+                  </div>
+                  <div className="d-flex align-items-center">
+                    <div>
+                      <img src={WhiteLock} />
+                    </div>
+                    <div>
+                      <p className="text-white text-font VideoDescriptionCardOne mt-4">
+                        Free
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="ContainerCard">
+                  <p className="text-font h4 fw-bold mt-4">
+                    An Overview of Bitcoin's Price
+                    <br /> History
+                  </p>
+                  <p>
+                    <img src={StarsIcon} />
+                    <span className="text-font UpdatedTextDate">
+                      Updated Aug 9, 2021
+                    </span>
+                  </p>
+                  <img src={IconsAndText} />
+                  <div className="d-flex justify-content-between mt-5">
+                    <div>
+                      <img src={Tags} />
+                    </div>
+                    <div>
+                      <img src={ThreeDotsImage} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="cards">
+                <div className="cardImagesWithMaterials cardImagesBorderRadius p-3">
+                  <div className="text-center p-4 ">
+                    <img src={PlayIcon} />
+                  </div>
+                  <div className="d-flex align-items-center">
+                    <div>
+                      <img src={WhiteLock} />
+                    </div>
+                    <div>
+                      <p className="text-white text-font VideoDescriptionCardOne mt-4">
+                        Free
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="ContainerCard">
+                  <p className="text-font h4 fw-bold mt-4">
+                    An Overview of Bitcoin's Price
+                    <br /> History
+                  </p>
+                  <p>
+                    <img src={StarsIcon} />
+                    <span className="text-font UpdatedTextDate">
+                      Updated Aug 9, 2021
+                    </span>
+                  </p>
+                  <img src={IconsAndText} />
+                  <div className="d-flex justify-content-between mt-5">
+                    <div>
+                      <img src={Tags} />
+                    </div>
+                    <div>
+                      <img src={ThreeDotsImage} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="MoneyAfricaVideoListingCards p-3">
+        <div className="container">
+          <div className="d-flex justify-content-between">
+            <div>
+              <div className="cards">
+                <div className="cardImagesWithOcean cardImagesBorderRadius p-3">
+                  <div className="text-center p-4 ">
+                    <img src={PlayIcon} />
+                  </div>
+                  <div className="d-flex align-items-center">
+                    <div>
+                      <img src={WhiteLock} />
+                    </div>
+                    <div>
+                      <p className="text-white text-font VideoDescriptionCardOne mt-3">
+                        Available for premium users only
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="ContainerCard">
+                  <p className="text-font h4 fw-bold mt-4">
+                    How to trade in crypto
+                  </p>
+                  <p>
+                    <img src={StarsIcon} />
+                    <span className="text-font UpdatedTextDate">
+                      Updated Aug 9, 2021
+                    </span>
+                  </p>
+                  <img src={IconsAndText} />
+                  <div className="d-flex justify-content-between mt-5">
+                    <div>
+                      <img src={TextWithButton} />
+                    </div>
+                    <div>
+                      <img src={ThreeDotsImage} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="cards">
+                <div className="cardImagesWithBitcoinImageAndText cardImagesBorderRadius p-3">
+                  <div className="text-center p-4 ">
+                    <img src={PlayIcon} />
+                  </div>
+                  <div className="d-flex align-items-center">
+                    <div>
+                      <img src={WhiteLock} />
+                    </div>
+                    <div>
+                      <p className="text-white text-font VideoDescriptionCardOne mt-4">
+                        Free
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="ContainerCard">
+                  <p className="text-font h4 fw-bold mt-4">
+                    An Overview of Bitcoin's Price
+                    <br /> History
+                  </p>
+                  <p>
+                    <img src={StarsIcon} />
+                    <span className="text-font UpdatedTextDate">
+                      Updated Aug 9, 2021
+                    </span>
+                  </p>
+                  <img src={IconsAndText} />
+                  <div className="d-flex justify-content-between mt-5">
+                    <div>
+                      <img src={Tags} />
+                    </div>
+                    <div>
+                      <img src={ThreeDotsImage} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="cards">
+                <div className="cardImagesWithMobileMarketChart cardImagesBorderRadius p-3">
+                  <div className="text-center p-4 ">
+                    <img src={PlayIcon} />
+                  </div>
+                  <div className="d-flex align-items-center">
+                    <div>
+                      <img src={WhiteLock} />
+                    </div>
+                    <div>
+                      <p className="text-white text-font VideoDescriptionCardOne mt-4">
+                        Free
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="ContainerCard">
+                  <p className="text-font h4 fw-bold mt-4">
+                    An Overview of Bitcoin's Price
+                    <br /> History
+                  </p>
+                  <p>
+                    <img src={StarsIcon} />
+                    <span className="text-font UpdatedTextDate">
+                      Updated Aug 9, 2021
+                    </span>
+                  </p>
+                  <img src={IconsAndText} />
+                  <div className="d-flex justify-content-between mt-5">
+                    <div>
+                      <img src={Tags} />
+                    </div>
+                    <div>
+                      <img src={ThreeDotsImage} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="MoneyAfricaVideoListingCards p-3">
+        <div className="container">
+          <div className="d-flex justify-content-between">
+            <div>
+              <div className="cards">
+                <div className="cardImagesWithText cardImagesBorderRadius p-3">
+                  <div className="text-center p-4 ">
+                    <img src={PlayIcon} />
+                  </div>
+                  <div className="d-flex align-items-center">
+                    <div>
+                      <img src={WhiteLock} />
+                    </div>
+                    <div>
+                      <p className="text-white text-font VideoDescriptionCardOne mt-3">
+                        Available for premium users only
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="ContainerCard">
+                  <p className="text-font h4 fw-bold mt-4">
+                    How to trade in crypto
+                  </p>
+                  <p>
+                    <img src={StarsIcon} />
+                    <span className="text-font UpdatedTextDate">
+                      Updated Aug 9, 2021
+                    </span>
+                  </p>
+                  <img src={IconsAndText} />
+                  <div className="d-flex justify-content-between mt-5">
+                    <div>
+                      <img src={TextWithButton} />
+                    </div>
+                    <div>
+                      <img src={ThreeDotsImage} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="cards">
+                <div className="cardImagesWithBitcoinImageAndText cardImagesBorderRadius p-3">
+                  <div className="text-center p-4 ">
+                    <img src={PlayIcon} />
+                  </div>
+                  <div className="d-flex align-items-center">
+                    <div>
+                      <img src={WhiteLock} />
+                    </div>
+                    <div>
+                      <p className="text-white text-font VideoDescriptionCardOne mt-4">
+                        Free
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="ContainerCard">
+                  <p className="text-font h4 fw-bold mt-4">
+                    An Overview of Bitcoin's Price
+                    <br /> History
+                  </p>
+                  <p>
+                    <img src={StarsIcon} />
+                    <span className="text-font UpdatedTextDate">
+                      Updated Aug 9, 2021
+                    </span>
+                  </p>
+                  <img src={IconsAndText} />
+                  <div className="d-flex justify-content-between mt-5">
+                    <div>
+                      <img src={Tags} />
+                    </div>
+                    <div>
+                      <img src={ThreeDotsImage} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="cards">
+                <div className="cardImagesWithMobileMarketChart cardImagesBorderRadius p-3">
+                  <div className="text-center p-4 ">
+                    <img src={PlayIcon} />
+                  </div>
+                  <div className="d-flex align-items-center">
+                    <div>
+                      <img src={WhiteLock} />
+                    </div>
+                    <div>
+                      <p className="text-white text-font VideoDescriptionCardOne mt-4">
+                        Free
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="ContainerCard">
+                  <p className="text-font h4 fw-bold mt-4">
+                    An Overview of Bitcoin's Price
+                    <br /> History
+                  </p>
+                  <p>
+                    <img src={StarsIcon} />
+                    <span className="text-font UpdatedTextDate">
+                      Updated Aug 9, 2021
+                    </span>
+                  </p>
+                  <img src={IconsAndText} />
+                  <div className="d-flex justify-content-between mt-5">
+                    <div>
+                      <img src={Tags} />
+                    </div>
+                    <div>
+                      <img src={ThreeDotsImage} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </React.Fragment>
   );
 };
