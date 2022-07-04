@@ -180,14 +180,27 @@ const MoneyAfricaMoreVideoListingPage = () => {
           </div>
         </div>
       </div>
-      {/* <div className="container">
-          <div className="grid">
-            <div className="row">
-              <div className="col-md-6">1</div>
-              <div className="col-md-6">2</div>
+      <div className="container">
+        <div className="grid">
+          <div className="row">
+            <div className="col-md-6">
+              <div className="d-flex">
+                <div>
+                  <p className="ArticleTextColorAndWeight text-font my-4 fw-bold">
+                    Articles (14)
+                  </p>
+                </div>
+                <div>
+                  <p className="my-4 VideoTextColorAndWeight text-font mx-4 fw-bold">
+                    Videos (14)
+                  </p>
+                </div>
+              </div>
             </div>
+            <div className="col-md-6">2</div>
           </div>
-        </div> */}
+        </div>
+      </div>
     </React.Fragment>
   );
 };

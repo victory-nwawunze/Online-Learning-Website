@@ -733,3 +733,15 @@ border: 1px solid red;
   font-size: 14px;
   margin-top: 5px;
 }
+.ArticleTextColorAndWeight{
+font-weight: 500;
+color: #B3AFAF;
+line-height: 36px;
+font-size: 24px;
+}
+.VideoTextColorAndWeight{
+  font-weight: 500;
+color: #111111;
+line-height: 36px;
+font-size: 24px;
+}
