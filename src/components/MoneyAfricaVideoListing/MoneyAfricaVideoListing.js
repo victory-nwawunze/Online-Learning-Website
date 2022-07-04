@@ -1,7 +1,10 @@
 /** @format */
 
 import React from "react";
-
+import StarsIcon from "../../images/Group 8172.png";
+import IconsAndText from "../../images/IconsAndText.png";
+import TextWithButton from "../../images/Group 8178.png";
+import ThreeDotsImage from "../../images/ThreeDotsMenu.png";
 const MoneyAfricaVideoListing = () => {
   return (
     <React.Fragment>
@@ -34,6 +37,37 @@ const MoneyAfricaVideoListing = () => {
                 videos
               </p>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="MoneyAfricaVideoListingCards p-3">
+        <div className="container">
+          <div className="d-flex justify-content-between">
+            <div>
+              <div className="cards">
+                {/* Card */}
+                <div className="ContainerCard">
+                  <p className="text-font h4 fw-bold">How to trade in crypto</p>
+                  <p>
+                    <img src={StarsIcon} />
+                    <span className="text-font UpdatedTextDate">
+                      Updated Aug 9, 2021
+                    </span>
+                  </p>
+                  <img src={IconsAndText} />
+                  <div className="d-flex justify-content-between mt-5">
+                    <div>
+                      <img src={TextWithButton} />
+                    </div>
+                    <div>
+                      <img src={ThreeDotsImage} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>2</div>
+            <div>3</div>
           </div>
         </div>
       </div>
