@@ -6,7 +6,7 @@ import StandAloneImageEye from "../../images/Group 8175.png";
 import StockMoneyImage from "../../images/StockMoneyImage.png";
 
 import MailIcon from "../../images/Group 8176.png";
-
+import RiverBannerImage from "../../images/Group 8173.png";
 import SocialMediaIcons from "../../images/Group 8177.png";
 import MoneyAfricaCourses from "../../components/MoneyAfricaCourse/MoneyAfricaCourses";
 import MoneyAfricaStandAloneBannerText from "../MoneyAfricaStandAloneBannerText/MoneyAfricaStandAloneBannerText";
@@ -18,6 +18,7 @@ const MoneyAfricaArticleDetailsStandalone = () => {
         <div className="container">
           <div className="grid">
             <div className="row">
+              <img src={RiverBannerImage} className="img-fluid mb-3" />
               <div className="col-md-3">
                 <p className="text-font MoneyAfricaDescriptionTextStandAloneColor mt-5">
                   The Best Crypto Wallets for Binance
@@ -30,7 +31,6 @@ const MoneyAfricaArticleDetailsStandalone = () => {
                   <img src={SocialMediaIcons} />
                 </div>
               </div>
-
               <div className="col-md-6">
                 <p className="text-font fw-bold">Introduction</p>
                 <p className="text-font">
