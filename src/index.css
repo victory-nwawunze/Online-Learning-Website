@@ -623,3 +623,15 @@ border: 1px solid red;
     font-size: 12px;
     margin-left: 13px;
 }
+.cardImagesWithText{
+  background-image: url("./images/CardOneImage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.VideoDescriptionCardOne{
+  font-size: 12px;
+}
+.LocWhite{
+  padding-right: 10px;
+}
