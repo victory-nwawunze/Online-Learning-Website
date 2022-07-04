@@ -5,6 +5,8 @@ import StarsIcon from "../../images/Group 8172.png";
 import IconsAndText from "../../images/IconsAndText.png";
 import TextWithButton from "../../images/Group 8178.png";
 import ThreeDotsImage from "../../images/ThreeDotsMenu.png";
+import PlayIcon from "../../images/PlayIcon.png";
+import WhiteLock from "../../images/WhiteLock.png";
 const MoneyAfricaVideoListing = () => {
   return (
     <React.Fragment>
@@ -45,9 +47,25 @@ const MoneyAfricaVideoListing = () => {
           <div className="d-flex justify-content-between">
             <div>
               <div className="cards">
-                {/* Card */}
+                <div className="cardImagesWithText p-3">
+                  <div className="text-center p-4 ">
+                    <img src={PlayIcon} />
+                  </div>
+                  <div className="d-flex align-items-center">
+                    <div>
+                      <img src={WhiteLock} />
+                    </div>
+                    <div>
+                      <p className="text-white text-font VideoDescriptionCardOne mt-3">
+                        Available for premium users only
+                      </p>
+                    </div>
+                  </div>
+                </div>
                 <div className="ContainerCard">
-                  <p className="text-font h4 fw-bold">How to trade in crypto</p>
+                  <p className="text-font h4 fw-bold mt-4">
+                    How to trade in crypto
+                  </p>
                   <p>
                     <img src={StarsIcon} />
                     <span className="text-font UpdatedTextDate">
