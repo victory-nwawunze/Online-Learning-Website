@@ -729,3 +729,7 @@ border: 1px solid red;
   background-color: #ABEAD3;
   border-radius: 10px;
 }
+.BeginnerTextFontSize{
+  font-size: 14px;
+  margin-top: 5px;
+}
