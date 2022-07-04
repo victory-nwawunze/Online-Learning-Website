@@ -19,12 +19,36 @@ const MoneyAfricaMoreVideoListingPage = () => {
             <div className="container">
               <p className="text-font mt-4">Filter by Topics</p>
               <div className="d-flex">
-                <div className="m-1">MoneyAfrica</div>
-                <div className="m-1">BlockChain</div>
-                <div className="m-1">Etherium</div>
-                <div className="m-1">Tech</div>
-                <div className="m-1">History</div>
-                <div className="m-1">Wallet</div>
+                <div className="SectionsButton m-1">
+                  <p className="m-1 SectionButtonTextSize text-font pt-1 px-2">
+                    MoneyAfrica
+                  </p>
+                </div>
+                <div className="SectionsButtonColorOne m-1">
+                  <p className="m-1 SectionButtonTextSize text-font pt-1 px-2">
+                    BlockChain
+                  </p>
+                </div>
+                <div className="SectionsButtonColorOne m-1">
+                  <p className="m-1 SectionButtonTextSize text-font pt-1 px-2">
+                    Etherium
+                  </p>
+                </div>
+                <div className="SectionsButton m-1">
+                  <p className="m-1 SectionButtonTextSize text-font pt-1 px-2">
+                    Tech
+                  </p>
+                </div>
+                <div className="SectionsButton m-1">
+                  <p className="m-1 SectionButtonTextSize text-font pt-1 px-2">
+                    History
+                  </p>
+                </div>
+                <div className="SectionsButton m-1">
+                  <p className="m-1 SectionButtonTextSize text-font pt-1 px-2">
+                    Wallet
+                  </p>
+                </div>
               </div>
               <div className="d-flex">
                 <div className="m-1">Consencus</div>
