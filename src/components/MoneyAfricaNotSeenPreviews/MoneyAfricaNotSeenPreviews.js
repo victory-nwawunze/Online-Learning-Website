@@ -5,6 +5,8 @@ import NavigationMenuImage from "../../images/NavigationMenuCrumb.png";
 import OneParticularVideo from "../../images/VideoDescription.png";
 import StarIcon from "../../images/Group 8172.png";
 import Tags from "../../images/Tags.png";
+import ThreeTierBar from "../../images/ThreeTierPyramid 1.png";
+import BlackClockIcon from "../../images/BlackClockIcon.png";
 const MoneyAfricaNotSeenPreviews = () => {
   return (
     <React.Fragment>
@@ -19,7 +21,7 @@ const MoneyAfricaNotSeenPreviews = () => {
                 <img src={OneParticularVideo} />
               </div>
               <div className="col-md-6 my-4">
-                <div>
+                <div className="my-3">
                   <img src={Tags} />
                 </div>
                 <p className="text-font fw-bold h3 mt-3">
@@ -30,8 +32,32 @@ const MoneyAfricaNotSeenPreviews = () => {
                   <img src={StarIcon} />
                 </div>
                 <div className="d-flex">
-                  <div>1</div>
-                  <div>1</div>
+                  <div>
+                    <div className="d-flex">
+                      <div>
+                        <img src={ThreeTierBar} />
+                      </div>
+                      <div>
+                        <p className="text-font IntermediateTextFontSize m-1">
+                          Intermediate
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div>
+                      <div className="d-flex">
+                        <div>
+                          <img src={BlackClockIcon} />
+                        </div>
+                        <div>
+                          <p className="text-font IntermediateTextFontSize m-1">
+                            45 mins
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
