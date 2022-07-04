@@ -602,3 +602,15 @@ border: 1px solid red;
 .BackgroundImageBanner{
   background-image: url("./images/BannerImage.png");
 }
+.moneyAfricaVideoList{
+  background-image: url('./images/RiverBackgroundImage.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.videoListingTextColor{
+  color: #B3AFAF;
+}
+.videoListingTextPaddingLeft{
+  padding-left: 10px;
+}
