@@ -79,6 +79,34 @@ const MoneyAfricaNotSeenPreviews = () => {
           </div>
         </div>
       </div>
+      <div className="CommentSection p-3">
+        <div className="container-fluid">
+          <div className="grid">
+            <div className="row">
+              <div className="col-md-8">
+                <p className="fw-bold text-font h3 mt-5">About this course</p>
+                <p className="text-font">
+                  In this class, Documentary Photographer and Photojournalist,
+                  KC Nwakalor breaks down the various
+                  <br /> compositional techniques you can apply in order to have
+                  a better outcome in your photographs.
+                </p>
+                <p className="text-font mt-5">
+                  Composition refers to the placement and relationship of
+                  elements within a picture. The arrangement of <br />
+                  elements in a scene, the angle they are shot at, the height we
+                  shoot from, and the distance the photo is
+                  <br /> taken from, can completely change the final outcome of
+                  the photograph. The composition can
+                  <br /> ultimately determine the difference between a good and
+                  a bad...Show more.
+                </p>
+              </div>
+              <div className="col-md-4">2</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </React.Fragment>
   );
 };
