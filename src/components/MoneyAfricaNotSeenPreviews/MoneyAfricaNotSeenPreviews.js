@@ -7,6 +7,7 @@ import StarIcon from "../../images/Group 8172.png";
 import Tags from "../../images/Tags.png";
 import ThreeTierBar from "../../images/ThreeTierPyramid 1.png";
 import BlackClockIcon from "../../images/BlackClockIcon.png";
+import LockIcon from "../../images/Lock.png";
 const MoneyAfricaNotSeenPreviews = () => {
   return (
     <React.Fragment>
@@ -101,6 +102,38 @@ const MoneyAfricaNotSeenPreviews = () => {
                   <br /> ultimately determine the difference between a good and
                   a bad...Show more.
                 </p>
+                <div className="d-flex justify-content-between mt-5">
+                  <div>
+                    <p className="fw-bold text-font h3">Course content</p>
+                  </div>
+                  <div>
+                    <p className="text-font TimingFontSize">1hr 45 mins</p>
+                  </div>
+                </div>
+                <div className="d-flex justify-content-between">
+                  <div>
+                    <div className="d-flex">
+                      <div>
+                        <img src={LockIcon} />
+                      </div>
+                      <div>
+                        <p className="text-font m-1">
+                          What is a Tax Free Savings Account (TFSA)
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="d-flex">
+                      <div>
+                        <img src={BlackClockIcon} />
+                      </div>
+                      <div>
+                        <p className="text-font m-1">15 mins</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div className="col-md-4">2</div>
             </div>
