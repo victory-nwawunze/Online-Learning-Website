@@ -64,6 +64,21 @@ const MoneyAfricaNotSeenPreviews = () => {
           </div>
         </div>
       </div>
+      <div className="stickerBackgroundColor p-3">
+        <div className="container-fluid">
+          <div className="d-flex">
+            <div className="text-font m-3">
+              <p className="text-white">About this course</p>
+            </div>
+            <div className="text-font m-3">
+              <p className="text-white">Course content</p>
+            </div>
+            <div className="text-font m-3">
+              <p className="text-white">Ratings</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </React.Fragment>
   );
 };

@@ -757,3 +757,7 @@ font-size: 24px;
 .IntermediateTextFontSize{
   font-size: 16px;
 }
+
+.stickerBackgroundColor{
+  background-color: #30656F;
+}
