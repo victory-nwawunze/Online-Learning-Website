@@ -8,6 +8,8 @@ import ThreeDotsImage from "../../images/ThreeDotsMenu.png";
 import PlayIcon from "../../images/PlayIcon.png";
 import WhiteLock from "../../images/WhiteLock.png";
 import Tags from "../../images/Tags.png";
+import SmallLeftIconImage from "../../images/SmallLeftIcon.png";
+import SmallRedRightIcon from "../../images/RedRightIcon.png";
 const MoneyAfricaVideoListing = () => {
   return (
     <React.Fragment>
@@ -539,6 +541,34 @@ const MoneyAfricaVideoListing = () => {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="centerDiv p-3">
+        <div className="MargrinShadowWidth shadow-sm">
+          <div className="d-flex">
+            <div className="text-font p-3">
+              <p className="d-flex">
+                <span>
+                  <img src={SmallLeftIconImage} />
+                </span>
+                Prev
+              </p>
+            </div>
+            <div className="ActiveButton text-font p-3 text-center">1</div>
+            <div className="text-font p-3">2</div>
+            <div className="text-font p-3">3</div>
+            <div className="text-font p-3">4</div>
+            <div className="text-font p-3">5</div>
+            <div className="text-font p-3">6</div>
+            <div className="text-font  p-3 text-danger">
+              <p className="d-flex">
+                Next
+                <span>
+                  <img src={SmallRedRightIcon} />
+                </span>
+              </p>
             </div>
           </div>
         </div>

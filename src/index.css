@@ -699,3 +699,22 @@ border: 1px solid red;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
+.CenterMargin{
+  margin: auto;
+  
+}
+.centerDiv {
+  margin: auto;
+  width: 20%;
+}
+.ActiveButton{
+  background-color: rgb(121, 18, 18);
+  border-radius: 50px;
+  color: white;
+  width: 41%;
+  height: 14%;
+  cursor: pointer;
+}
+.MargrinShadowWidth{
+  width: 170%;
+}
