@@ -665,6 +665,30 @@ border: 1px solid red;
   background-size: cover;
   background-position: center;
 }
+.cardImagesWithHands{
+  background-image: url("./images/CardImageWithHands.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.cardImagesWithForest{
+  background-image: url("./images/CardBackgroundImageForest.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.cardImagesWithWedingEvent{
+  background-image: url("./images/CradImageWithWeedingEvent.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.cardImagesWithLeafImage{
+  background-image: url("./images/CardImageWithLeaf.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .VideoDescriptionCardOne{
   font-size: 12px;
 }

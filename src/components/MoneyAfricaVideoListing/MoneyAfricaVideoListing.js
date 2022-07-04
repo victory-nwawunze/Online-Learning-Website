@@ -337,7 +337,7 @@ const MoneyAfricaVideoListing = () => {
             </div>
             <div>
               <div className="cards">
-                <div className="cardImagesWithBitcoinImageAndText cardImagesBorderRadius p-3">
+                <div className="cardImagesWithHouseImage cardImagesBorderRadius p-3">
                   <div className="text-center p-4 ">
                     <img src={PlayIcon} />
                   </div>
@@ -377,7 +377,7 @@ const MoneyAfricaVideoListing = () => {
             </div>
             <div>
               <div className="cards">
-                <div className="cardImagesWithMobileMarketChart cardImagesBorderRadius p-3">
+                <div className="cardImagesWithHands cardImagesBorderRadius p-3">
                   <div className="text-center p-4 ">
                     <img src={PlayIcon} />
                   </div>
@@ -423,7 +423,7 @@ const MoneyAfricaVideoListing = () => {
           <div className="d-flex justify-content-between">
             <div>
               <div className="cards">
-                <div className="cardImagesWithText cardImagesBorderRadius p-3">
+                <div className="cardImagesWithForest cardImagesBorderRadius p-3">
                   <div className="text-center p-4 ">
                     <img src={PlayIcon} />
                   </div>
@@ -462,7 +462,7 @@ const MoneyAfricaVideoListing = () => {
             </div>
             <div>
               <div className="cards">
-                <div className="cardImagesWithBitcoinImageAndText cardImagesBorderRadius p-3">
+                <div className="cardImagesWithWedingEvent cardImagesBorderRadius p-3">
                   <div className="text-center p-4 ">
                     <img src={PlayIcon} />
                   </div>
@@ -502,7 +502,7 @@ const MoneyAfricaVideoListing = () => {
             </div>
             <div>
               <div className="cards">
-                <div className="cardImagesWithMobileMarketChart cardImagesBorderRadius p-3">
+                <div className="cardImagesWithLeafImage cardImagesBorderRadius p-3">
                   <div className="text-center p-4 ">
                     <img src={PlayIcon} />
                   </div>
