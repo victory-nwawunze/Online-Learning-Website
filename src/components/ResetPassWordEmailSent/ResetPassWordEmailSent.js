@@ -16,6 +16,12 @@ const ResetPassWordEmailSent = () => {
           Please provide the email address you used when you
           <br /> signed up for your MoneyAfrica account.
         </p>
+        <div className="backgroundColorSentEmailMessageColor">
+          <p className="text-center text-font EmailSentMessage pt-3">
+            An email with password reset instructions has been
+            <br /> sent to your email address.
+          </p>
+        </div>
       </div>
     </React.Fragment>
   );
