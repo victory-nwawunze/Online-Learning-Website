@@ -130,6 +130,9 @@ const SubscribeNowOrLater = () => {
             </div>
           </div>
         </div>
+        <p className="text-center text-font mt-3 IWillDoThisLaterFontColor hover">
+          I’ll do this later
+        </p>
       </div>
     </React.Fragment>
   );
