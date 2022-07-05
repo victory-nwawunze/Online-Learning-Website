@@ -865,3 +865,7 @@ padding-top: 10px;
   border: 1px solid #E5E5E5;
   border-radius: 8px;
 }
+.ForgetPasswordTextSize{
+  font-size: 32px;
+  font-weight: 500;
+}
