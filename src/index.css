@@ -881,3 +881,27 @@ position: relative;
 left: 32%;
 border-radius: 8px;
 }
+.CenteredInputFiedDiv{
+  margin: auto;
+  width: 50%;
+}
+.EmailAdressTypographFontSizeAndColor{
+  font-size: 14px;
+  color: #7C7C7C;
+}
+.RestPasswordInputField{
+  width: 100%;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #E5E5E5;
+}
+.RememberPasswordLinkText{
+  font-size: 14px;
+  color: #637170;
+}
+.LoginTextColor{
+  color: #30656F;
+  font-weight: bold;
+}
