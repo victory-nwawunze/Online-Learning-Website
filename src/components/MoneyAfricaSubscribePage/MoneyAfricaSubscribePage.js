@@ -26,7 +26,30 @@ const MoneyAfricaSubscribePage = () => {
           <div className="container">
             <div className="d-flex justify-content-between">
               <div>
-                <div className="SelectCardOneBackgroundColor p-3">1</div>
+                <div className="SelectCardOneBackgroundColor p-2">
+                  <img src={MoneyAfricaSubscribePagePrice} className="px-2" />
+                  <div className="container">
+                    <div className="d-flex">
+                      <div className="mt-3">
+                        <img src={MarkedCircle} />
+                      </div>
+                      <div className="mt-3 mx-2">
+                        <p className="text-font">Autorenews every 3 months.</p>
+                      </div>
+                    </div>
+                    <div className="d-flex">
+                      <div className="mt-4">
+                        <img src={MarkedCircle} />
+                      </div>
+                      <div className="mt-3 mx-2">
+                        <p className="text-font">
+                          Access to everything - video &<br /> article courses.
+                        </p>
+                      </div>
+                    </div>
+                    <input type="button" value="Subscribe to this plan" />
+                  </div>
+                </div>
               </div>
               <div>1</div>
               <div>1</div>
