@@ -727,7 +727,3 @@ export default MoneyAfricaMoreVideoListingPage;
  -->
 
 <!--
-<div className="d-flex justify-content-center">
-
-          </div>
- -->
