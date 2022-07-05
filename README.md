@@ -728,18 +728,6 @@ export default MoneyAfricaMoreVideoListingPage;
 
 <!--
 <div className="d-flex justify-content-center">
-            <div>
-              <div className="CardBoder mx-3 p-4">
-                <div className="text-center">
-                  <img src={DescritptionWalletImage} />
-                </div>
-                <p className="text-font fw-bold text-center h4">Auto-renew</p>
-                <p className="text-font text-center FontSizeTypography">
-                  Subscription charges would be deducted
-                  <br /> from your account every month.
-                </p>
-              </div>
-            </div>
-            <div>2</div>
+
           </div>
  -->
