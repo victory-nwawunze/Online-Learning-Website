@@ -8,6 +8,11 @@ import Tags from "../../images/Tags.png";
 import ThreeTierBar from "../../images/ThreeTierPyramid 1.png";
 import BlackClockIcon from "../../images/BlackClockIcon.png";
 import LockIcon from "../../images/Lock.png";
+import NameAvatarOne from "../../images/NameAvatarOne.png";
+import NameAvatarTwo from "../../images/NameAvatarTwo.png";
+import NameAvatarThree from "../../images/NameAvatarThree.png";
+import NameAvatarFour from "../../images/NameAvatarFour.png";
+import PlusIcon from "../../images/PlusIcon.png";
 const MoneyAfricaNotSeenPreviews = () => {
   return (
     <React.Fragment>
@@ -110,7 +115,7 @@ const MoneyAfricaNotSeenPreviews = () => {
                     <p className="text-font TimingFontSize">1hr 45 mins</p>
                   </div>
                 </div>
-                <div className="d-flex justify-content-between">
+                <div className="d-flex justify-content-between my-3">
                   <div>
                     <div className="d-flex">
                       <div>
@@ -134,9 +139,219 @@ const MoneyAfricaNotSeenPreviews = () => {
                     </div>
                   </div>
                 </div>
+                <div className="d-flex justify-content-between my-3">
+                  <div>
+                    <div className="d-flex">
+                      <div>
+                        <img src={LockIcon} />
+                      </div>
+                      <div>
+                        <p className="text-font m-1">
+                          What is an RRSP & How Does It Work?
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="d-flex">
+                      <div>
+                        <img src={BlackClockIcon} />
+                      </div>
+                      <div>
+                        <p className="text-font m-1">15 mins</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="d-flex justify-content-between my-3">
+                  <div>
+                    <div className="d-flex">
+                      <div>
+                        <img src={LockIcon} />
+                      </div>
+                      <div>
+                        <p className="text-font m-1">
+                          Chequing vs Savings Account
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="d-flex">
+                      <div>
+                        <img src={BlackClockIcon} />
+                      </div>
+                      <div>
+                        <p className="text-font m-1">15 mins</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="d-flex justify-content-between my-3">
+                  <div>
+                    <div className="d-flex">
+                      <div>
+                        <img src={LockIcon} />
+                      </div>
+                      <div>
+                        <p className="text-font m-1">
+                          What's an RESP (Registered Education Savings Plan) &
+                          How it Works
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="d-flex">
+                      <div>
+                        <img src={BlackClockIcon} />
+                      </div>
+                      <div>
+                        <p className="text-font m-1">15 mins</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="d-flex justify-content-between my-3">
+                  <div>
+                    <div className="d-flex">
+                      <div>
+                        <img src={LockIcon} />
+                      </div>
+                      <div>
+                        <p className="text-font m-1">
+                          What is a Corporate Account?
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="d-flex">
+                      <div>
+                        <img src={BlackClockIcon} />
+                      </div>
+                      <div>
+                        <p className="text-font m-1">15 mins</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="d-flex justify-content-between my-3">
+                  <div>
+                    <div className="d-flex">
+                      <div>
+                        <img src={LockIcon} />
+                      </div>
+                      <div>
+                        <p className="text-font m-1">What's a LIRA?</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="d-flex">
+                      <div>
+                        <img src={BlackClockIcon} />
+                      </div>
+                      <div>
+                        <p className="text-font m-1">15 mins</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div className="col-md-4">2</div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="RatingSection p-3">
+        <p className="h3 fw-bold text-font mx-3 mt-4">Ratings</p>
+        <div className="d-flex mx-3 align-items-center">
+          <div className="mb-5">
+            <img src={NameAvatarOne} />
+          </div>
+          <div>
+            <div className="AvatarNameOne  mx-2 mt-3 ">
+              Moronke Aniolabola
+              <span className="AvatarNameOne mx-2 ">Aug 24, 2021</span>
+              <br />
+              <img src={StarIcon} />
+              <br />
+              <p className="text-dark text-font">
+                So far so good, first day of use was impressive, but the plastic
+                bucket is too light weight can break
+                <br /> easily if handled by children. But overall.... Good but
+                time will tell.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="d-flex mx-3 align-items-center">
+          <div className="mb-5">
+            <img src={NameAvatarTwo} />
+          </div>
+          <div>
+            <div className="AvatarNameOne  mx-2 mt-3 ">
+              Moronke Aniolabola
+              <span className="AvatarNameOne mx-2 ">Aug 24, 2021</span>
+              <br />
+              <img src={StarIcon} />
+              <br />
+              <p className="text-dark text-font">
+                So far so good, first day of use was impressive, but the plastic
+                bucket is too light weight can break
+                <br /> easily if handled by children. But overall.... Good but
+                time will tell.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="d-flex mx-3 align-items-center">
+          <div className="mb-5">
+            <img src={NameAvatarThree} />
+          </div>
+          <div>
+            <div className="AvatarNameOne  mx-2 mt-3 ">
+              Moronke Aniolabola
+              <span className="AvatarNameOne mx-2 ">Aug 24, 2021</span>
+              <br />
+              <img src={StarIcon} />
+              <br />
+              <p className="text-dark text-font">
+                So far so good, first day of use was impressive, but the plastic
+                bucket is too light weight can break
+                <br /> easily if handled by children. But overall.... Good but
+                time will tell.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="d-flex mx-3 align-items-center">
+          <div className="mb-5">
+            <img src={NameAvatarFour} />
+          </div>
+          <div>
+            <div className="AvatarNameOne  mx-2 mt-3 ">
+              Moronke Aniolabola
+              <span className="AvatarNameOne mx-2 ">Aug 24, 2021</span>
+              <br />
+              <img src={StarIcon} />
+              <br />
+              <p className="text-dark text-font">
+                So far so good, first day of use was impressive, but the plastic
+                bucket is too light weight can break
+                <br /> easily if handled by children. But overall.... Good but
+                time will tell.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="d-flex mx-3 my-4">
+          <div>
+            <img src={PlusIcon} />
+          </div>
+          <div>
+            <p className="text-font mx-3 mt-1">Load more</p>
           </div>
         </div>
       </div>
