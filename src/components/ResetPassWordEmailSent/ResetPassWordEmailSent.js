@@ -31,14 +31,20 @@ const ResetPassWordEmailSent = () => {
             placeholder="hassan.musa@moneyafrica.ng"
             className="RestPasswordInputField text-font"
           />
-          <div className="d-flex justify-content-between">
+          <div className="d-flex justify-content-between  align-items-center">
             <div className="mt-4">
               <p className="text-font RememberPasswordLinkText">
                 Remember Password?{" "}
                 <span className="LoginTextColor">Log In</span>
               </p>
             </div>
-            <div className="mt-4">2</div>
+            <div className="mt-4">
+              <input
+                type="button"
+                value="Send resent link"
+                className="ResentLinkButton py-1 px-3 text-font"
+              />
+            </div>
           </div>
         </div>
       </div>
