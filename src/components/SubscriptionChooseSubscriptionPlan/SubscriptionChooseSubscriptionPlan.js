@@ -3,7 +3,8 @@
 import React from "react";
 import TimesIcon from "../../images/Times.png";
 import DescritptionWalletImage from "../../images/DescriptionWallet.png";
-import BriefCaseImage from "../../images/Group 8152.png";
+import SmallWalletDiscriptionImage from "../../images/SmallWalletDescription.png";
+import SmallCaseImage from "../../images/SmallCase.png";
 const SubscriptionChooseSubscriptionPlan = () => {
   return (
     <React.Fragment>
@@ -19,20 +20,44 @@ const SubscriptionChooseSubscriptionPlan = () => {
             Let us know how often you want the payment to be
             <br /> processed.
           </p>
-          <div className="d-flex justify-content-center">
-            <div>
-              <div className="CardBoder mx-3 p-4">
-                <div className="text-center">
-                  <img src={DescritptionWalletImage} />
+        </div>
+        <div className="SubscriptionCard">
+          <div className="container">
+            <div className="grid">
+              <div className="row">
+                <div className="col-md-6 ">
+                  <div className="CardBoder p-3">
+                    <div className="text-center">
+                      <img
+                        src={SmallWalletDiscriptionImage}
+                        className="imageWidthAndHeight img-fluid"
+                      />
+                    </div>
+                    <p className="text-font fw-bold text-center h4">
+                      Auto-renew
+                    </p>
+                    <p className="text-font text-center FontSizeTypography">
+                      Subscription charges would be deducted
+                      <br /> from your account every month.
+                    </p>
+                  </div>
                 </div>
-                <p className="text-font fw-bold text-center h4">Auto-renew</p>
-                <p className="text-font text-center FontSizeTypography">
-                  Subscription charges would be deducted
-                  <br /> from your account every month.
-                </p>
+                <div className="col-md-6">
+                  <div className="CardBoder p-3">
+                    <div className="text-center">
+                      <img src={SmallCaseImage} />
+                    </div>
+                    <p className="text-font fw-bold text-center h4">
+                      Auto-renew
+                    </p>
+                    <p className="text-font text-center FontSizeTypography">
+                      Subscription charges would be deducted
+                      <br /> from your account every month.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div>2</div>
           </div>
         </div>
       </div>
