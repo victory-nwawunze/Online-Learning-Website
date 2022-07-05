@@ -850,3 +850,18 @@ padding-top: 10px;
   border: none;
   color: white;
 }
+.HeaderSubscriptionChooseSubscriptionPlan{
+  position: relative;
+}
+.ChoosePositionTimesIcon{
+  position: absolute;
+  left: 80%;
+}
+.FontSizeTypography{
+  font-size: 16px;
+  color: #111111;
+}
+.CardBoder{
+  border: 1px solid #E5E5E5;
+  border-radius: 8px;
+}
