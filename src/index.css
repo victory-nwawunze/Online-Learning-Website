@@ -843,3 +843,9 @@ padding-top: 10px;
   background-color: #015351;
   border-radius: 8px;
 }
+.ReconmendedCardBackgroundColorButton{
+   background-color: #C03E21;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
