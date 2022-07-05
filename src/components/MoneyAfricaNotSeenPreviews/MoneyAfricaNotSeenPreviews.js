@@ -86,14 +86,20 @@ const MoneyAfricaNotSeenPreviews = () => {
           <div className="StickyCardMoneyAfricaCard">
             <div className="card">
               <div className="card-body">
-                <p className="text-font mx-5 fw-bold my-3 GetStartedTextFontSize">
+                <p className="text-font StickyCardSignUpTextMarginLeftAndRight fw-bold my-3 GetStartedTextFontSize">
                   Get started
                 </p>
                 <input
                   type="button"
                   value="Sign up with email"
-                  className="StickyCardSignUpButtonColor mx-2 my-1 text-white px-5 StickyCardSignUpButtonTextFontSize py-1 text-font"
+                  className="StickyCardSignUpButtonColor StickyCardSignUpButtonMarginLeftAndRight my-1 text-white px-5 StickyCardSignUpButtonTextFontSize py-1 text-font"
                 />
+                <p className="text-font TermAndUseTextFontSize my-3 px-4">
+                  By signing up, you agree to our{" "}
+                  <span className="TermOfUseTextColor">Terms of Use</span> and
+                  <br />{" "}
+                  <span className="TermOfUseTextColor">Privacy Policy.</span>
+                </p>
               </div>
             </div>
           </div>
