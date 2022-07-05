@@ -2,6 +2,7 @@
 
 import React from "react";
 import SmallMoneyAfricaImage from "../../images/SmallMoneyAfricaImage.png";
+import SmallImageIconImage from "../../images/SmallEmailIconImage.png";
 const ResetPassWordEmailSent = () => {
   return (
     <React.Fragment>
@@ -21,6 +22,24 @@ const ResetPassWordEmailSent = () => {
             An email with password reset instructions has been
             <br /> sent to your email address.
           </p>
+        </div>
+        <div className="CenteredInputFiedDiv p-3">
+          <p className="EmailAdressTypographFontSizeAndColor">Email Address</p>
+          <img src={SmallImageIconImage} />
+          <input
+            type="text"
+            placeholder="hassan.musa@moneyafrica.ng"
+            className="RestPasswordInputField text-font"
+          />
+          <div className="d-flex justify-content-between">
+            <div className="mt-4">
+              <p className="text-font RememberPasswordLinkText">
+                Remember Password?{" "}
+                <span className="LoginTextColor">Log In</span>
+              </p>
+            </div>
+            <div className="mt-4">2</div>
+          </div>
         </div>
       </div>
     </React.Fragment>
