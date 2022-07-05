@@ -33,6 +33,7 @@ import MoneyAfricaNotSeenPreviews from "./components/MoneyAfricaNotSeenPreviews/
 import SubscriptionChooseSubscriptionPlan from "./components/SubscriptionChooseSubscriptionPlan/SubscriptionChooseSubscriptionPlan";
 import ResetPassWordEmailSent from "./components/ResetPassWordEmailSent/ResetPassWordEmailSent";
 import SubscribeNowOrLater from "./components/SubscribeNowOrLater/SubscribeNowOrLater";
+import EnrollYourKidsSummerBootCamp from "./components/EnrollYourKidsSummerBootCamp/EnrollYourKidsSummerBootCamp";
 const App = () => {
   return (
     <React.Fragment>
@@ -138,6 +139,10 @@ const App = () => {
         <Route
           path={"moneyAfrica/SubscribeNowOrLater"}
           element={<SubscribeNowOrLater />}
+        />
+        <Route
+          path={"moneyAfrica/EnrollYourKidsSummerBootCamp"}
+          element={<EnrollYourKidsSummerBootCamp />}
         />
         <Route path="*" element={<NotFoundSorry />} />
       </Routes>
