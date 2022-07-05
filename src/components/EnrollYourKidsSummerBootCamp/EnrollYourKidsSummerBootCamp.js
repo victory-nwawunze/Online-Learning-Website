@@ -3,6 +3,7 @@
 import React from "react";
 import TimesIcon from "../../images/Times.png";
 import RoundedUserIcon from "../../images/RoundedUserIcon.png";
+import SmallUserIcon from "../../images/SmallUserIcon.png";
 const EnrollYourKidsSummerBootCamp = () => {
   return (
     <React.Fragment>
@@ -65,6 +66,29 @@ const EnrollYourKidsSummerBootCamp = () => {
                       <p className="mt-3 text-font RememberPasswordLinkText">
                         First Name
                       </p>
+                      <div className="TargetUserIconAndText">
+                        <img src={SmallUserIcon} />
+                        <div className="InputTextFieldPosition">
+                          <input
+                            type="text"
+                            placeholder="Enter first name"
+                            className="StylingTextField text-font"
+                          />
+                        </div>
+                      </div>
+                      <p className="mt-3 text-font RememberPasswordLinkText">
+                        First Name
+                      </p>
+                      <div className="TargetUserIconAndText">
+                        <img src={SmallUserIcon} />
+                        <div className="InputTextFieldPosition">
+                          <input
+                            type="text"
+                            placeholder="Enter first name"
+                            className="StylingTextField text-font"
+                          />
+                        </div>
+                      </div>
                     </div>
                     <div className="col-md-8">1</div>
                   </div>
