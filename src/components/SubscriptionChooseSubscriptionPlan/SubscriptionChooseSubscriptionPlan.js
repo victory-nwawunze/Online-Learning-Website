@@ -2,7 +2,6 @@
 
 import React from "react";
 import TimesIcon from "../../images/Times.png";
-import DescritptionWalletImage from "../../images/DescriptionWallet.png";
 import SmallWalletDiscriptionImage from "../../images/SmallWalletDescription.png";
 import SmallCaseImage from "../../images/SmallCase.png";
 const SubscriptionChooseSubscriptionPlan = () => {
