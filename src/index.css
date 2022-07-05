@@ -776,7 +776,7 @@ font-size: 24px;
 }
 .StickyCardMoneyAfricaCard{
   position: absolute;
-  left: 70%;
+  left: 60%;
   top: -40px;
 }
 .GetStartedTextFontSize{
@@ -789,4 +789,18 @@ font-size: 24px;
 }
 .StickyCardSignUpButtonTextFontSize{
   font-size: 16px !important;
+}
+.TermAndUseTextFontSize{
+  font-size: 14px;
+}
+.StickyCardSignUpButtonMarginLeftAndRight{
+  margin-left: 20%;
+  margin-right: 30%;
+}
+.StickyCardSignUpTextMarginLeftAndRight{
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.TermOfUseTextColor{
+  color: #015351;
 }
