@@ -905,3 +905,10 @@ border-radius: 8px;
   color: #30656F;
   font-weight: bold;
 }
+.ResentLinkButton{
+   background-color: #C03E21;
+   border: none;
+   border-radius: 8px;
+   color: white;
+   font-size: 16px;
+}
