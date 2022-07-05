@@ -771,3 +771,14 @@ font-size: 24px;
 /* .AvatarNameOneBorderBottom{
   border: 1px solid red;
 } */
+.stickerBackgroundColor{
+  position: relative;
+}
+.StickyCardMoneyAfricaCard{
+  position: absolute;
+  left: 70%;
+  top: -40px;
+}
+.GetStartedTextFontSize{
+  font-size: 24px;
+}
