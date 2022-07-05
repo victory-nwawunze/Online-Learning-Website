@@ -939,3 +939,9 @@ border-radius: 8px;
   width: 100%;
   border-bottom: 2px solid #E3EEE7;
 }
+.ChildButtonRadiusAndColor{
+  background: #E3EEE7;
+border-radius: 100px;
+border: none;
+font-size: 14px;
+}

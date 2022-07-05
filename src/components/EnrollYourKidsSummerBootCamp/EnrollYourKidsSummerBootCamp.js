@@ -53,6 +53,23 @@ const EnrollYourKidsSummerBootCamp = () => {
                 </div>
               </div>
               <hr className="HorizontalLineForColor" />
+              <div className="container">
+                <div className="grid">
+                  <div className="row">
+                    <div className="col-md-4">
+                      <input
+                        type="button"
+                        value="Child 01"
+                        className="p-2 text-font ChildButtonRadiusAndColor"
+                      />
+                      <p className="mt-3 text-font RememberPasswordLinkText">
+                        First Name
+                      </p>
+                    </div>
+                    <div className="col-md-8">1</div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
