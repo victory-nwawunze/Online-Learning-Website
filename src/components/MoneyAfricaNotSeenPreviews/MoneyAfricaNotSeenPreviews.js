@@ -83,6 +83,15 @@ const MoneyAfricaNotSeenPreviews = () => {
               <p className="text-white">Ratings</p>
             </div>
           </div>
+          <div className="StickyCardMoneyAfricaCard">
+            <div className="card">
+              <div className="card-body">
+                <p className="text-font mx-5 fw-bold my-4 GetStartedTextFontSize">
+                  Get started
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div className="CommentSection p-3">
