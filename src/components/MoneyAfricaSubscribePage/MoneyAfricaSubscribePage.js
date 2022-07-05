@@ -50,12 +50,23 @@ const MoneyAfricaSubscribePage = () => {
                     <input
                       type="button"
                       value="Subscribe to this plan"
-                      className="mx-4 my-2 py-2 px-4 SubscribeButtonTextSizeAndRadius"
+                      className="mx-4 my-2 py-2 px-4 SubscribeButtonTextSizeAndRadius text-font fw-bold"
                     />
                   </div>
                 </div>
               </div>
-              <div>1</div>
+              <div>
+                <div className="SelectCardSPlanTwo">
+                  <div className="RecomemendTextBcakgroundColorAndFontContainer ReconmendedCardBackgroundColor ">
+                    <p className="text-center text-font ReconmendedCardBackgroundColorText">
+                      Recommended
+                    </p>
+                    <div className="ReconmendedCardBackgroundColorChild px-5">
+                      <h1>Hello</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div>1</div>
             </div>
           </div>
