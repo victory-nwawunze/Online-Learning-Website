@@ -830,3 +830,16 @@ font-size: 24px;
   border-radius: 8px;
   border:1px solid #111111;
 }
+.ReconmendedCardBackgroundColorText{
+font-size: 14px;
+color: #111111;
+padding-top: 10px;
+}
+.ReconmendedCardBackgroundColor{
+  background-color: #E3EEE7;
+  border-radius: 8px;
+}
+.ReconmendedCardBackgroundColorChild{
+  background-color: #015351;
+  border-radius: 8px;
+}
