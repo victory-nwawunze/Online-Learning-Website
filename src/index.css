@@ -807,3 +807,10 @@ font-size: 24px;
 .TermOfUseTextColor{
   color: #015351;
 }
+.ChoosePreferredTextFontSize{
+  font-size: 32px !important;
+}
+.ChoosePreferredPlanDescriptionTextFontSizeAndColor{
+  font-size: 16px;
+  color: #637170;
+}
