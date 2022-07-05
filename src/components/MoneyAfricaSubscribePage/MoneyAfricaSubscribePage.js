@@ -24,7 +24,7 @@ const MoneyAfricaSubscribePage = () => {
         </div>
         <div className="SelectASubcriptionPlanCards mt-4 p-3">
           <div className="container">
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-center">
               <div>
                 <div className="SelectCardOneBackgroundColor p-2">
                   <img src={MoneyAfricaSubscribePagePrice} className="px-2" />
@@ -47,7 +47,11 @@ const MoneyAfricaSubscribePage = () => {
                         </p>
                       </div>
                     </div>
-                    <input type="button" value="Subscribe to this plan" />
+                    <input
+                      type="button"
+                      value="Subscribe to this plan"
+                      className="mx-4 my-2 py-2 px-4 SubscribeButtonTextSizeAndRadius"
+                    />
                   </div>
                 </div>
               </div>
