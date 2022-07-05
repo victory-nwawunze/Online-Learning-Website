@@ -937,4 +937,5 @@ border-radius: 8px;
 }
 .HorizontalLineForColor{
   width: 100%;
+  border-bottom: 2px solid #E3EEE7;
 }
