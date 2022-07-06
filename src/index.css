@@ -983,3 +983,15 @@ font-size: 14px;
   left: 150%;
   top: -100%;
 }
+.InputFieldEdutionStyle{
+   width: 250%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  border-bottom: 2px solid #E3EEE7;
+}
+.MarginIcon{
+  position: relative;
+  right: -31rem;
+}
