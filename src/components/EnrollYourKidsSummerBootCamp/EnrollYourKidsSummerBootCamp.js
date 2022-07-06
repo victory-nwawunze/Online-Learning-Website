@@ -5,6 +5,7 @@ import TimesIcon from "../../images/Times.png";
 import RoundedUserIcon from "../../images/RoundedUserIcon.png";
 import SmallUserIcon from "../../images/SmallUserIcon.png";
 import SmallArrowDownIcon from "../../images/SmallArrowDownIcon.png";
+import SmallBookIcon from "../../images/SmallBookIcon.png";
 const EnrollYourKidsSummerBootCamp = () => {
   return (
     <React.Fragment>
@@ -78,22 +79,36 @@ const EnrollYourKidsSummerBootCamp = () => {
                         </div>
                       </div>
                       <p className="mt-3 text-font RememberPasswordLinkText">
-                        First Name
+                        Gender
                       </p>
                       <div className="TargetUserIconAndTextAndSmallArrowDownIcon">
                         <img src={SmallUserIcon} />
                         <div className="InputTextFieldPositionAndArrowDownIcon">
                           <input
                             type="text"
-                            placeholder="Enter first name"
+                            placeholder="Select a gender"
                             className="StylingTextFieldWithArrowDownIcon text-font"
-                          />
-                          <img
-                            src={SmallArrowDownIcon}
-                            className="positionArrowDown"
                           />
                         </div>
                       </div>
+                      <p className="mt-3 text-font RememberPasswordLinkText">
+                        Level of education
+                      </p>
+                      <div className="d-flex justify-content-between">
+                        <div>
+                          <img src={SmallBookIcon} />
+                        </div>
+                        <div>
+                          <img
+                            src={SmallArrowDownIcon}
+                            className="MarginIcon"
+                          />
+                        </div>
+                      </div>
+                      <input
+                        className="InputFieldEdutionStyle text-font"
+                        placeholder="Select level of education"
+                      />
                     </div>
                     <div className="col-md-8">1</div>
                   </div>
