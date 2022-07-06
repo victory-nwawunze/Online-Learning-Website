@@ -21,6 +21,7 @@ const EnrollYourKidsSummerBootCamp = () => {
           {/* Card Placement */}
           <div className="ContainerCardBorderRadius">
             <div className="d-flex justify-content-between">
+              {/* ChildInformationBanner */}
               <div>
                 <div className="d-flex align-items-center">
                   <div>
