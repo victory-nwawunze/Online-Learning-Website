@@ -984,7 +984,7 @@ font-size: 14px;
   top: -100%;
 }
 .InputFieldEdutionStyle{
-   width: 250%;
+   width: 209%;
   border-top: none;
   border-right: none;
   border-left: none;
@@ -993,7 +993,7 @@ font-size: 14px;
 }
 .MarginIcon{
   position: relative;
-  right: -31rem;
+  right: -23rem;
 }
 .TextInputForGender{
    width: 100%;
@@ -1029,4 +1029,52 @@ font-size: 14px;
   border-left: none;
   outline: none;
   border-bottom: 2px solid #E3EEE7;
+}
+.MarginMyButtonDiv{
+  margin-left: 43%;
+}
+.AddMoreChildFontAndColor{
+  color:  #30656F;
+  font-size: 14px !important;
+  font-weight: 700;
+}
+.SaveAndContinueBackgroundColor{
+  background-color: #C03E21;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px !important;
+  font-family: 700;
+}
+.ContainerCardBorderRadius{
+  border-radius: 8px !important;
+  background-color: #FFFF;
+  padding-top: 20px;
+  padding-bottom: 10%;
+  padding-left: 40px;
+  padding-right: 20px;
+box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+.ContainerCardTwo{
+    border-radius: 8px !important;
+  background-color: #FFFF;
+  padding-top: 20px;
+  padding-bottom: 10%;
+  padding-left: 40px;
+  padding-right: 20px;
+box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+.AddInformationTextStyling{
+  font-weight: 500;
+  font-size: 18px;
+}
+.AddInformationStylingDescription{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: normal;
+}
+.ExpandText{
+  color:  #C03E21;
+  font-size: 14px;
+  font-weight: 500;
 }
