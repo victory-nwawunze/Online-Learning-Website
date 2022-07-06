@@ -995,3 +995,11 @@ font-size: 14px;
   position: relative;
   right: -31rem;
 }
+.TextInputForGender{
+   width: 100%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  border-bottom: 2px solid #E3EEE7;
+}

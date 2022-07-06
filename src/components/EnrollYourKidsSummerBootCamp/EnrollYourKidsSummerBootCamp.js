@@ -6,6 +6,7 @@ import RoundedUserIcon from "../../images/RoundedUserIcon.png";
 import SmallUserIcon from "../../images/SmallUserIcon.png";
 import SmallArrowDownIcon from "../../images/SmallArrowDownIcon.png";
 import SmallBookIcon from "../../images/SmallBookIcon.png";
+import SmallGenderIcon from "../../images/SmallGenderIcon.png";
 const EnrollYourKidsSummerBootCamp = () => {
   return (
     <React.Fragment>
@@ -81,16 +82,15 @@ const EnrollYourKidsSummerBootCamp = () => {
                       <p className="mt-3 text-font RememberPasswordLinkText">
                         Gender
                       </p>
-                      <div className="TargetUserIconAndTextAndSmallArrowDownIcon">
-                        <img src={SmallUserIcon} />
-                        <div className="InputTextFieldPositionAndArrowDownIcon">
-                          <input
-                            type="text"
-                            placeholder="Select a gender"
-                            className="StylingTextFieldWithArrowDownIcon text-font"
-                          />
+                      <div className="d-flex justify-content-between">
+                        <div>
+                          <img src={SmallGenderIcon} />
+                        </div>
+                        <div>
+                          <img src={SmallArrowDownIcon} />
                         </div>
                       </div>
+                      <input className="TextInputForGender" />
                       <p className="mt-3 text-font RememberPasswordLinkText">
                         Level of education
                       </p>
