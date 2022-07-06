@@ -1078,3 +1078,13 @@ box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   font-weight: 500;
 }
+.ButtonMargin{
+  margin-left: 62rem;
+  margin-top: 20px;
+  border: none;
+  border-radius: 8px;
+ color: #7C7C7C;
+ font-size: 14px;
+ line-height: 21px;
+ font-family: normal;
+}
