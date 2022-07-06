@@ -7,6 +7,7 @@ import SmallUserIcon from "../../images/SmallUserIcon.png";
 import SmallArrowDownIcon from "../../images/SmallArrowDownIcon.png";
 import SmallBookIcon from "../../images/SmallBookIcon.png";
 import SmallGenderIcon from "../../images/SmallGenderIcon.png";
+import SmallCalendarIcon from "../../images/SmallCalendarIcon.png";
 const EnrollYourKidsSummerBootCamp = () => {
   return (
     <React.Fragment>
@@ -110,7 +111,36 @@ const EnrollYourKidsSummerBootCamp = () => {
                         placeholder="Select level of education"
                       />
                     </div>
-                    <div className="col-md-8">1</div>
+                    <div className="col-md-8">
+                      <p className="mt-3 text-font RememberPasswordLinkText mt-5">
+                        Last Name
+                      </p>
+                      <div className="TargetUserIconAndTextLastName">
+                        <img src={SmallUserIcon} />
+                        <div className="InputTextFieldPositionLastName">
+                          <input
+                            type="text"
+                            placeholder="Last Name"
+                            className="InputTextFieldPositionLastNamePosition text-font"
+                          />
+                        </div>
+                      </div>
+                      <p className="mt-3 text-font RememberPasswordLinkText">
+                        Date of Birth
+                      </p>
+                      <div className="d-flex ">
+                        <div>
+                          <img src={SmallCalendarIcon} />
+                        </div>
+                        <div className="MarginFlexDiv">
+                          <img src={SmallArrowDownIcon} />
+                        </div>
+                      </div>
+                      <input
+                        className="DateOfBirthInputField text-font"
+                        placeholder="DD/MM/YY"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
