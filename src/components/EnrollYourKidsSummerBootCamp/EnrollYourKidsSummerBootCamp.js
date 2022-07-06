@@ -4,6 +4,7 @@ import React from "react";
 import TimesIcon from "../../images/Times.png";
 import RoundedUserIcon from "../../images/RoundedUserIcon.png";
 import SmallUserIcon from "../../images/SmallUserIcon.png";
+import SmallArrowDownIcon from "../../images/SmallArrowDownIcon.png";
 const EnrollYourKidsSummerBootCamp = () => {
   return (
     <React.Fragment>
@@ -79,13 +80,17 @@ const EnrollYourKidsSummerBootCamp = () => {
                       <p className="mt-3 text-font RememberPasswordLinkText">
                         First Name
                       </p>
-                      <div className="TargetUserIconAndText">
+                      <div className="TargetUserIconAndTextAndSmallArrowDownIcon">
                         <img src={SmallUserIcon} />
-                        <div className="InputTextFieldPosition">
+                        <div className="InputTextFieldPositionAndArrowDownIcon">
                           <input
                             type="text"
                             placeholder="Enter first name"
-                            className="StylingTextField text-font"
+                            className="StylingTextFieldWithArrowDownIcon text-font"
+                          />
+                          <img
+                            src={SmallArrowDownIcon}
+                            className="positionArrowDown"
                           />
                         </div>
                       </div>

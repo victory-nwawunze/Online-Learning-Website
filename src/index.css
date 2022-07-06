@@ -961,3 +961,25 @@ font-size: 14px;
   outline: none;
   border-bottom: 2px solid #E3EEE7;
 }
+.TargetUserIconAndTextAndSmallArrowDownIcon{
+  position: relative;
+}
+.InputTextFieldPositionAndArrowDownIcon{
+  position: absolute;
+   position: absolute;
+  left: 8%;
+  top: -10%;
+}
+.StylingTextFieldWithArrowDownIcon{
+   width: 150%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  outline: none;
+  border-bottom: 2px solid #E3EEE7;
+}
+.positionArrowDown{
+  position: relative;
+  left: 150%;
+  top: -100%;
+}
