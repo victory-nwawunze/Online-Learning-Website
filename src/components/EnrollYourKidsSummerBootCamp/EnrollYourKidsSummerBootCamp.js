@@ -8,7 +8,8 @@ import SmallArrowDownIcon from "../../images/SmallArrowDownIcon.png";
 import SmallBookIcon from "../../images/SmallBookIcon.png";
 import SmallGenderIcon from "../../images/SmallGenderIcon.png";
 import SmallCalendarIcon from "../../images/SmallCalendarIcon.png";
-import RoundedSingleUserIcon from "../../images/RoundedSingleUserIcon.png";
+
+import ContainerCardPlacement from "../ContainerCardPlacement/ContainerCardPlacement";
 const EnrollYourKidsSummerBootCamp = () => {
   return (
     <React.Fragment>
@@ -161,39 +162,8 @@ const EnrollYourKidsSummerBootCamp = () => {
               </div>
             </div>
           </div>
-          <div className="ContainerCardTwo mt-4 p-3">
-            <div className="container">
-              <div className="grid">
-                <div className="row">
-                  <div className="col-md-12">
-                    <div className="d-flex justify-content-between">
-                      <div>
-                        <div className="d-flex">
-                          <div className="mx-3">
-                            <img src={RoundedSingleUserIcon} />
-                          </div>
-                          <div>
-                            <p className="text-font AddInformationTextStyling">
-                              Add parents information
-                              <br />
-                              <span className="AddInformationStylingDescription">
-                                We'd like to get to know you as a fantastic
-                                parent who wants to do this for
-                                <br /> their child(ren)
-                              </span>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div>
-                        <p className="ExpandText">Expand</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          {/* CardThreePacement */}
+          <ContainerCardPlacement />
         </div>
       </div>
     </React.Fragment>
