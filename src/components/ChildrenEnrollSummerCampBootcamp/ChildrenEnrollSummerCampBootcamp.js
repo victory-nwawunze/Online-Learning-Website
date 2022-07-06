@@ -1,6 +1,7 @@
 /** @format */
 
 import React from "react";
+import ChildInformationBanner from "../ChildInformationBanner/ChildInformationBanner";
 import ContainerCardBanner from "../ContainerCardBanner/ContainerCardBanner";
 
 const ChildrenEnrollSummerCampBootcamp = () => {
@@ -10,10 +11,7 @@ const ChildrenEnrollSummerCampBootcamp = () => {
       <div className="container-fluid EnrollKidBackgroundSectionColor p-5">
         <div className="container">
           <div className="ContainerCardBorderRadius">
-            <div className="d-flex">
-              <div>1</div>
-              <div>1</div>
-            </div>
+            <ChildInformationBanner />
           </div>
         </div>
       </div>
