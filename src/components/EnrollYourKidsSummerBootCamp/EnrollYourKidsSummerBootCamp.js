@@ -2,7 +2,6 @@
 
 import React from "react";
 
-import RoundedUserIcon from "../../images/RoundedUserIcon.png";
 import SmallUserIcon from "../../images/SmallUserIcon.png";
 import SmallArrowDownIcon from "../../images/SmallArrowDownIcon.png";
 import SmallBookIcon from "../../images/SmallBookIcon.png";
@@ -11,6 +10,7 @@ import SmallCalendarIcon from "../../images/SmallCalendarIcon.png";
 
 import ContainerCardPlacement from "../ContainerCardPlacement/ContainerCardPlacement";
 import ContainerCardBanner from "../ContainerCardBanner/ContainerCardBanner";
+import ChildInformationBanner from "../ChildInformationBanner/ChildInformationBanner";
 const EnrollYourKidsSummerBootCamp = () => {
   return (
     <React.Fragment>
@@ -20,32 +20,8 @@ const EnrollYourKidsSummerBootCamp = () => {
         <div className="container">
           {/* Card Placement */}
           <div className="ContainerCardBorderRadius">
-            <div className="d-flex justify-content-between">
-              {/* ChildInformationBanner */}
-              <div>
-                <div className="d-flex align-items-center">
-                  <div>
-                    <img src={RoundedUserIcon} />
-                  </div>
-                  <div>
-                    <p className="ChildInformationTextSize text-font mx-3 my-3">
-                      Child information
-                      <p className="text-font">
-                        This information will be utilized to help us better
-                        understand your child(ren) and
-                        <br /> what works best for him/her.
-                      </p>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <p className="CollapseTextColorAndTextSize text-font">
-                  Collapse
-                </p>
-              </div>
-            </div>
-            <hr className="HorizontalLineForColor" />
+            {/* ChildInformationBanner */}
+            <ChildInformationBanner />
             <div className="container">
               <div className="grid">
                 <div className="row">
