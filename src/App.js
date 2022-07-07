@@ -36,6 +36,7 @@ import SubscribeNowOrLater from "./components/SubscribeNowOrLater/SubscribeNowOr
 import EnrollYourKidsSummerBootCamp from "./components/EnrollYourKidsSummerBootCamp/EnrollYourKidsSummerBootCamp";
 import ChildrenEnrollSummerCampBootcamp from "./components/ChildrenEnrollSummerCampBootcamp/ChildrenEnrollSummerCampBootcamp";
 import PlayThisVideo from "./components/PlayThisVideo/PlayThisVideo";
+import VideoPlayingComponent from "./components/VideoPlayingComponent/VideoPlayingComponent";
 const App = () => {
   return (
     <React.Fragment>
@@ -151,6 +152,10 @@ const App = () => {
           element={<ChildrenEnrollSummerCampBootcamp />}
         />
         <Route path={"moneyAfrica/PlayThisVideo"} element={<PlayThisVideo />} />
+        <Route
+          path={"moneyAfrica/VideoPlayingComponent"}
+          element={<VideoPlayingComponent />}
+        />
         <Route path="*" element={<NotFoundSorry />} />
       </Routes>
       <Footer />
