@@ -38,16 +38,16 @@ const VideoPlayingComponent = () => {
             </div>
             <div>
               <div className="d-flex">
-                <div className="mx-2">
+                <div className="mx-2 mt-1">
                   <img src={SmallPlayIconImage} />
                 </div>
-                <div className="mx-1">
+                <div className="mx-1 PreviousTextFontStyle mt-1">
                   <p>Previous</p>
                 </div>
                 <div className="mx-2">
                   <img src={SmallLineImage} />
                 </div>
-                <div className="mx-1">
+                <div className="mx-1 NextTextFontStyle mt-1">
                   <p>Next</p>
                 </div>
                 <div className="mx-1">
@@ -56,7 +56,7 @@ const VideoPlayingComponent = () => {
                 <div className="mx-2">
                   <img src={SmallShareIcon} />
                 </div>
-                <div className="mx-1">
+                <div className="mx-1 ShareTextFontStyle mt-1">
                   <p>Share</p>
                 </div>
                 <div className="mx-4">
