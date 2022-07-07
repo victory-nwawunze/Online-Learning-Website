@@ -87,6 +87,35 @@ const PlayThisVideo = () => {
                     </div>
                   </div>
                 </div>
+                <p className="text-font mt-3">Summary of this video</p>
+                <p className="SummaryTextFont">
+                  In this class, Documentary Photographer and Photojournalist,
+                  KC Nwakalor breaks down the various compositional techniques
+                  you can apply in order to have a better outcome in your
+                  photographs.
+                </p>
+                <p className="text-font mt-5">
+                  Composition refers to the placement and relationship of
+                  elements within a picture. The arrangement of elements in a
+                  scene, the angle they are shot at, the height we shoot from,
+                  and the distance the photo is taken from, can completely
+                  change the final outcome of the photograph. The composition
+                  can ultimately determine the difference between a good and a
+                  bad.
+                </p>
+                <p className="text-font mt-5">Relevant links</p>
+                <p className="text-danger text-font TextLine hover">
+                  https://twitter.com/cci_lagos
+                </p>
+                <p className="text-danger text-font TextLine mt-4 hover">
+                  https://laracasts.com/browse/all
+                </p>
+                <p className="text-danger text-font TextLine mt-4 hover">
+                  https://dribbble.com/dipainhouse
+                </p>
+                <p className="text-danger text-font TextLine mt-4 hover">
+                  Search Engine Optimamiztion
+                </p>
               </div>
             </div>
           </div>
