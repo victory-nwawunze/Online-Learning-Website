@@ -7,35 +7,22 @@ import SmallLine from "../../images/SmallLine.png";
 import NextIcon from "../../images/NextIcon.png";
 import ShareIcon from "../../images/ShareIcon.png";
 import SmallThreeLineIcon from "../../images/SmallThreeLineIcon.png";
+import MenuImage from "../../images/MenuImage.png";
+import PlayIconImage from "../../images/PlayIconImage.png";
 const PlayThisVideo = () => {
   return (
     <React.Fragment>
-      <div className="PlayVideoNavbar p-3">
-        <div className="container-fluid">
-          <div className="d-flex justify-content-between">
-            <div>
-              <img src={BreadCrumbs} />
-            </div>
-            <div>
-              <div className="d-flex">
-                <div className="mx-2">
-                  <img src={PreviousIcon} />
-                </div>
-                <div className="mx-2">
-                  <img src={SmallLine} />
-                </div>
-                <div className="mx-2">
-                  <img src={NextIcon} />
-                </div>
-                <div className="mx-2">
-                  <img src={ShareIcon} />
-                </div>
-                <div className="mx-2">
-                  <img src={SmallThreeLineIcon} />
-                </div>
-              </div>
-            </div>
+      <div className="PlayVideoBackgroundImage p-5">
+        <div className="container-fluid hover">
+          <div className="PositionMenuImage">
+            <img src={MenuImage} />
           </div>
+          <div className="PositionPlayIconImage text-center py-4">
+            <img src={PlayIconImage} />
+          </div>
+          <p className="PlayTextFont text-center text-white">
+            Preview this course
+          </p>
         </div>
       </div>
     </React.Fragment>

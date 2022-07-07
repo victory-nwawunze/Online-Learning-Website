@@ -1089,3 +1089,15 @@ box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
  line-height: 21px;
  font-family: normal;
 }
+.PlayVideoBackgroundImage{
+  background-image: url('/src/images/MoneyAfricaPlayVideoBackgroundImage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+}
+.PlayTextFont{
+  font-family: normal;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10%;
+}
