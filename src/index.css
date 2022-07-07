@@ -1101,3 +1101,44 @@ box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
   font-weight: 500;
   margin-bottom: 10%;
 }
+.TaxTextFont{
+  font-size: 24px;
+  color: #111111;
+  font-weight: 500;
+  font-family: normal;
+  margin-top: 20px;
+}
+.IntermediateText{
+  font-size: 16px;
+  font-weight: 400;
+  font-style: Helvetica Neue;
+  line-height: 24px;
+}
+.ButtonStyleMoneyAfrica{
+  border-radius: 8px;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: #F9D68A;
+}
+.ButtonStylePrivacy{
+   border-radius: 8px;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: #F5C3C8;
+}
+.ButtonStyleMining{
+    border-radius: 8px;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: #ABEAD3;
+}
+.ButtonStylePlusThree{
+  border-radius: 8px;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: #E5E5E5;
+}
