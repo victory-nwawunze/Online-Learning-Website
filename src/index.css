@@ -1148,3 +1148,9 @@ box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
 .TextLine{
   text-decoration: underline;
 }
+.VideosTextFont{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: normal;
+  color: #111111;
+}
