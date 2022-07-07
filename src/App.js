@@ -35,6 +35,7 @@ import ResetPassWordEmailSent from "./components/ResetPassWordEmailSent/ResetPas
 import SubscribeNowOrLater from "./components/SubscribeNowOrLater/SubscribeNowOrLater";
 import EnrollYourKidsSummerBootCamp from "./components/EnrollYourKidsSummerBootCamp/EnrollYourKidsSummerBootCamp";
 import ChildrenEnrollSummerCampBootcamp from "./components/ChildrenEnrollSummerCampBootcamp/ChildrenEnrollSummerCampBootcamp";
+import PlayThisVideo from "./components/PlayThisVideo/PlayThisVideo";
 const App = () => {
   return (
     <React.Fragment>
@@ -149,6 +150,7 @@ const App = () => {
           path={"moneyAfrica/ChildrenEnrollSummerCampBootcamp"}
           element={<ChildrenEnrollSummerCampBootcamp />}
         />
+        <Route path={"moneyAfrica/PlayThisVideo"} element={<PlayThisVideo />} />
         <Route path="*" element={<NotFoundSorry />} />
       </Routes>
       <Footer />
