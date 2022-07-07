@@ -1154,3 +1154,21 @@ box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
   font-family: normal;
   color: #111111;
 }
+.PreviousTextFontStyle{
+  color: #B3AFAF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+.NextTextFontStyle{
+  color: #C03E21;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+.ShareTextFontStyle{
+  color: #111111;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
