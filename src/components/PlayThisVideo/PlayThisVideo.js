@@ -4,7 +4,7 @@ import React from "react";
 
 import MenuImage from "../../images/MenuImage.png";
 import PlayIconImage from "../../images/PlayIconImage.png";
-import PlayVideoDiscriptionContainer from "../PlayVideoDescriptionComponent/PlayVideoDiscriptionContainer";
+import PlayVideoDiscriptionComponent from "../PlayVideoDescriptionComponent/PlayVideoDiscriptionComponent";
 
 const PlayThisVideo = () => {
   return (
@@ -22,7 +22,7 @@ const PlayThisVideo = () => {
           </p>
         </div>
       </div>
-      <PlayVideoDiscriptionContainer />
+      <PlayVideoDiscriptionComponent />
     </React.Fragment>
   );
 };

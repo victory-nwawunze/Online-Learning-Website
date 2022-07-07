@@ -9,7 +9,7 @@ import ShareIcon from "../../images/ShareIcon.png";
 import SmallThreeLineIcon from "../../images/SmallThreeLineIcon.png";
 import LevelsIcon from "../../images/LevelsIcon.png";
 import SmallClockIconImage from "../../images/SmallClockIconImage.png";
-const PlayVideoDiscriptionContainer = () => {
+const PlayVideoDiscriptionComponent = () => {
   return (
     <React.Fragment>
       <div className="PlayVideoDescription p-3">
@@ -110,4 +110,4 @@ const PlayVideoDiscriptionContainer = () => {
   );
 };
 
-export default PlayVideoDiscriptionContainer;
+export default PlayVideoDiscriptionComponent;
