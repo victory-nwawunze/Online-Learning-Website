@@ -1142,3 +1142,9 @@ box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   background-color: #E5E5E5;
 }
+.SummaryTextFont{
+  font-size: 16px;
+}
+.TextLine{
+  text-decoration: underline;
+}
