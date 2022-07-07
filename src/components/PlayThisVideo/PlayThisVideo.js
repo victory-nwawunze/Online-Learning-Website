@@ -2,6 +2,11 @@
 
 import React from "react";
 import BreadCrumbs from "../../images/Breadcrumbs.png";
+import PreviousIcon from "../../images/PreviousIcon.png";
+import SmallLine from "../../images/SmallLine.png";
+import NextIcon from "../../images/NextIcon.png";
+import ShareIcon from "../../images/ShareIcon.png";
+import SmallThreeLineIcon from "../../images/SmallThreeLineIcon.png";
 const PlayThisVideo = () => {
   return (
     <React.Fragment>
@@ -13,11 +18,21 @@ const PlayThisVideo = () => {
             </div>
             <div>
               <div className="d-flex">
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
-                <div>4</div>
-                <div>5</div>
+                <div className="mx-2">
+                  <img src={PreviousIcon} />
+                </div>
+                <div className="mx-2">
+                  <img src={SmallLine} />
+                </div>
+                <div className="mx-2">
+                  <img src={NextIcon} />
+                </div>
+                <div className="mx-2">
+                  <img src={ShareIcon} />
+                </div>
+                <div className="mx-2">
+                  <img src={SmallThreeLineIcon} />
+                </div>
               </div>
             </div>
           </div>
