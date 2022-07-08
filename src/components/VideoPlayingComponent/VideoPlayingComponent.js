@@ -8,6 +8,7 @@ import SmallLineImage from "../../images/SmallLine.png";
 import NextPlayIcon from "../../images/NextPlayIcon.png";
 import SmallShareIcon from "../../images/SmallShareIconImage.png";
 import SmallThreeDotedLine from "../../images/SmallThreeDotedIcon.png";
+import BlackMenuImage from "../../images/BlackMenuImage.png";
 const VideoPlayingComponent = () => {
   return (
     <React.Fragment>
@@ -64,6 +65,23 @@ const VideoPlayingComponent = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="BackgroundBannerVideoImage">
+        <div className="container-fluid">
+          <div className="BlackMenuImage">
+            <img src={BlackMenuImage} />
+          </div>
+        </div>
+        <div className="PositionPlayVideosFunctionalities MarginTopVideoPlayersFunctionality">
+          <div className="d-flex justify-content-between bC p-3">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
           </div>
         </div>
       </div>
