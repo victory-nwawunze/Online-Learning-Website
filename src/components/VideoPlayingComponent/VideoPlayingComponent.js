@@ -14,6 +14,7 @@ import SmallRewindForwardIcon from "../../images/SmallPlayRewindForward.png";
 import SmallRewindBackwardIcon from "../../images/SmallRewindBackwardIcon.png";
 import PlayLineImage from "../../images/PlayLineImage.png";
 import ZoomImageIcon from "../../images/ZoomIcon.png";
+import PlayVideoDiscriptionComponent from "../PlayVideoDescriptionComponent/PlayVideoDiscriptionComponent";
 const VideoPlayingComponent = () => {
   return (
     <React.Fragment>
@@ -123,6 +124,7 @@ const VideoPlayingComponent = () => {
           </div>
         </div>
       </div>
+      <PlayVideoDiscriptionComponent />
     </React.Fragment>
   );
 };
