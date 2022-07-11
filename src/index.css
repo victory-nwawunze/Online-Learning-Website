@@ -1227,3 +1227,40 @@ box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
    border: 1px solid  #E5E5E5;
    margin-top: 5px;
 }
+.ProfileTextBgColor{
+  background-color: #F5C3C8;
+  width: 175px;
+  height: 45px;
+  border-radius: 8px;
+}
+.PaddingForRedUserIconAndText{
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.PaddingForProfileAndText{
+  padding-top: 13px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #C03E21;
+  padding-bottom: 5px;
+  /* padding-left: 20px; */
+}
+.PositioningTheSubscriptionIcon{
+   background-color: #FFFF;
+  width: 175px;
+  height: 45px;
+  border-radius: 8px;
+}
+.SubscriptionTextWithIcon{
+    padding-top: 13px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #7C7C7C;
+  padding-bottom: 5px;
+}
+.PaddingForMobileSubscriptionIconAndText{
+  padding-top: 10px;
+  padding-left: 20px;
+}
