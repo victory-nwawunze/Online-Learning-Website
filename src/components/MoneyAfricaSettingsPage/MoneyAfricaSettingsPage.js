@@ -16,6 +16,8 @@ import SmallFacebookIcon from "../../images/SmallFacebookIcon.png";
 import SmallWhatsAppIcon from "../../images/SmallWhatsAppIcon.png";
 import SmallLinkdinIcon from "../../images/SmallLinkdinIcon.png";
 import SmallTwitterIcon from "../../images/SmallTwitterIcon.png";
+import BigAvatarImage from "../../images/BigAvatarImage.png";
+import FilesIcon from "../../images/FilesIcon.png";
 const MoneyAfricaSettingsPage = () => {
   return (
     <React.Fragment>
@@ -203,7 +205,25 @@ const MoneyAfricaSettingsPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-md-6">1</div>
+              <div className="col-md-6">
+                <div className="SettingAvatarImage">
+                  <div className="d-flex">
+                    <div>
+                      <div className="d-flex align-items-center">
+                        <div className="AvatarBorderRadius mx-3">
+                          <img src={BigAvatarImage} />
+                        </div>
+                        <div className="mx-2">
+                          <img src={FilesIcon} />
+                        </div>
+                        <div className="mt-3 EditTextStyles hover">
+                          <p>Edit picture</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
