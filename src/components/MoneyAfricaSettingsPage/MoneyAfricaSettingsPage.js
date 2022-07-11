@@ -11,6 +11,11 @@ import MobileSubscriptionIcon from "../../images/MobileSubscription.png";
 import GiftBagIcon from "../../images/GiftBag.png";
 import ChangePasswordIcon from "../../images/ChangePasswordIcon.png";
 import LogoutIcon from "../../images/LogoutIcon.png";
+import GiftBagImage from "../../images/GiftBagImage.png";
+import SmallFacebookIcon from "../../images/SmallFacebookIcon.png";
+import SmallWhatsAppIcon from "../../images/SmallWhatsAppIcon.png";
+import SmallLinkdinIcon from "../../images/SmallLinkdinIcon.png";
+import SmallTwitterIcon from "../../images/SmallTwitterIcon.png";
 const MoneyAfricaSettingsPage = () => {
   return (
     <React.Fragment>
@@ -140,9 +145,64 @@ const MoneyAfricaSettingsPage = () => {
                       </div>
                     </div>
                   </div>
+                  <div className="GiftBagDescriptionStyle mt-3 p-3 py-3 text-center">
+                    <div>
+                      <img src={GiftBagImage} />
+                    </div>
+                    <p className="text-font">
+                      Get 10% off when you
+                      <br /> refer a friend
+                    </p>
+                    <input
+                      type="button"
+                      className="p-2 px-4 ButtonTextSize ButtonBorder"
+                      value="Thelms23"
+                    />
+                    <br />
+                    <div className="d-flex MarginLeftAllSocialMediaIcons">
+                      <div>
+                        <img src={SmallFacebookIcon} />
+                      </div>
+                      <div className="mx-1">
+                        <img src={SmallLinkdinIcon} />
+                      </div>
+                      <div className="mx-1">
+                        <img src={SmallTwitterIcon} />
+                      </div>
+                      <div className="mx-1">
+                        <img src={SmallWhatsAppIcon} />
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div className="col-md-3">1</div>
+              <div className="col-md-3">
+                <div>
+                  <p className="text-font ProfileImgText">Profile image</p>
+                  <span className="ProfileImageText">
+                    Choose a new avatar to be used <br />
+                    across your MoneyAfrica account.
+                  </span>
+                </div>
+                <div>
+                  <p className="ProfileImgText mt-5">Personal Info</p>
+                  <p className="ProfileImageText">
+                    Make edits and updates to your name
+                  </p>
+                </div>
+                <div className="MarginBottomForContactInfo">
+                  <p className="ContactInfoTextStyles">Contact Info</p>
+                  <p className="ContactInfoTexts">
+                    Make edits and updates to your
+                    <br /> contact details
+                  </p>
+                  <p className="ContactInfoTexts">
+                    To change your email,
+                    <br /> reach out to <br />
+                    <span className="AdminLinkText">admin@moneyafrica.com</span>
+                  </p>
+                </div>
+              </div>
               <div className="col-md-6">1</div>
             </div>
           </div>
