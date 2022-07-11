@@ -1232,6 +1232,7 @@ box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
   width: 175px;
   height: 45px;
   border-radius: 8px;
+  margin-left: 8%;
 }
 .PaddingForRedUserIconAndText{
   padding-top: 10px;
@@ -1263,4 +1264,56 @@ box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
 .PaddingForMobileSubscriptionIconAndText{
   padding-top: 10px;
   padding-left: 20px;
+}
+.ProfileImageText{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #7c7c7c;
+}
+.ProfileImgText{
+  font-weight: 400;
+  font-size: 24px;
+  font-style: normal;
+  margin-bottom: 0!important;
+}
+.ButtonTextSize{
+  font-weight: 100;
+  font-size: 16px;
+  font-style: normal;
+  color: #111111;
+}
+.ButtonBorder{
+  border-radius: 8px;
+  border: 1px solid #015351;
+  background-color: #E3EEE7;
+}
+.MarginLeftAllSocialMediaIcons{
+  margin-left: 30%;
+  margin-top: 5px;
+}
+.GiftBagDescriptionStyle{
+  border: 1px solid #f3f4f5;
+  background-color: #f3f4f5;
+}
+.MarginBottomForContactInfo{
+  margin-top: 110% !important;
+  margin-left: 10px;
+}
+.ContactInfoTextStyles{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 0!important;
+}
+.ContactInfoTexts{
+  font-weight: 400;
+  font-size: 14px;
+  color: #7C7C7C;
+  margin-bottom: 1 !important;
+}
+.AdminLinkText{
+  color: #30656F;
+  text-decoration: underline;
+  cursor: pointer;
 }
