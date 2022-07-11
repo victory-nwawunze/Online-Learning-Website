@@ -1327,3 +1327,49 @@ box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
   font-size: 14px;
   font-style: normal;
 }
+.MarginTopForSettingsForm{
+  margin-top: 10%;
+  margin-left: 20px;
+}
+.SettingFirstName{
+  margin-bottom: 0!important;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  color: #7C7C7C;
+}
+.SettingUserInput{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 140%;
+  outline: none;
+  border-bottom: 1px solid #E5E5E5;
+}
+.SettingUserInput::placeholder{
+   font-family: 'Tiro Devanagari Hindi', serif;
+   color: #111111;
+}
+.MarginLeftForSecondForm{
+  margin-left: 100px;
+}
+.GenderStyles{
+  margin-bottom: 0!important;
+}
+.SettingsGender{
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.Fstyles{
+  border: 1px solid #1DAD96 !important;
+  border-radius: 8px;
+  background-color: #E3EEE7;
+}
+.MGenderButton{
+  margin-left: 18px;
+}
+.Mstyles{
+  border-radius: 8px;
+  background-color: #F8FAFB;
+  border:1px solid #E3EEE7;
+}

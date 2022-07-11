@@ -18,6 +18,7 @@ import SmallLinkdinIcon from "../../images/SmallLinkdinIcon.png";
 import SmallTwitterIcon from "../../images/SmallTwitterIcon.png";
 import BigAvatarImage from "../../images/BigAvatarImage.png";
 import FilesIcon from "../../images/FilesIcon.png";
+import SettingUserIcon from "../../images/SettingUserIcon.png";
 const MoneyAfricaSettingsPage = () => {
   return (
     <React.Fragment>
@@ -219,6 +220,63 @@ const MoneyAfricaSettingsPage = () => {
                         <div className="mt-3 EditTextStyles hover">
                           <p>Edit picture</p>
                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="SettingsForm MarginTopForSettingsForm">
+                  <div className="d-flex">
+                    <div>
+                      <p className="SettingFirstName">First name</p>
+                      <div className="d-flex">
+                        <div>
+                          <img src={SettingUserIcon} />
+                        </div>
+                        <div>
+                          <input
+                            type="text"
+                            placeholder="Hassan"
+                            className="SettingUserInput"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="MarginLeftForSecondForm">
+                      <div>
+                        <p className="SettingFirstName">Last name</p>
+                        <div className="d-flex">
+                          <div>
+                            <img src={SettingUserIcon} />
+                          </div>
+                          <div>
+                            <input
+                              type="text"
+                              placeholder="Musa"
+                              className="SettingUserInput"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="SettingsGender">
+                  <p className="GenderStyles">Gender</p>
+                  <div className="d-flex">
+                    <div>
+                      <input
+                        type="button"
+                        value="Female"
+                        className="Fstyles px-5 py-2 mt-2"
+                      />
+                    </div>
+                    <div>
+                      <div className="MGenderButton">
+                        <input
+                          type="button"
+                          value="Female"
+                          className="Mstyles px-5 py-2 mt-2"
+                        />
                       </div>
                     </div>
                   </div>
