@@ -1317,3 +1317,13 @@ box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
   text-decoration: underline;
   cursor: pointer;
 }
+.AvatarBorderRadius{
+  border: 1px solid #90278E;
+  border-radius: 50%;
+}
+.EditTextStyles{
+  color: #015351;
+  font-weight: 700;
+  font-size: 14px;
+  font-style: normal;
+}
