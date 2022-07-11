@@ -37,6 +37,7 @@ import EnrollYourKidsSummerBootCamp from "./components/EnrollYourKidsSummerBootC
 import ChildrenEnrollSummerCampBootcamp from "./components/ChildrenEnrollSummerCampBootcamp/ChildrenEnrollSummerCampBootcamp";
 import PlayThisVideo from "./components/PlayThisVideo/PlayThisVideo";
 import VideoPlayingComponent from "./components/VideoPlayingComponent/VideoPlayingComponent";
+import PlayThisVideoWithOpenMenu from "./components/PlayThisVideoWithOpenMenu/PlayThisVideoWithOpenMenu";
 const App = () => {
   return (
     <React.Fragment>
@@ -155,6 +156,10 @@ const App = () => {
         <Route
           path={"moneyAfrica/VideoPlayingComponent"}
           element={<VideoPlayingComponent />}
+        />
+        <Route
+          path={"moneyAfrica/PlayThisVideoWithOpenMenu"}
+          element={<PlayThisVideoWithOpenMenu />}
         />
         <Route path="*" element={<NotFoundSorry />} />
       </Routes>
