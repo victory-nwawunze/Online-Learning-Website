@@ -38,10 +38,11 @@ import ChildrenEnrollSummerCampBootcamp from "./components/ChildrenEnrollSummerC
 import PlayThisVideo from "./components/PlayThisVideo/PlayThisVideo";
 import VideoPlayingComponent from "./components/VideoPlayingComponent/VideoPlayingComponent";
 import PlayThisVideoWithOpenMenu from "./components/PlayThisVideoWithOpenMenu/PlayThisVideoWithOpenMenu";
+import MoneyAfricaSettingsPage from "./components/MoneyAfricaSettingsPage/MoneyAfricaSettingsPage";
 const App = () => {
   return (
     <React.Fragment>
-      <Navbar />
+      {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<Navigate to={"moneyAfrica/Guest"} />} />
         <Route path={"moneyAfrica/Guest"} element={<Guest />} />
@@ -160,6 +161,10 @@ const App = () => {
         <Route
           path={"moneyAfrica/PlayThisVideoWithOpenMenu"}
           element={<PlayThisVideoWithOpenMenu />}
+        />
+        <Route
+          path={"moneyAfrica/MoneyAfricaSettingsPage"}
+          element={<MoneyAfricaSettingsPage />}
         />
         <Route path="*" element={<NotFoundSorry />} />
       </Routes>
