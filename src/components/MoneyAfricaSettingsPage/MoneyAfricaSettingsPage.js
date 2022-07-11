@@ -36,13 +36,13 @@ const MoneyAfricaSettingsPage = () => {
             </div>
             <div>
               <div className="d-flex align-items-center">
-                <div>
+                <div className="mx-3">
                   <img src={SmallForMoreIcon} />
                 </div>
-                <div>
+                <div className="mx-3">
                   <img src={SmallNotificationIcon} />
                 </div>
-                <div>
+                <div className="SettingMarginIconToLeft">
                   <img src={AVatarImage} />
                 </div>
                 <div>
@@ -51,6 +51,12 @@ const MoneyAfricaSettingsPage = () => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="MoneyAfricaMoneyTextSettingWithALine mt-5">
+        <div className="container">
+          <h3 className="text-font TextMarginToTheLeft">My Settings</h3>
+          <hr className="MarginForHorizontalRule" />
         </div>
       </div>
     </React.Fragment>
