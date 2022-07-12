@@ -23,6 +23,9 @@ import SmallSettingCalendarIcon from "../../images/SmallSettingCalendarIcon.png"
 import SmallHomeIcon from "../../images/SmallHomeIcon.png";
 import SmallCheveronDownIcon from "../../images/SmallCheveronDownIcon.png";
 import SmallMailIcon from "../../images/SmallMailIcon.png";
+import SmallPhoneIcon from "../../images/SmallPhoneIcon.png";
+import SmallFlagIcon from "../../images/SmallFlagIcon.png";
+import SmallGreyArrowDownIcon from "../../images/SmallGreyArrowDownIcon.png";
 const MoneyAfricaSettingsPage = () => {
   return (
     <React.Fragment>
@@ -333,7 +336,34 @@ const MoneyAfricaSettingsPage = () => {
                 </div>
                 <div className="MarginTopForSettingsForm mt-3">
                   <p className="SettingFirstName">Phone number</p>
+                  <div className="d-flex">
+                    <div>
+                      <div className="d-flex">
+                        <div className="MarginLeftPhoneIcon">
+                          <img src={SmallPhoneIcon} />
+                        </div>
+                        <div>
+                          <img src={SmallFlagIcon} />
+                        </div>
+                        <div>
+                          <img src={SmallGreyArrowDownIcon} />
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <input
+                        type="text"
+                        placeholder="+234"
+                        className="PhoneSectionWidth"
+                      />
+                    </div>
+                  </div>
                 </div>
+                <input
+                  type="button"
+                  value="Save changes"
+                  className="ButtonStylesForSaveChanges px-3 py-1"
+                />
               </div>
             </div>
           </div>
