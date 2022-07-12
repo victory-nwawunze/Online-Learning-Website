@@ -20,6 +20,9 @@ import BigAvatarImage from "../../images/BigAvatarImage.png";
 import FilesIcon from "../../images/FilesIcon.png";
 import SettingUserIcon from "../../images/SettingUserIcon.png";
 import SmallSettingCalendarIcon from "../../images/SmallSettingCalendarIcon.png";
+import SmallHomeIcon from "../../images/SmallHomeIcon.png";
+import SmallCheveronDownIcon from "../../images/SmallCheveronDownIcon.png";
+import SmallMailIcon from "../../images/SmallMailIcon.png";
 const MoneyAfricaSettingsPage = () => {
   return (
     <React.Fragment>
@@ -300,14 +303,36 @@ const MoneyAfricaSettingsPage = () => {
                 <div className="MarginTopForSettingsForm mt-3">
                   <p className="SettingFirstName">State of origin</p>
                   <div className="d-flex ">
-                    <div>1</div>
-                    <div className="MarginForOneIcon">2</div>
+                    <div>
+                      <img src={SmallHomeIcon} />
+                    </div>
+                    <div className="MarginForOneIcon">
+                      <img src={SmallCheveronDownIcon} />
+                    </div>
                   </div>
                   <input
                     type="text"
                     placeholder="Ondo state"
                     className="SOOstyles"
                   />
+                </div>
+                <div className="MarginTopForSettingsForm mt-5">
+                  <p className="SettingFirstName">Email address</p>
+                  <div className="d-flex">
+                    <div>
+                      <img src={SmallMailIcon} />
+                    </div>
+                    <div>
+                      <input
+                        type="text"
+                        placeholder="hassan.musa@moneyafrica.ng"
+                        className="DOBcalendarStyles"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="MarginTopForSettingsForm mt-3">
+                  <p className="SettingFirstName">Phone number</p>
                 </div>
               </div>
             </div>
