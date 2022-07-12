@@ -19,6 +19,7 @@ import SmallTwitterIcon from "../../images/SmallTwitterIcon.png";
 import BigAvatarImage from "../../images/BigAvatarImage.png";
 import FilesIcon from "../../images/FilesIcon.png";
 import SettingUserIcon from "../../images/SettingUserIcon.png";
+import SmallSettingCalendarIcon from "../../images/SmallSettingCalendarIcon.png";
 const MoneyAfricaSettingsPage = () => {
   return (
     <React.Fragment>
@@ -33,7 +34,7 @@ const MoneyAfricaSettingsPage = () => {
                 <div className="SettingMargin">
                   <p>Explore</p>
                 </div>
-                <div className="mx-4 MoreSettingMargin">
+                <div className="mx-4 MoreSettingMargin ">
                   <p>Articles</p>
                 </div>
                 <div className="mx-4 MoreSettingMargin">
@@ -55,7 +56,7 @@ const MoneyAfricaSettingsPage = () => {
                 <div className="mx-3">
                   <img src={SmallNotificationIcon} />
                 </div>
-                <div className="SettingMarginIconToLeft">
+                <div className="SettingMarginIconToLeft BorderForTopAvatarIcon">
                   <img src={AVatarImage} />
                 </div>
                 <div>
@@ -88,7 +89,7 @@ const MoneyAfricaSettingsPage = () => {
                       </div>
                     </div>
                   </div>
-                  <div>
+                  <div className="hover-Effect">
                     <div className="PositioningTheSubscriptionIcon mt-2">
                       <div className="d-flex">
                         <div className="PaddingForMobileSubscriptionIconAndText">
@@ -280,6 +281,33 @@ const MoneyAfricaSettingsPage = () => {
                       </div>
                     </div>
                   </div>
+                </div>
+                <div className="MarginTopForSettingsForm mt-3">
+                  <p className="SettingFirstName">Date of birth</p>
+                  <div className="d-flex">
+                    <div>
+                      <img src={SmallSettingCalendarIcon} />
+                    </div>
+                    <div>
+                      <input
+                        type="text"
+                        placeholder="13/June/2006"
+                        className="DOBcalendarStyles"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="MarginTopForSettingsForm mt-3">
+                  <p className="SettingFirstName">State of origin</p>
+                  <div className="d-flex ">
+                    <div>1</div>
+                    <div className="MarginForOneIcon">2</div>
+                  </div>
+                  <input
+                    type="text"
+                    placeholder="Ondo state"
+                    className="SOOstyles"
+                  />
                 </div>
               </div>
             </div>
