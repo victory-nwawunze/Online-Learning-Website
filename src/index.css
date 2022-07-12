@@ -1373,3 +1373,33 @@ box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
   background-color: #F8FAFB;
   border:1px solid #E3EEE7;
 }
+.BorderForTopAvatarIcon{
+  border-radius: 50px;
+   border: 1px solid #90278E;
+}
+.DOBcalendarStyles{
+  width: 250%;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom:1px solid #E5E5E5;
+}
+.DOBcalendarStyles::placeholder{
+  color: #B3AFAF;
+  font-family: 'Tiro Devanagari Hindi', serif;
+}
+.NoMarginBottom{
+  margin-bottom: 0!important;
+}
+.SOOstyles{
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  outline: none;
+  border-right: none;
+  border-bottom:1px solid #E5E5E5;
+}
+.MarginForOneIcon{
+  margin-left: 96%;
+}
