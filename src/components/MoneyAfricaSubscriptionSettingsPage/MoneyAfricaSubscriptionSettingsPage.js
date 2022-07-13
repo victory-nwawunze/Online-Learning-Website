@@ -8,14 +8,11 @@ import MobileSubscriptionIcon from "../../images/MobileSubscription.png";
 import GiftBagIcon from "../../images/GiftBag.png";
 import ChangePasswordIcon from "../../images/ChangePasswordIcon.png";
 import LogoutIcon from "../../images/LogoutIcon.png";
-import GiftBagImage from "../../images/GiftBagImage.png";
-import SmallFacebookIcon from "../../images/SmallFacebookIcon.png";
-import SmallWhatsAppIcon from "../../images/SmallWhatsAppIcon.png";
-import SmallLinkdinIcon from "../../images/SmallLinkdinIcon.png";
-import SmallTwitterIcon from "../../images/SmallTwitterIcon.png";
+
 import WalletImageWithBC from "../../images/WalletImageWithBC.png";
 import SmallCheckIcon from "../../images/SmallCheckIcon.png";
 import SmallPieChartImage from "../../images/SmallPieChartImage.png";
+import MoneyAfricaGiftBagsComponent from "../MoneyAfricaGiftBagsComponent/MoneyAfricaGiftBagsComponent";
 const MoneyAfricaSubscriptionSettingsPage = () => {
   return (
     <React.Fragment>
@@ -97,35 +94,7 @@ const MoneyAfricaSubscriptionSettingsPage = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="GiftBagDescriptionStyle mt-3 p-3 py-3 text-center">
-                    <div>
-                      <img src={GiftBagImage} />
-                    </div>
-                    <p className="text-font">
-                      Get 10% off when you
-                      <br /> refer a friend
-                    </p>
-                    <input
-                      type="button"
-                      className="p-2 px-4 ButtonTextSize ButtonBorder"
-                      value="Thelms23"
-                    />
-                    <br />
-                    <div className="d-flex MarginLeftAllSocialMediaIcons">
-                      <div>
-                        <img src={SmallFacebookIcon} />
-                      </div>
-                      <div className="mx-1">
-                        <img src={SmallLinkdinIcon} />
-                      </div>
-                      <div className="mx-1">
-                        <img src={SmallTwitterIcon} />
-                      </div>
-                      <div className="mx-1">
-                        <img src={SmallWhatsAppIcon} />
-                      </div>
-                    </div>
-                  </div>
+                  <MoneyAfricaGiftBagsComponent />
                 </div>
               </div>
               <div className="col-md-3">
@@ -195,7 +164,7 @@ const MoneyAfricaSubscriptionSettingsPage = () => {
                     </div>
                   </div>
                 </div>
-                <p className="SwitchToStyle">Switch to:</p>
+                <p className="SwitchToStyle mb-4">Switch to:</p>
 
                 <div className="grid">
                   <div className="row">
