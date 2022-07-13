@@ -915,3 +915,44 @@ const EnrollYourKidsSummerBootCamp = () => {
 export default EnrollYourKidsSummerBootCamp;
 
  -->
+
+<!-- TwoCards
+  <div className="d-flex justify-content-center">
+                  <div className=" mx-3 TwoCards">
+                    <div className="d-flex">
+                      <div>
+                        <img src={SmallPieChartImage} />
+                      </div>
+                      <div className="TextForNaira">
+                        <p className="TextFontForText">
+                          ₦20,000 <p className="SmallTextStyle">/ One year</p>
+                        </p>
+                      </div>
+                    </div>
+                    <div className="d-flex PaddingForFlex">
+                      <div>
+                        <img src={SmallCheckIcon} />
+                      </div>
+                      <div>
+                        <p>Autorenews every year.</p>
+                      </div>
+                    </div>
+                    <div className="d-flex PaddingForFlex">
+                      <div>
+                        <img src={SmallCheckIcon} />
+                      </div>
+                      <div>
+                        <p>
+                          Access to everything - video &<br /> article courses.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div className="d-flex bg-success">
+                      <div>1</div>
+                      <div>2</div>
+                    </div>
+                  </div>
+                </div>
+ -->
