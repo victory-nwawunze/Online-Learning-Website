@@ -15,6 +15,7 @@ import SmallLinkdinIcon from "../../images/SmallLinkdinIcon.png";
 import SmallTwitterIcon from "../../images/SmallTwitterIcon.png";
 import WalletImageWithBC from "../../images/WalletImageWithBC.png";
 import SmallCheckIcon from "../../images/SmallCheckIcon.png";
+import SmallPieChartImage from "../../images/SmallPieChartImage.png";
 const MoneyAfricaSubscriptionSettingsPage = () => {
   return (
     <React.Fragment>
@@ -192,6 +193,52 @@ const MoneyAfricaSubscriptionSettingsPage = () => {
                         </div>
                       </div>
                     </div>
+                  </div>
+                </div>
+                <p className="SwitchToStyle">Switch to:</p>
+
+                <div className="grid">
+                  <div className="row">
+                    <div className="col-md-6">
+                      <div className="TwoCards">
+                        <div className="d-flex">
+                          <div>
+                            <img src={SmallPieChartImage} />
+                          </div>
+                          <div className="TextForNaira">
+                            <p className="TextFontForText">
+                              ₦20,000{" "}
+                              <p className="SmallTextStyle">/ One year</p>
+                            </p>
+                          </div>
+                        </div>
+                        <div className="d-flex">
+                          <div className="PaddingTopForIconAndText">
+                            <img src={SmallCheckIcon} />
+                          </div>
+                          <div className="SmallTextStyle PaddingTopForIconAndText">
+                            <p>Autorenews every year.</p>
+                          </div>
+                        </div>
+                        <div className="d-flex">
+                          <div className="PaddingTopForIconAndText">
+                            <img src={SmallCheckIcon} />
+                          </div>
+                          <div className="SmallTextStyle PaddingTopForIconAndText">
+                            <p>
+                              Access to everything - video &<br /> article
+                              courses.
+                            </p>
+                          </div>
+                        </div>
+                        <input
+                          type="button"
+                          value="Subscribe to this plan"
+                          className="StyleSubscribeButton text-font"
+                        />
+                      </div>
+                    </div>
+                    <div className="col-md-6">2</div>
                   </div>
                 </div>
               </div>
