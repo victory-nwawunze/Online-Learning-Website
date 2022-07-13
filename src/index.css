@@ -1659,6 +1659,48 @@ box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
 .CardWarningDes{
   font-size: 12px;
   color: #C03E21;
-  /* font-weight: 700; */
   font-style: normal;
+}
+.ReferalLinksCard{
+  background-color: #F3F4F5;
+  width: 75%;
+  border-radius: 8px;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+.CopyCodeText{
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  color: #111111;
+  padding-top: 2px;
+}
+.MarginThisButton{
+  margin-left: 10%;
+  /* margin-top: 12%; */
+}
+.StyleRefCode{
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: #111111;
+}
+.StyleRefName{
+  font-weight: 500;
+  font-size: 36px;
+  color: #111111;
+}
+.StyleRefButton{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #111;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: 700;
+  background-color: #F3F4F5;
+  border: 1px solid #111111;
+  border-radius: 8px;
+  font-size: 14px;
 }
