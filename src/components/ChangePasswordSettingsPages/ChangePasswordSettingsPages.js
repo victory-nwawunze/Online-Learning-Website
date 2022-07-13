@@ -8,11 +8,8 @@ import MobileSubscriptionIcon from "../../images/MobileSubscription.png";
 import GiftBagIcon from "../../images/GiftBag.png";
 import ChangePasswordIcon from "../../images/ChangePasswordIcon.png";
 import LogoutIcon from "../../images/LogoutIcon.png";
-import GiftBagImage from "../../images/GiftBagImage.png";
-import SmallFacebookIcon from "../../images/SmallFacebookIcon.png";
-import SmallWhatsAppIcon from "../../images/SmallWhatsAppIcon.png";
-import SmallLinkdinIcon from "../../images/SmallLinkdinIcon.png";
-import SmallTwitterIcon from "../../images/SmallTwitterIcon.png";
+import SmallEyeIcon from "../../images/SmallEyeIcon.png";
+import SmallLockIcon from "../../images/SmallLockIcon.png";
 import MoneyAfricaGiftBagsComponent from "../MoneyAfricaGiftBagsComponent/MoneyAfricaGiftBagsComponent";
 const ChangePasswordSettingsPages = () => {
   return (
@@ -98,8 +95,24 @@ const ChangePasswordSettingsPages = () => {
                   <MoneyAfricaGiftBagsComponent />
                 </div>
               </div>
-              <div className="col-md-3">2</div>
-              <div className="col-md-6">2</div>
+              <div className="col-md-3">
+                <p className="ChangePasswordText">Change Password</p>
+                <p className="ChangePasswordTextDescription">
+                  Change your password to a new one.
+                </p>
+              </div>
+              <div className="col-md-6">
+                <p className="EnterPasswordForm">Enter Current Password</p>
+                <div className="d-flex NoMargin">
+                  <div>
+                    <img src={SmallEyeIcon} />
+                  </div>
+                  <div className="MarginLeftThisIcon">
+                    <img src={SmallLockIcon} />
+                  </div>
+                </div>
+                <input type="text" className="EnterCurrPassInputStyle" />
+              </div>
             </div>
           </div>
         </div>
