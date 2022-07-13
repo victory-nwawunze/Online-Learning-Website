@@ -9,6 +9,11 @@ import LogoutIcon from "../../images/LogoutIcon.png";
 import MoneyAfricaMySettingTextWithLines from "../MoneyAfricaMySettingTextWithLines/MoneyAfricaMySettingTextWithLines";
 import MoneyAfricaSettingsNavbarComponent from "../MoneyAfricaSettingsNavbarComponent/MoneyAfricaSettingsNavbarComponent";
 import SmallLinesImage from "../../images/SmallLines.png";
+import SmallCopyIcon from "../../images/SmallCopyIcon.png";
+import SmallFBIcon from "../../images/SmallFBIcon.png";
+import SmallLNKIcon from "../../images/SmallLNKIcon.png";
+import SmallWATIcon from "../../images/SmallWATIcon.png";
+import SmallTWIcon from "../../images/SmallTWIcon.png";
 const MoneyAfricaSettingUnsubscribePage = () => {
   return (
     <React.Fragment>
@@ -128,6 +133,49 @@ const MoneyAfricaSettingUnsubscribePage = () => {
                   contacted by a member of our support team at the end of the
                   month to receive your referral bonus.
                 </p>
+                <div className="ReferalLinksCard">
+                  <div className="d-flex align-items-center">
+                    <div>
+                      <p className="StyleRefCode">Your referral code:</p>
+                      <p className="StyleRefName text-font">Thelms23</p>
+                      <div className="d-flex">
+                        <div>
+                          <div className="d-flex">
+                            <div>
+                              <img src={SmallCopyIcon} />
+                            </div>
+                            <div>
+                              <p className="CopyCodeText">Copy code</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div>
+                          <div className="d-flex">
+                            <div className="mx-2">
+                              <img src={SmallFBIcon} />
+                            </div>
+                            <div className="mx-2">
+                              <img src={SmallLNKIcon} />
+                            </div>
+                            <div className="mx-2">
+                              <img src={SmallTWIcon} />
+                            </div>
+                            <div className="mx-2">
+                              <img src={SmallWATIcon} />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="MarginThisButton">
+                      <input
+                        type="button"
+                        value="Share link"
+                        className="StyleRefButton"
+                      />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
