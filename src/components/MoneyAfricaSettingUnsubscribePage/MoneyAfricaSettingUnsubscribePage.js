@@ -8,7 +8,7 @@ import ChangePasswordIcon from "../../images/ChangePasswordIcon.png";
 import LogoutIcon from "../../images/LogoutIcon.png";
 import MoneyAfricaMySettingTextWithLines from "../MoneyAfricaMySettingTextWithLines/MoneyAfricaMySettingTextWithLines";
 import MoneyAfricaSettingsNavbarComponent from "../MoneyAfricaSettingsNavbarComponent/MoneyAfricaSettingsNavbarComponent";
-
+import SmallLinesImage from "../../images/SmallLines.png";
 const MoneyAfricaSettingUnsubscribePage = () => {
   return (
     <React.Fragment>
@@ -104,7 +104,31 @@ const MoneyAfricaSettingUnsubscribePage = () => {
                   for this offer to be valid.
                 </p>
               </div>
-              <div className="col-md-6">2</div>
+              <div className="col-md-6">
+                <div className="CreatingUnsubscribeCard">
+                  <div className="d-flex justify-content-between">
+                    <div>
+                      <p className="TotalReferalText">Total no. referred</p>
+                      <p className="TextReferalNumberStyle">4</p>
+                    </div>
+                    <img src={SmallLinesImage} />
+                    <div>
+                      <p className="TotalReferalText">Total paid subscibers</p>
+                      <p className="TextReferalNumberStyle">3</p>
+                    </div>
+                    <img src={SmallLinesImage} />
+                    <div>
+                      <p className="TotalReferalText">Total amount gotten</p>
+                      <p className="TextReferalNumberStyle">N30,000.00</p>
+                    </div>
+                  </div>
+                </div>
+                <p className="CardWarningDes">
+                  <span className="CardWarning">Note:</span> You will be
+                  contacted by a member of our support team at the end of the
+                  month to receive your referral bonus.
+                </p>
+              </div>
             </div>
           </div>
         </div>
