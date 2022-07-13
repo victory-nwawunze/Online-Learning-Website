@@ -1608,3 +1608,20 @@ box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
   font-style: none;
   font-weight: 700;
 }
+.ReferalTextStyles{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #111111;
+  margin-bottom: 0;
+}
+.DiscountStyles{
+  color: #C03E21;
+  font-weight: 500;
+}
+.ReferalTextDescription{
+  color: #7C7C7C;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+}
