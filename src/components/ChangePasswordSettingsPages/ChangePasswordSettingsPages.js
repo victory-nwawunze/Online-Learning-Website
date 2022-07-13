@@ -112,6 +112,36 @@ const ChangePasswordSettingsPages = () => {
                   </div>
                 </div>
                 <input type="text" className="EnterCurrPassInputStyle" />
+                {/*  */}
+                <p className="EnterPasswordForm mt-3">Enter New Password</p>
+                <div className="d-flex NoMargin">
+                  <div>
+                    <img src={SmallEyeIcon} />
+                  </div>
+                  <div className="MarginLeftThisIcon">
+                    <img src={SmallLockIcon} />
+                  </div>
+                </div>
+                <input type="text" className="EnterCurrPassInputStyle" />
+                <p className="WarningText">
+                  Password must contain at least 8 characters long, upper &
+                  lowercase letters & a special character{" "}
+                </p>
+                <p className="EnterPasswordForm mt-3">Re-enter New Password</p>
+                <div className="d-flex NoMargin">
+                  <div>
+                    <img src={SmallEyeIcon} />
+                  </div>
+                  <div className="MarginLeftThisIcon">
+                    <img src={SmallLockIcon} />
+                  </div>
+                </div>
+                <input type="text" className="EnterCurrPassInputStyle" />
+                <input
+                  type="button"
+                  value="Change password"
+                  className="ChangePasswordButton"
+                />
               </div>
             </div>
           </div>
