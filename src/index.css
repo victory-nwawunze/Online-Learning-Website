@@ -1552,3 +1552,35 @@ box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
   border: none;
   font-style: none;
 }
+.ChangePasswordText{
+  margin-bottom: 0!important;
+  font-size: 24px;
+  font-weight: 400;
+  color: #111111;
+  font-style: normal;
+
+}
+.ChangePasswordTextDescription{
+  font-weight: 400;
+  font-size: 14px;
+  color: #7C7C7C;
+  font-style: normal;
+}
+.EnterPasswordForm{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #7C7C7C;
+  margin-bottom: 0 !important;
+}
+.MarginLeftThisIcon{
+  margin-left: 80%;
+}
+.EnterCurrPassInputStyle{
+  width: 88%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  border-bottom: 1px solid #E5E5E5;
+}
