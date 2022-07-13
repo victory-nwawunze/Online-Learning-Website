@@ -238,7 +238,45 @@ const MoneyAfricaSubscriptionSettingsPage = () => {
                         />
                       </div>
                     </div>
-                    <div className="col-md-6">2</div>
+                    <div className="col-md-6">
+                      <div className="TwoCards">
+                        <div className="d-flex">
+                          <div>
+                            <img src={SmallPieChartImage} />
+                          </div>
+                          <div className="TextForNaira">
+                            <p className="TextFontForText">
+                              ₦5,000{" "}
+                              <p className="SmallTextStyle">/ 3 months</p>
+                            </p>
+                          </div>
+                        </div>
+                        <div className="d-flex">
+                          <div className="PaddingTopForIconAndText">
+                            <img src={SmallCheckIcon} />
+                          </div>
+                          <div className="SmallTextStyle PaddingTopForIconAndText">
+                            <p>Autorenews every year.</p>
+                          </div>
+                        </div>
+                        <div className="d-flex">
+                          <div className="PaddingTopForIconAndText">
+                            <img src={SmallCheckIcon} />
+                          </div>
+                          <div className="SmallTextStyle PaddingTopForIconAndText">
+                            <p>
+                              Access to everything - video &<br /> article
+                              courses.
+                            </p>
+                          </div>
+                        </div>
+                        <input
+                          type="button"
+                          value="Subscribe to this plan"
+                          className="StyleSubscribeButton text-font"
+                        />
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
