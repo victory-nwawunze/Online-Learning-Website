@@ -42,6 +42,7 @@ import MoneyAfricaSettingsPage from "./components/MoneyAfricaSettingsPage/MoneyA
 import MoneyAfricaSubscriptionSettingsPage from "./components/MoneyAfricaSubscriptionSettingsPage/MoneyAfricaSubscriptionSettingsPage";
 import ChangePasswordSettingsPages from "./components/ChangePasswordSettingsPages/ChangePasswordSettingsPages";
 import MoneyAfricaSettingUnsubscribePage from "./components/MoneyAfricaSettingUnsubscribePage/MoneyAfricaSettingUnsubscribePage";
+import NotificationPage from "./components/NotificationPage/NotificationPage";
 const App = () => {
   return (
     <React.Fragment>
@@ -181,6 +182,11 @@ const App = () => {
           path={"moneyAfrica/MoneyAfricaSettingUnsubscribePage"}
           element={<MoneyAfricaSettingUnsubscribePage />}
         />
+        <Route
+          path={"moneyAfrica/NotificationPage"}
+          element={<NotificationPage />}
+        />
+
         <Route path="*" element={<NotFoundSorry />} />
       </Routes>
       <Footer />

@@ -1463,11 +1463,7 @@ box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
   padding-right: 10px;
   margin-bottom: 0;
 }
-.BackgroundColorForWalletImage{
-  /* background-color: #FFFF;
-  border-radius: 2px;
-  padding: 7px; */
-}
+
 .TextForCurrency{
   font-style: normal;
   font-weight: 500;
