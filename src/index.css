@@ -1726,6 +1726,10 @@ box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
   width: 270%;
   border: 1px solid #E5E5E5;
 }
+.HRExtrawidth{
+  width: 243%;
+  border: 1px solid #E5E5E5;
+}
 .MarginGTCtext{
   margin-top: 10px;
   font-weight: 700;

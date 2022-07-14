@@ -52,8 +52,8 @@ const NotificationPage = () => {
                 </div>
                 <div>
                   <p className="NotificationText text-font">
-                    We just launched a new article course on{" "}
-                    <span className="TBStyle">“Treasury bills”</span>.
+                    We just launched a new video course on{" "}
+                    <span className="TBStyle">“Bitcoin wallet”.</span>
                     <p>6 hours ago</p>
                   </p>
                 </div>
@@ -80,13 +80,13 @@ const NotificationPage = () => {
                 </div>
                 <div>
                   <p className="NotificationText text-font">
-                    We just launched a new article course on{" "}
-                    <span className="TBStyle">“Treasury bills”</span>.
+                    We just launched a new video course on{" "}
+                    <span className="TBStyle">“Finance management”.</span>
                     <p>6 hours ago</p>
                   </p>
                 </div>
               </div>
-              <hr className="HRwidth" />
+              <hr className="HRExtrawidth" />
             </div>
             <div>
               <div className="d-flex">
