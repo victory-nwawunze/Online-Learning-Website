@@ -2,17 +2,20 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
-import SorryGiff from "../../images/sorry.gif";
+import PNFimage from "../../images/Error404.png";
 const NotFoundSorry = () => {
   return (
     <React.Fragment>
-      <div className="text-center h1">
-        <img src={SorryGiff} />
-        <h3> : ( Page not found</h3>
+      <div className="text-center">
+        <div className="mt-5">
+          <img src={PNFimage} />
+        </div>
+        <p className="PNFtext text-font">Page not found</p>
+        <p className="MorePNFtext text-font">
+          The page you’re looking for is unavailable{" "}
+        </p>
         <Link to="/">
-          <button className="btn btn-outline-primary">
-            Go back to Guest Page
-          </button>
+          <input type="button" value="Take me home" className="TMHButton" />
         </Link>
       </div>
     </React.Fragment>

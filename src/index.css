@@ -1754,3 +1754,25 @@ box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
   padding-top: 6px;
   margin-top: 10px;
 }
+.PNFtext{
+  font-weight: 500;
+  font-size: 24px;
+  color: #111111;
+  font-style: normal;
+  margin-bottom: 0;
+}
+.MorePNFtext{
+  font-weight: 400;
+  font-size: 16px;
+  color: #7C7C7C;
+}
+.TMHButton{
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  background-color: #C03E21;
+  color: #FFFF;
+  border-radius: 8px;
+}
