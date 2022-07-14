@@ -1700,3 +1700,35 @@ box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   font-size: 14px;
 }
+.BorderColor{
+  background-color: #F9D68A;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding-left: 9px;
+  padding-top: 6px;
+  margin-top: 10px;
+}
+.NotificationText{
+  margin-left: 10px;
+  font-style: none;
+  font-weight: 400;
+  font-size: 14px;
+  color: #7C7C7C;
+  margin-top: 6px;
+}
+.TBStyle{
+  color: #015351;
+  font-weight: 700;
+  font-size: 15px;
+}
+.HRwidth{
+  width: 270%;
+  border: 1px solid #E5E5E5;
+}
+.MarginGTCtext{
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #C03E21;
+}
