@@ -28,7 +28,7 @@ const MoneyAfricaSubscribePage = () => {
           <div className="container">
             <div className="d-flex justify-content-center">
               <div>
-                <div className="SelectCardOneBackgroundColor p-2">
+                <div className="SelectCardOneBackgroundColor p-2 mt-4">
                   <img src={MoneyAfricaSubscribePagePrice} className="px-2" />
                   <div className="container">
                     <div className="d-flex">
@@ -98,7 +98,7 @@ const MoneyAfricaSubscribePage = () => {
                 </div>
               </div>
               <div>
-                <div className="SelectCardOneBackgroundColor p-2">
+                <div className="SelectCardOneBackgroundColor p-2 mt-4">
                   <img src={PieChartImage} className="px-2" />
                   <div className="container">
                     <div className="d-flex">
