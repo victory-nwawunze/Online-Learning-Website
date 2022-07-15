@@ -9,6 +9,8 @@ import SmallRewindBackwardIcon from "../../images/SmallRewindBackwardIcon.png";
 import PlayLineImage from "../../images/PlayLineImage.png";
 import ZoomImageIcon from "../../images/ZoomIcon.png";
 import ChevRight from "../../images/ChevRight.png";
+import PlayOneIcon from "../../images/PlayOne.png";
+import ClockIcon from "../../images/Clock.png";
 const PlayThisVideoWithOpenMenu = () => {
   return (
     <React.Fragment>
@@ -69,9 +71,154 @@ const PlayThisVideoWithOpenMenu = () => {
             <div>
               <p className="CCStyles">Course content</p>
             </div>
-            <div>
+            <div className="CRstyles">
+              <p className="X-close">x</p>
+            </div>
+            <div className="PositionTimesIcon">
               <img src={ChevRight} />
             </div>
+          </div>
+        </div>
+        <div className="TextDoc mt-3">
+          <div className="container">
+            <div className="d-flex justify-content-between align-items-center">
+              <div>
+                <div className="d-flex ">
+                  <div>
+                    <img src={PlayOneIcon} />
+                  </div>
+                  <div>
+                    <p className="TaxFreeText">What is a Tax Free...</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="d-flex">
+                  <div>
+                    <img src={ClockIcon} />
+                  </div>
+                  <div>
+                    <p className="TaxFreeText">15 mins</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="d-flex justify-content-between align-items-center mt-4">
+              <div>
+                <div className="d-flex ">
+                  <div>
+                    <img src={PlayOneIcon} />
+                  </div>
+                  <div>
+                    <p className="TaxFreeText">What is an RRSP &...</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="d-flex">
+                  <div>
+                    <img src={ClockIcon} />
+                  </div>
+                  <div>
+                    <p className="TaxFreeText">15 mins</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="d-flex justify-content-between align-items-center mt-4">
+              <div>
+                <div className="d-flex ">
+                  <div>
+                    <img src={PlayOneIcon} />
+                  </div>
+                  <div>
+                    <p className="TaxFreeText">Chequing vs Savin...</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="d-flex">
+                  <div>
+                    <img src={ClockIcon} />
+                  </div>
+                  <div>
+                    <p className="TaxFreeText">15 mins</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="d-flex justify-content-between align-items-center mt-4">
+              <div>
+                <div className="d-flex ">
+                  <div>
+                    <img src={PlayOneIcon} />
+                  </div>
+                  <div>
+                    <p className="TaxFreeText">What's an RESP (R...</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="d-flex">
+                  <div>
+                    <img src={ClockIcon} />
+                  </div>
+                  <div>
+                    <p className="TaxFreeText">15 mins</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="d-flex justify-content-between align-items-center mt-4">
+              <div>
+                <div className="d-flex ">
+                  <div>
+                    <img src={PlayOneIcon} />
+                  </div>
+                  <div>
+                    <p className="TaxFreeText">What is a Corporat...</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="d-flex">
+                  <div>
+                    <img src={ClockIcon} />
+                  </div>
+                  <div>
+                    <p className="TaxFreeText">15 mins</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="d-flex justify-content-between align-items-center mt-4">
+              <div>
+                <div className="d-flex ">
+                  <div>
+                    <img src={PlayOneIcon} />
+                  </div>
+                  <div>
+                    <p className="TaxFreeText">What's a LIRA?</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="d-flex">
+                  <div>
+                    <img src={ClockIcon} />
+                  </div>
+                  <div>
+                    <p className="TaxFreeText">15 mins</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="BgForContent">
+          <div className="d-flex">
+            <div>1</div>
+            <div>2</div>
           </div>
         </div>
       </div>
