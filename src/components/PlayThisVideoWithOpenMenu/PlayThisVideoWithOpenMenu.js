@@ -11,6 +11,7 @@ import ZoomImageIcon from "../../images/ZoomIcon.png";
 import ChevRight from "../../images/ChevRight.png";
 import PlayOneIcon from "../../images/PlayOne.png";
 import ClockIcon from "../../images/Clock.png";
+import ChevDown from "../../images/ChevDown.png";
 const PlayThisVideoWithOpenMenu = () => {
   return (
     <React.Fragment>
@@ -215,11 +216,18 @@ const PlayThisVideoWithOpenMenu = () => {
             </div>
           </div>
         </div>
-        <div className="BgForContent">
-          <div className="d-flex">
-            <div>1</div>
-            <div>2</div>
+        <div className="BgForContent mt-5">
+          <div className="d-flex justify-content-between">
+            <div>
+              <p className="ResourcesStyle text-font">Resources</p>
+            </div>
+            <div className="ChevDownStyle">
+              <img src={ChevDown} />
+            </div>
           </div>
+        </div>
+        <div className="BgForContent mt-1">
+          <p className="ResourcesStyle">Quiz</p>
         </div>
       </div>
     </React.Fragment>
