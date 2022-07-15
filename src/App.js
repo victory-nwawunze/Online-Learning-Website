@@ -111,7 +111,7 @@ const App = () => {
         />
         <Route
           path={"moneyAfrica/MoneyAfricaArticleListingPage"}
-          element={<MoneyAfricaArticleListingPage />}
+          element={<MoneyAfricaArticleListingPage />} //
         />
         <Route
           path={"moneyAfrica/MoneyAfricaSubscribePage"}

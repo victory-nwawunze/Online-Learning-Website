@@ -8,12 +8,13 @@ import SmallRewindForwardIcon from "../../images/SmallPlayRewindForward.png";
 import SmallRewindBackwardIcon from "../../images/SmallRewindBackwardIcon.png";
 import PlayLineImage from "../../images/PlayLineImage.png";
 import ZoomImageIcon from "../../images/ZoomIcon.png";
+import ChevRight from "../../images/ChevRight.png";
 const PlayThisVideoWithOpenMenu = () => {
   return (
     <React.Fragment>
       <BreadCrumbComponent />
       <div className="BackgroundBannerVideoImage">
-        <div className="container-fluid">
+        <div className="container-flui">
           <div className="BlackMenuImage">
             <img src={BlackMenuImage} />
           </div>
@@ -58,6 +59,18 @@ const PlayThisVideoWithOpenMenu = () => {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="PositionMenuOpen">
+        <div className="BgForContent">
+          <div className="d-flex justify-content-between">
+            <div>
+              <p className="CCStyles">Course content</p>
+            </div>
+            <div>
+              <img src={ChevRight} />
             </div>
           </div>
         </div>
